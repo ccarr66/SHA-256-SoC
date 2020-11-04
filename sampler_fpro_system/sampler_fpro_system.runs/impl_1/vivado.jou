@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.2.1 (64-bit)
+# SW Build 2729669 on Thu Dec  5 04:48:12 MST 2019
+# IP Build 2729494 on Thu Dec  5 07:38:25 MST 2019
+# Start of session at: Tue Oct 20 13:25:51 2020
+# Process ID: 26349
+# Current directory: /home/connor/Documents/Programs/Vivado/4305/Lab8-PotCtrlLeds/sampler_fpro_system/sampler_fpro_system.runs/impl_1
+# Command line: vivado -log mcs_top_sampler.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source mcs_top_sampler.tcl -notrace
+# Log file: /home/connor/Documents/Programs/Vivado/4305/Lab8-PotCtrlLeds/sampler_fpro_system/sampler_fpro_system.runs/impl_1/mcs_top_sampler.vdi
+# Journal file: /home/connor/Documents/Programs/Vivado/4305/Lab8-PotCtrlLeds/sampler_fpro_system/sampler_fpro_system.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source mcs_top_sampler.tcl -notrace

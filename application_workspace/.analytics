@@ -1,0 +1,21 @@
+timestamp=[2020-11-01 15:12:30], mode=WORKBENCH_START, duration=0:00:10.184, duration_ms=10184, data={}
+timestamp=[2020-11-01 15:13:01], mode=WORKBENCH_UI_INIT, duration=0:00:30.248, duration_ms=30248, data={editors_count=0, platform_editors_count=0, projects_count=0, platform_projects_count=0, active_platform_editor=false, projects=}
+timestamp=[2020-11-01 15:15:30], mode=APP_CREATION, duration=0:00:15.328, duration_ms=15328, data={name=sha-2_perf_metrics, project_type=sdk, os=standalone, processor=microblaze, runtime=cpp, platform=mcs_top_sampler, application_type=application}
+timestamp=[2020-11-01 15:48:39], mode=PLATFORM_GENERATION, duration=0:00:16.643, duration_ms=16643, data={name=mcs_top_sampler}
+timestamp=[2020-11-02 19:54:41], mode=WORKBENCH_START, duration=0:00:09.514, duration_ms=9514, data={}
+timestamp=[2020-11-02 19:54:42], mode=WORKBENCH_UI_INIT, duration=0:00:01.239, duration_ms=1239, data={editors_count=2, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,mcs_top_sampler,sha-2_perf_metrics,sha-2_perf_metrics_system}
+timestamp=[2020-11-03 11:22:33], mode=WORKBENCH_START, duration=0:00:38.664, duration_ms=38664, data={}
+timestamp=[2020-11-03 11:22:39], mode=WORKBENCH_UI_INIT, duration=0:00:06.285, duration_ms=6285, data={editors_count=6, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,mcs_top_sampler,sha-2_perf_metrics,sha-2_perf_metrics_system}
+timestamp=[2020-11-03 14:28:43], mode=WORKBENCH_START, duration=0:00:30.861, duration_ms=30861, data={}
+timestamp=[2020-11-03 14:28:46], mode=WORKBENCH_UI_INIT, duration=0:00:03.602, duration_ms=3602, data={editors_count=6, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,mcs_top_sampler,sha-2_perf_metrics,sha-2_perf_metrics_system}
+timestamp=[2020-11-03 15:12:46], mode=PLATFORM_GENERATION, duration=0:00:34.733, duration_ms=34733, data={name=mcs_top_sampler}
+timestamp=[2020-11-03 16:38:39], mode=WORKBENCH_START, duration=0:00:30.338, duration_ms=30338, data={}
+timestamp=[2020-11-03 16:38:43], mode=WORKBENCH_UI_INIT, duration=0:00:04.310, duration_ms=4310, data={editors_count=4, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,mcs_top_sampler,sha-2_perf_metrics,sha-2_perf_metrics_system}
+timestamp=[2020-11-04 13:34:05], mode=WORKBENCH_START, duration=0:00:21.785, duration_ms=21785, data={}
+timestamp=[2020-11-04 13:34:08], mode=WORKBENCH_UI_INIT, duration=0:00:02.564, duration_ms=2564, data={editors_count=4, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,mcs_top_sampler,sha-2_perf_metrics,sha-2_perf_metrics_system}
+timestamp=[2020-11-04 13:51:05], mode=PLATFORM_GENERATION, duration=0:00:20.378, duration_ms=20378, data={name=mcs_top_sampler}
+timestamp=[2020-11-04 14:26:19], mode=WORKBENCH_START, duration=0:00:32.481, duration_ms=32481, data={}
+timestamp=[2020-11-04 14:26:23], mode=WORKBENCH_UI_INIT, duration=0:00:03.635, duration_ms=3635, data={editors_count=5, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,mcs_top_sampler,sha-2_perf_metrics,sha-2_perf_metrics_system}
+timestamp=[2020-11-04 14:32:17], mode=PLATFORM_GENERATION, duration=0:00:09.012, duration_ms=9012, data={name=mcs_top_sampler}
+timestamp=[2020-11-04 14:53:13], mode=WORKBENCH_START, duration=0:00:29.646, duration_ms=29646, data={}
+timestamp=[2020-11-04 14:53:17], mode=WORKBENCH_UI_INIT, duration=0:00:04.155, duration_ms=4155, data={editors_count=4, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,mcs_top_sampler,sha-2_perf_metrics,sha-2_perf_metrics_system}

@@ -1,0 +1,17 @@
+2020-11-01T16:10:26.49965400255-16:10:26 **** Incremental Build of configuration Debug for project sha-2_perf_metrics ****
+000-make all 
+000-Building file: ../src/main_sampler_test.cpp
+000-Invoking: MicroBlaze g++ compiler
+000-mb-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main_sampler_test.o" -I/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/export/mcs_top_sampler/sw/mcs_top_sampler/standalone_domain/bspinclude/include -mno-xl-reorder -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main_sampler_test.d" -MT"src/main_sampler_test.o" -o "src/main_sampler_test.o" "../src/main_sampler_test.cpp"
+000-In file included from ../src/main_sampler_test.cpp:20:
+000/sha-2_perf_metrics/src/sha256.h280-1-1'constexpr' static data member 'K' must have an initializer234:../src/sha256.h:280:34: error: 'constexpr' static data member 'K' must have an initializer
+000-     static constexpr word_ty K[64];
+000-                                  ^
+000/sha-2_perf_metrics/src/sha256.h282-1-1'constexpr' static data member 'initialHash' must have an initializer243:../src/sha256.h:282:43: error: 'constexpr' static data member 'initialHash' must have an initializer
+000-     static constexpr word_ty initialHash[8];
+000-                                           ^
+000/sha-2_perf_metrics0-1-1make: *** [src/main_sampler_test.o] Error 12-make: *** [src/main_sampler_test.o] Error 1
+000/sha-2_perf_metrics/Debug/src/subdir.mk54-1-1recipe for target 'src/main_sampler_test.o' failed2-src/subdir.mk:54: recipe for target 'src/main_sampler_test.o' failed
+00255-
+16:10:27 Build Finished (took 1s.37ms)
+

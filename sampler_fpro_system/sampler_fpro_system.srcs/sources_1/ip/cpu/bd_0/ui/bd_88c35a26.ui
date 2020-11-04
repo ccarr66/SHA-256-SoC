@@ -1,0 +1,36 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.506766",
+   "Default View_TopLeft":"-470,-351",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0.21  2019-05-29 bk=1.5064 VDI=41 GEI=36 GUI=JA:9.0 TLS
+#  -string -flagsOSRD
+preplace port IO -pg 1 -lvl 6 -x 1520 -y 380 -defaultsOSRD
+preplace port Clk -pg 1 -lvl 0 -x 0 -y 340 -defaultsOSRD
+preplace port Reset -pg 1 -lvl 0 -x 0 -y 420 -defaultsOSRD
+preplace inst microblaze_I -pg 1 -lvl 2 -x 570 -y 340 -defaultsOSRD
+preplace inst rst_0 -pg 1 -lvl 1 -x 190 -y 440 -defaultsOSRD
+preplace inst ilmb -pg 1 -lvl 3 -x 910 -y 190 -defaultsOSRD
+preplace inst dlmb -pg 1 -lvl 3 -x 910 -y 350 -defaultsOSRD
+preplace inst dlmb_cntlr -pg 1 -lvl 4 -x 1150 -y 70 -defaultsOSRD
+preplace inst ilmb_cntlr -pg 1 -lvl 4 -x 1150 -y 210 -defaultsOSRD
+preplace inst lmb_bram_I -pg 1 -lvl 5 -x 1380 -y 200 -defaultsOSRD
+preplace inst iomodule_0 -pg 1 -lvl 4 -x 1150 -y 380 -defaultsOSRD
+preplace netloc Clk1 1 0 4 20 340 360 260 800 270 1030
+preplace netloc Reset 1 0 1 NJ 420
+preplace netloc MB_Reset 1 1 1 360 360n
+preplace netloc LMB_Rst1 1 1 3 N 420 780 110 1040
+preplace netloc IO_Rst 1 1 3 N 440 NJ 440 1030J
+preplace netloc iomodule_0_IO 1 4 2 NJ 380 NJ
+preplace netloc ilmb_sl_0 1 3 1 N 190
+preplace netloc dlmb_sl_0 1 3 1 1020 50n
+preplace netloc dlmb_sl_1 1 3 1 N 360
+preplace netloc dlmb_port 1 4 1 1260 70n
+preplace netloc ilmb_port 1 4 1 N 210
+preplace netloc ilmb 1 2 1 790 170n
+preplace netloc dlmb 1 2 1 N 330
+levelinfo -pg 1 0 190 570 910 1150 1380 1520
+pagesize -pg 1 -db -bbox -sgen -90 0 1590 530
+"
+}
+

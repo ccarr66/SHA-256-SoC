@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="Local" key="sha-2_perf_metrics-target"/>
+	<item value="false" key="sha-2_perf_metrics-partial_bit"/>
+	<item value="/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/hw/mcs_top_sampler.mmi" key="sha-2_perf_metrics-bmmFile"/>
+	<item value="false" key="sha-2_perf_metrics-skip_rev_check"/>
+	<item value="Auto Detect" key="sha-2_perf_metrics-device"/>
+	<item value="/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/sha-2_perf_metrics/Release/sha-2_perf_metrics.elf" key="sha-2_perf_metrics-microblaze_I-initElf"/>
+	<item value="/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/hw/mcs_top_sampler.bit" key="sha-2_perf_metrics-bitFile"/>
+	<item value="sha-2_perf_metrics" key="programfpga.sdxproject"/>
+</section>

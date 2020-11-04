@@ -1,0 +1,20 @@
+Nothing to build in platform 'mcs_top_sampler'
+
+14:40:48 **** Incremental Build of configuration Release for project sha-2_perf_metrics ****
+make all 
+Building file: ../src/main_sampler_test.cpp
+Invoking: MicroBlaze g++ compiler
+mb-g++ -Wall -O2 -c -fmessage-length=0 -MT"src/main_sampler_test.o" -I/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/export/mcs_top_sampler/sw/mcs_top_sampler/standalone_domain/bspinclude/include -mno-xl-reorder -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main_sampler_test.d" -MT"src/main_sampler_test.o" -o "src/main_sampler_test.o" "../src/main_sampler_test.cpp"
+Finished building: ../src/main_sampler_test.cpp
+ 
+Building target: sha-2_perf_metrics.elf
+Invoking: MicroBlaze g++ linker
+mb-g++ -Wl,-T -Wl,../src/lscript.ld -L/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/export/mcs_top_sampler/sw/mcs_top_sampler/standalone_domain/bsplib/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "sha-2_perf_metrics.elf"  ./src/adsr_core.o ./src/chu_init.o ./src/ddfs_core.o ./src/gpio_cores.o ./src/i2c_core.o ./src/main_sampler_test.o ./src/ps2_core.o ./src/spi_core.o ./src/sseg_core.o ./src/timer_core.o ./src/uart_core.o ./src/xadc_core.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: sha-2_perf_metrics.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size sha-2_perf_metrics.elf  |tee "sha-2_perf_metrics.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  12288	    284	   3140	  15712	   3d60	sha-2_perf_metrics.elf
+Finished building: sha-2_perf_metrics.elf.size
+ 

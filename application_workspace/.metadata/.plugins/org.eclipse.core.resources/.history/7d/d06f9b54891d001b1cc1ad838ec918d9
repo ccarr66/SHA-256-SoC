@@ -1,0 +1,35 @@
+/*****************************************************************//**
+ * @file main_sampler_test.cpp
+ *
+ * @brief Basic test of nexys4 ddr mmio cores
+ *
+ * @author p chu
+ * @version v1.0: initial release
+ *********************************************************************/
+
+// #define _DEBUG
+#include "chu_init.h"
+#include "sha256.h"
+
+SsegCore sseg(get_slot_addr(BRIDGE_BASE, S8_SSEG));
+
+
+int main() {
+   const auto hash = SHA256("abc", 3);
+   constexpr auto charsPerByte = 2;
+   auto wordIdx = 0;
+   while (1) {
+      for(auto byteIdx = size_t{0}; byteIdx < SHA256::wordLenInByte; byteIdx++)
+      {
+         const auto byte = hash.resultHashValues[wordIdx] & (0xff << byteIdx * SHA256::byteLen);
+         const auto upperNibble = static_cast<int>((byte & 0xF0) >> (SHA256::byteLen / 2));
+         const auto lowerNibble = static_cast<int>(byte & 0x0F);
+
+         sseg.write_1ptn(sseg.h2s(upperNibble), charsPerByte * byteIdx + 1);
+         sseg.write_1ptn(sseg.h2s(lowerNibble), charsPerByte * byteIdx + 0);
+      }
+      sleep_ms(3000);
+      wordIdx = (wordIdx + 1) % 8;
+   } //while
+} //main
+
