@@ -1,2 +1,2 @@
    text	   data	    bss	    dec	    hex	filename
-  12288	    284	   3140	  15712	   3d60	sha-2_perf_metrics.elf
+  12244	    284	   3144	  15672	   3d38	sha-2_perf_metrics.elf

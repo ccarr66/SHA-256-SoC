@@ -1,6 +1,6 @@
 Nothing to build in platform 'mcs_top_sampler'
 
-14:40:48 **** Incremental Build of configuration Release for project sha-2_perf_metrics ****
+11:22:27 **** Incremental Build of configuration Release for project sha-2_perf_metrics ****
 make all 
 Building file: ../src/main_sampler_test.cpp
 Invoking: MicroBlaze g++ compiler
@@ -15,6 +15,6 @@ Finished building target: sha-2_perf_metrics.elf
 Invoking: MicroBlaze Print Size
 mb-size sha-2_perf_metrics.elf  |tee "sha-2_perf_metrics.elf.size"
    text	   data	    bss	    dec	    hex	filename
-  12288	    284	   3140	  15712	   3d60	sha-2_perf_metrics.elf
+  12244	    284	   3144	  15672	   3d38	sha-2_perf_metrics.elf
 Finished building: sha-2_perf_metrics.elf.size
  

@@ -19,7 +19,9 @@ public:
 
     using block_ty = word_ty[blockLenInWord];
 
-    word_ty resultHashValues[8];
+    word_ty resultHashValues[8] = {
+        0x6a09e667, 0xbb67ae85, 0x3c6ef372, 0xa54ff53a, 0x510e527f, 0x9b05688c, 0x1f83d9ab, 0x5be0cd19
+    };
 
     static_assert(blockLen % wordLen == 0); 
     static_assert(endMarkerLen % wordLen == 0); 
@@ -184,7 +186,7 @@ public:
     //requires strData to point to an char array with len elements
     SHA256(const char* data, size_t dataLen)
     {
-        constexpr auto maxLastBlockLen    = bitLen_ty {blockLen - endMarkerLen};
+        constexpr auto maxLastBlockLen = bitLen_ty {blockLen - endMarkerLen};
         static_assert(maxLastBlockLen < blockLen);
         
         const auto dataBitLen = bitLen_ty{dataLen * CHAR_BIT};
@@ -200,13 +202,6 @@ public:
         const auto totalLen = bitLen_ty {dataBitLen + 1 + numZeros + endMarkerLen};
         const auto numBlocks = size_t {totalLen / blockLen};
         
-
-        constexpr word_ty initialHash[8] = {
-            0x6a09e667, 0xbb67ae85, 0x3c6ef372, 0xa54ff53a, 0x510e527f, 0x9b05688c, 0x1f83d9ab, 0x5be0cd19
-        };
-        for(auto i = 0u; i < 8u; i++)
-            resultHashValues[i] = initialHash[i];
-
         block_ty currentblock = {0};
         for(auto b = 0u; b < numBlocks; b++)
         {

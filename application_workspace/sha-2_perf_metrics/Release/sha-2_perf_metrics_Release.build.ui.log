@@ -1,4 +1,4 @@
-2020-11-04T14:40:48.67446100255-14:40:48 **** Incremental Build of configuration Release for project sha-2_perf_metrics ****
+2020-11-06T11:22:27.47470500255-11:22:27 **** Incremental Build of configuration Release for project sha-2_perf_metrics ****
 000-make all 
 000-Building file: ../src/main_sampler_test.cpp
 000-Invoking: MicroBlaze g++ compiler
@@ -13,9 +13,9 @@
 000-Invoking: MicroBlaze Print Size
 000-mb-size sha-2_perf_metrics.elf  |tee "sha-2_perf_metrics.elf.size"
 000-   text	   data	    bss	    dec	    hex	filename
-000-  12288	    284	   3140	  15712	   3d60	sha-2_perf_metrics.elf
+000-  12244	    284	   3144	  15672	   3d38	sha-2_perf_metrics.elf
 000-Finished building: sha-2_perf_metrics.elf.size
 000- 
 00255-
-14:40:49 Build Finished (took 779ms)
+11:22:28 Build Finished (took 679ms)
 

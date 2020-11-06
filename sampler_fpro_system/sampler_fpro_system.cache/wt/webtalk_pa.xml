@@ -3,7 +3,7 @@
 <!--The data in this file is primarily intended for consumption by Xilinx tools.
 The structure and the elements are likely to change over the next few releases.
 This means code written to parse this file will need to be revisited each subsequent release.-->
-<application name="pa" timeStamp="Tue Nov  3 16:20:51 2020">
+<application name="pa" timeStamp="Wed Nov  4 20:03:27 2020">
 <section name="Project Information" visible="false">
 <property name="ProjectID" value="2a4e222d4bd64102a07c717d29b95dd0" type="ProjectID"/>
 <property name="ProjectIteration" value="2" type="ProjectIteration"/>
@@ -23,7 +23,7 @@ This means code written to parse this file will need to be revisited each subseq
 <property name="CustomizeCore" value="2" type="JavaHandler"/>
 <property name="CustomizeRSBBlock" value="3" type="JavaHandler"/>
 <property name="EditProperties" value="3" type="JavaHandler"/>
-<property name="LaunchVitis" value="7" type="JavaHandler"/>
+<property name="LaunchVitis" value="9" type="JavaHandler"/>
 <property name="NewExportHardware" value="3" type="JavaHandler"/>
 <property name="NewProject" value="1" type="JavaHandler"/>
 <property name="OpenHardwareManager" value="1" type="JavaHandler"/>
@@ -56,14 +56,14 @@ This means code written to parse this file will need to be revisited each subseq
 <property name="MainMenuMgr_EDIT" value="2" type="GuiHandlerData"/>
 <property name="MainMenuMgr_EXPORT" value="4" type="GuiHandlerData"/>
 <property name="MainMenuMgr_FILE" value="6" type="GuiHandlerData"/>
-<property name="MainMenuMgr_FLOW" value="8" type="GuiHandlerData"/>
+<property name="MainMenuMgr_FLOW" value="10" type="GuiHandlerData"/>
 <property name="MainMenuMgr_IP" value="2" type="GuiHandlerData"/>
 <property name="MainMenuMgr_OPEN" value="2" type="GuiHandlerData"/>
 <property name="MainMenuMgr_PROJECT" value="2" type="GuiHandlerData"/>
-<property name="MainMenuMgr_REPORTS" value="20" type="GuiHandlerData"/>
+<property name="MainMenuMgr_REPORTS" value="22" type="GuiHandlerData"/>
 <property name="MainMenuMgr_SETTINGS" value="1" type="GuiHandlerData"/>
 <property name="MainMenuMgr_TEXT_EDITOR" value="2" type="GuiHandlerData"/>
-<property name="MainMenuMgr_TOOLS" value="28" type="GuiHandlerData"/>
+<property name="MainMenuMgr_TOOLS" value="34" type="GuiHandlerData"/>
 <property name="MainMenuMgr_VIEW" value="4" type="GuiHandlerData"/>
 <property name="MainMenuMgr_WINDOW" value="14" type="GuiHandlerData"/>
 <property name="MainWinMenuMgr_LAYOUT" value="8" type="GuiHandlerData"/>
@@ -81,21 +81,21 @@ This means code written to parse this file will need to be revisited each subseq
 <property name="PAViews_PROJECT_SUMMARY" value="1" type="GuiHandlerData"/>
 <property name="ProjectNameChooser_CHOOSE_PROJECT_LOCATION" value="1" type="GuiHandlerData"/>
 <property name="ProjectNameChooser_PROJECT_NAME" value="3" type="GuiHandlerData"/>
-<property name="RDICommands_CUSTOM_COMMANDS" value="10" type="GuiHandlerData"/>
+<property name="RDICommands_CUSTOM_COMMANDS" value="12" type="GuiHandlerData"/>
 <property name="RDICommands_PROPERTIES" value="3" type="GuiHandlerData"/>
 <property name="SimpleOutputProductDialog_GENERATE_OUTPUT_PRODUCTS_IMMEDIATELY" value="2" type="GuiHandlerData"/>
 <property name="SimpleOutputProductDialog_SYNTHESIZE_DESIGN_GLOBALLY" value="2" type="GuiHandlerData"/>
 <property name="SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT" value="3" type="GuiHandlerData"/>
 <property name="SrcMenu_IP_DOCUMENTATION" value="4" type="GuiHandlerData"/>
 <property name="SrcMenu_IP_HIERARCHY" value="6" type="GuiHandlerData"/>
-<property name="SyntheticaGettingStartedView_RECENT_PROJECTS" value="8" type="GuiHandlerData"/>
+<property name="SyntheticaGettingStartedView_RECENT_PROJECTS" value="10" type="GuiHandlerData"/>
 <property name="SystemTreeView_SYSTEM_TREE" value="28" type="GuiHandlerData"/>
 <property name="XPG_IPSymbol_SHOW_DISABLED_PORTS" value="2" type="GuiHandlerData"/>
 </item>
 <item name="Other">
-<property name="GuiMode" value="39" type="GuiMode"/>
+<property name="GuiMode" value="41" type="GuiMode"/>
 <property name="BatchMode" value="0" type="BatchMode"/>
-<property name="TclMode" value="36" type="TclMode"/>
+<property name="TclMode" value="38" type="TclMode"/>
 </item>
 </section>
 </application>
