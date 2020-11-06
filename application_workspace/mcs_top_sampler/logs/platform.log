@@ -1883,3 +1883,127 @@ TRACE::2020-11-06.11:03:43::SCWMssOS::Checking the sw design at  /home/connor/Do
 TRACE::2020-11-06.11:03:43::SCWMssOS::DEBUG:  swdes dump  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/microblaze_I/standalone_domain/bsp/system.mss|system||
 
 TRACE::2020-11-06.11:03:43::SCWMssOS::Sw design exists and opened at  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/microblaze_I/standalone_domain/bsp/system.mss
+LOG::2020-11-06.11:43:28::SCWPlatform::Started generating the artifacts platform mcs_top_sampler
+TRACE::2020-11-06.11:43:28::SCWPlatform::Sanity checking of platform is completed
+LOG::2020-11-06.11:43:28::SCWPlatform::Started generating the artifacts for system configuration mcs_top_sampler
+LOG::2020-11-06.11:43:28::SCWSystem::Checking the domain standalone_domain
+LOG::2020-11-06.11:43:28::SCWSystem::Not a boot domain 
+LOG::2020-11-06.11:43:28::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2020-11-06.11:43:28::SCWDomain::Generating domain artifcats
+TRACE::2020-11-06.11:43:28::SCWMssOS::Generating standalone artifcats
+TRACE::2020-11-06.11:43:28::SCWMssOS:: Copying the user libraries. 
+TRACE::2020-11-06.11:43:28::SCWPlatform::Trying to open the hw design at /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/hw/mcs_top_sampler.xsa
+TRACE::2020-11-06.11:43:28::SCWPlatform::DSA given /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/hw/mcs_top_sampler.xsa
+TRACE::2020-11-06.11:43:28::SCWPlatform::DSA absoulate path /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/hw/mcs_top_sampler.xsa
+TRACE::2020-11-06.11:43:28::SCWPlatform::DSA directory /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/hw
+TRACE::2020-11-06.11:43:28::SCWPlatform:: Platform Path /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/hw/mcs_top_sampler.xsa
+TRACE::2020-11-06.11:43:28::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2020-11-06.11:43:28::SCWPlatform::Trying to set the existing hwdb with name mcs_top_sampler
+TRACE::2020-11-06.11:43:28::SCWPlatform::Opened existing hwdb mcs_top_sampler
+TRACE::2020-11-06.11:43:28::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-11-06.11:43:28::SCWMssOS::Checking the sw design at  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2020-11-06.11:43:28::SCWMssOS::DEBUG:  swdes dump  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/microblaze_I/standalone_domain/bsp/system.mss|system||
+
+TRACE::2020-11-06.11:43:28::SCWMssOS::Sw design exists and opened at  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2020-11-06.11:43:28::SCWMssOS::Completed writing the mss file at /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/microblaze_I/standalone_domain/bsp
+TRACE::2020-11-06.11:43:28::SCWMssOS::Mss edits present, copying mssfile into export location /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2020-11-06.11:43:28::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2020-11-06.11:43:28::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2020-11-06.11:43:28::SCWDomain::Skipping the build for domain :  standalone_domain
+TRACE::2020-11-06.11:43:28::SCWMssOS::skipping the bsp build ... 
+TRACE::2020-11-06.11:43:28::SCWMssOS::Copying to export directory.
+TRACE::2020-11-06.11:43:28::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2020-11-06.11:43:28::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2020-11-06.11:43:28::SCWSystem::Completed Processing the domain standalone_domain
+LOG::2020-11-06.11:43:28::SCWSystem::Completed Processing the sysconfig mcs_top_sampler
+LOG::2020-11-06.11:43:28::SCWPlatform::Completed generating the artifacts for system configuration mcs_top_sampler
+TRACE::2020-11-06.11:43:28::SCWPlatform::Started preparing the platform 
+TRACE::2020-11-06.11:43:28::SCWSystem::Writing the bif file for system config mcs_top_sampler
+TRACE::2020-11-06.11:43:28::SCWSystem::dir created 
+TRACE::2020-11-06.11:43:28::SCWSystem::Writing the bif 
+TRACE::2020-11-06.11:43:28::SCWPlatform::Started writing the spfm file 
+TRACE::2020-11-06.11:43:28::SCWPlatform::Started writing the xpfm file 
+TRACE::2020-11-06.11:43:28::SCWPlatform::Completed generating the platform
+TRACE::2020-11-06.11:43:28::SCWPlatform::Trying to open the hw design at /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/hw/mcs_top_sampler.xsa
+TRACE::2020-11-06.11:43:28::SCWPlatform::DSA given /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/hw/mcs_top_sampler.xsa
+TRACE::2020-11-06.11:43:28::SCWPlatform::DSA absoulate path /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/hw/mcs_top_sampler.xsa
+TRACE::2020-11-06.11:43:28::SCWPlatform::DSA directory /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/hw
+TRACE::2020-11-06.11:43:28::SCWPlatform:: Platform Path /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/hw/mcs_top_sampler.xsa
+TRACE::2020-11-06.11:43:28::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2020-11-06.11:43:28::SCWPlatform::Trying to set the existing hwdb with name mcs_top_sampler
+TRACE::2020-11-06.11:43:28::SCWPlatform::Opened existing hwdb mcs_top_sampler
+TRACE::2020-11-06.11:43:28::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-11-06.11:43:28::SCWMssOS::Checking the sw design at  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2020-11-06.11:43:28::SCWMssOS::DEBUG:  swdes dump  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/microblaze_I/standalone_domain/bsp/system.mss|system||
+
+TRACE::2020-11-06.11:43:28::SCWMssOS::Sw design exists and opened at  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2020-11-06.11:43:28::SCWWriter::formatted JSON is {
+	"platformName":	"mcs_top_sampler",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"mcs_top_sampler",
+	"platHandOff":	"/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/sampler_fpro_system/mcs_top_sampler.xsa",
+	"platIntHandOff":	"<platformDir>/hw/mcs_top_sampler.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"mcs_top_sampler",
+	"systems":	[{
+			"systemName":	"mcs_top_sampler",
+			"systemDesc":	"mcs_top_sampler",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"mcs_top_sampler",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_I",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_I",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"8a766b133bc08845f4c873d777da5d25",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2020-11-06.11:43:28::SCWPlatform::updated the xpfm file.
+TRACE::2020-11-06.11:43:28::SCWPlatform::Trying to open the hw design at /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/hw/mcs_top_sampler.xsa
+TRACE::2020-11-06.11:43:28::SCWPlatform::DSA given /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/hw/mcs_top_sampler.xsa
+TRACE::2020-11-06.11:43:28::SCWPlatform::DSA absoulate path /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/hw/mcs_top_sampler.xsa
+TRACE::2020-11-06.11:43:28::SCWPlatform::DSA directory /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/hw
+TRACE::2020-11-06.11:43:28::SCWPlatform:: Platform Path /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/hw/mcs_top_sampler.xsa
+TRACE::2020-11-06.11:43:28::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2020-11-06.11:43:28::SCWPlatform::Trying to set the existing hwdb with name mcs_top_sampler
+TRACE::2020-11-06.11:43:28::SCWPlatform::Opened existing hwdb mcs_top_sampler
+TRACE::2020-11-06.11:43:28::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-11-06.11:43:28::SCWMssOS::Checking the sw design at  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2020-11-06.11:43:28::SCWMssOS::DEBUG:  swdes dump  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/microblaze_I/standalone_domain/bsp/system.mss|system||
+
+TRACE::2020-11-06.11:43:28::SCWMssOS::Sw design exists and opened at  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/microblaze_I/standalone_domain/bsp/system.mss

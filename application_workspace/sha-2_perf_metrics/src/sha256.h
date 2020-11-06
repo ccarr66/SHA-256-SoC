@@ -17,9 +17,12 @@ public:
     static constexpr bitLen_ty endMarkerLen = 64;
     static constexpr size_t endMarkerLenInWord = endMarkerLen / wordLen;
 
+    static constexpr size_t hashLenInWord = 8;
+    static constexpr size_t messageSchedLenInWord = 64;
+
     using block_ty = word_ty[blockLenInWord];
 
-    word_ty resultHashValues[8] = {
+    word_ty resultHashValues[hashLenInWord] = {
         0x6a09e667, 0xbb67ae85, 0x3c6ef372, 0xa54ff53a, 0x510e527f, 0x9b05688c, 0x1f83d9ab, 0x5be0cd19
     };
 
@@ -79,18 +82,21 @@ private:
         auto byteInWordIdx = size_t{0};
         
         constexpr auto blockLenInByte = blockLenInWord * wordLenInByte;
+
         const auto beginPtr = data + blockLenInByte * blockIdx;
         const auto endPtr = data + std::min(blockLenInByte * (blockIdx + 1), dataLen);
+        std::for_each(
+            beginPtr, 
+            endPtr, 
+            [&](char c) {
+                const auto shiftAmt = CHAR_BIT * (wordLenInByte - 1 - byteInWordIdx);
+                block[wordIdx] |= static_cast<word_ty>(c) << shiftAmt;
 
-        for(auto c = beginPtr; c < endPtr; c++)
-        {
-            const auto shiftAmt = CHAR_BIT * (wordLenInByte - 1 - byteInWordIdx);
-            block[wordIdx] |= static_cast<word_ty>(*c) << shiftAmt;
-
-            byteInWordIdx = (byteInWordIdx + 1) % wordLenInByte;
-            if(byteInWordIdx == 0) 
-                wordIdx++;
-        }
+                byteInWordIdx = (byteInWordIdx + 1) % wordLenInByte;
+                if(byteInWordIdx == 0) 
+                    wordIdx++;
+            }
+        );
     }
 
     void setEndMarker(block_ty& block, bitLen_ty dataBitLen)
@@ -115,25 +121,35 @@ private:
         block[lastWordIdx] |= static_cast<word_ty>(0x80000000 >> lastBitIdx); 
     }
 
-    struct workingVariables { 
-        word_ty a,b,c,d,e,f,g,h;
-        workingVariables(const word_ty initVal[8]) : 
-            a(initVal[0]),b(initVal[1]),c(initVal[2]),d(initVal[3]),
-            e(initVal[4]),f(initVal[5]),g(initVal[6]),h(initVal[7])
-        {}
+    struct workingVariables 
+    { 
+        word_ty vars[8];
+        constexpr word_ty& a = vars[0];
+        constexpr word_ty& b = vars[1];
+        constexpr word_ty& c = vars[2];
+        constexpr word_ty& d = vars[3];
+        constexpr word_ty& e = vars[4];
+        constexpr word_ty& f = vars[5];
+        constexpr word_ty& g = vars[6];
+        constexpr word_ty& h = vars[7];
+
+        workingVariables(const word_ty initVal[8])
+        {
+            std::copy(std::begin(initVal), std::end(initVal), std::begin(vars));
+        }
     };
 
-    void prepareMessageSchedule(const block_ty& block, word_ty* messageSchedule) 
+    void prepareMessageSched(const block_ty& block, word_ty* messageSched) 
     {
-        for(size_t i = 0; i < 64; i++)
+        for(size_t w = 0; w < messageSchedLenInWord; w++)
         {
             auto newWord = word_ty{0};
-            if(i < 16)
-                newWord = block[i];
+            if(w < blockLenInWord)
+                newWord = block[w];
             else
-                newWord = SSIG1(messageSchedule[i - 2]) + messageSchedule[i - 7] + SSIG0(messageSchedule[i - 15]) + messageSchedule[i - 16];
+                newWord = SSIG1(messageSched[w - 2]) + messageSched[w - 7] + SSIG0(messageSched[w - 15]) + messageSched[w - 16];
                 
-            messageSchedule[i] = newWord;
+            messageSched[w] = newWord;
         }
     }
 
@@ -164,22 +180,17 @@ private:
             0x748f82ee, 0x78a5636f, 0x84c87814, 0x8cc70208, 0x90befffa, 0xa4506ceb, 0xbef9a3f7, 0xc67178f2
         };
 
-        word_ty messageSchedule[64];
-        prepareMessageSchedule(block, messageSchedule);
+        word_ty messageSched[messageSchedLenInWord];
+        prepareMessageSched(block, w);
 
         workingVariables currVar(resultHashValues);
-        auto i = size_t{0};
+        auto kIdx = size_t{0};
         for(const auto& w : messageSchedule)
-            processWorkingVars(currVar, w, K[i++]);
+            processWorkingVars(currVar, w, K[kIdx++]);
 
-        resultHashValues[0] += currVar.a;
-        resultHashValues[1] += currVar.b;
-        resultHashValues[2] += currVar.c;
-        resultHashValues[3] += currVar.d;
-        resultHashValues[4] += currVar.e;
-        resultHashValues[5] += currVar.f;
-        resultHashValues[6] += currVar.g;
-        resultHashValues[7] += currVar.h;
+        auto resultIdx = size_t{0};
+        for(const auto& wv: currVar.vars)
+            resultHashValues[resultIdx++] += wv;
     }
 
 public:
@@ -190,27 +201,27 @@ public:
         static_assert(maxLastBlockLen < blockLen);
         
         const auto dataBitLen = bitLen_ty{dataLen * CHAR_BIT};
-        const auto lastBlockLen = (dataBitLen + 1) % blockLen;
+        const auto lastBlockLen = bitLen_ty{(dataBitLen + 1) % blockLen};
 
-        constexpr auto endMarkerLen   = bitLen_ty {64};
-        auto numZeros = bitLen_ty {0};
-        if(lastBlockLen > maxLastBlockLen)
-            numZeros = blockLen - (lastBlockLen - maxLastBlockLen);
-        else 
-            numZeros = maxLastBlockLen - lastBlockLen;
+        const auto numZeros = 
+            (lastBlockLen > maxLastBlockLen) ? 
+            blockLen - (lastBlockLen - maxLastBlockLen) : maxLastBlockLen - lastBlockLen;
 
         const auto totalLen = bitLen_ty {dataBitLen + 1 + numZeros + endMarkerLen};
         const auto numBlocks = size_t {totalLen / blockLen};
+
+        const auto messageEndBitBlockIdx = dataBitLen / blockLen;
         
-        block_ty currentblock = {0};
         for(auto b = 0u; b < numBlocks; b++)
         {
+            block_ty currentblock = {0};
             copyDataToBlock(data, dataLen, currentblock, b);
-            if(b == numBlocks - 1)
-            {
-                setEndMarker(currentblock, dataBitLen);
+            
+            if(b == messageEndBitBlockIdx)
                 setMessageEndBit(currentblock, dataBitLen);
-            }
+            if(b == numBlocks - 1)
+                setEndMarker(currentblock, dataBitLen);
+            
             performHash(currentblock);
         }
     }
