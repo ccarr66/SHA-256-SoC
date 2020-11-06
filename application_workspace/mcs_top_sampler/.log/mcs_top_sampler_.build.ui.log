@@ -1,6 +1,2 @@
-2020-11-06T11:43:24.64813300255-11:43:24 **** Incremental Build of project mcs_top_sampler ****
-000-buildplatform.sh 34761 mcs_top_sampler no_domain_build 
-000-XSDB Server Channel: tcfchan#3
-00255-
-11:43:31 Build Finished (took 6s.743ms)
+2020-11-06T12:33:05.918571000-Nothing to build in platform 'mcs_top_sampler'
 

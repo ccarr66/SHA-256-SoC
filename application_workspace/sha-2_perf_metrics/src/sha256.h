@@ -124,18 +124,18 @@ private:
     struct workingVariables 
     { 
         word_ty vars[8];
-        constexpr word_ty& a = vars[0];
-        constexpr word_ty& b = vars[1];
-        constexpr word_ty& c = vars[2];
-        constexpr word_ty& d = vars[3];
-        constexpr word_ty& e = vars[4];
-        constexpr word_ty& f = vars[5];
-        constexpr word_ty& g = vars[6];
-        constexpr word_ty& h = vars[7];
+        word_ty& a = vars[0];
+        word_ty& b = vars[1];
+        word_ty& c = vars[2];
+        word_ty& d = vars[3];
+        word_ty& e = vars[4];
+        word_ty& f = vars[5];
+        word_ty& g = vars[6];
+        word_ty& h = vars[7];
 
         workingVariables(const word_ty initVal[8])
         {
-            std::copy(std::begin(initVal), std::end(initVal), std::begin(vars));
+            std::copy(initVal, initVal + hashLenInWord, vars);
         }
     };
 
@@ -169,7 +169,7 @@ private:
 
     void performHash(const block_ty& block)
     {
-        constexpr word_ty K[64] = {
+        constexpr word_ty K[messageSchedLenInWord] = {
             0x428a2f98, 0x71374491, 0xb5c0fbcf, 0xe9b5dba5, 0x3956c25b, 0x59f111f1, 0x923f82a4, 0xab1c5ed5,
             0xd807aa98, 0x12835b01, 0x243185be, 0x550c7dc3, 0x72be5d74, 0x80deb1fe, 0x9bdc06a7, 0xc19bf174,
             0xe49b69c1, 0xefbe4786, 0x0fc19dc6, 0x240ca1cc, 0x2de92c6f, 0x4a7484aa, 0x5cb0a9dc, 0x76f988da,
@@ -181,11 +181,11 @@ private:
         };
 
         word_ty messageSched[messageSchedLenInWord];
-        prepareMessageSched(block, w);
+        prepareMessageSched(block, messageSched);
 
         workingVariables currVar(resultHashValues);
         auto kIdx = size_t{0};
-        for(const auto& w : messageSchedule)
+        for(const auto& w : messageSched)
             processWorkingVars(currVar, w, K[kIdx++]);
 
         auto resultIdx = size_t{0};

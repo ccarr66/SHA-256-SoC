@@ -5105,3 +5105,183 @@ java.lang.Error
 
 !ENTRY com.xilinx.sdk.utils 0 0 2020-11-06 11:23:55.596
 !MESSAGE XSCT command with result: [::hsi::utils::get_bram_blocks /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/export/mcs_top_sampler/hw/mcs_top_sampler.xsa ], Result: [null, dlmb_cntlr ilmb_cntlr]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-06 12:27:58.879
+!MESSAGE XSCT Command: [::hsi::utils::closehw /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/export/mcs_top_sampler/hw/mcs_top_sampler.xsa], Thread: Worker-76: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-06 12:27:58.882
+!MESSAGE XSCT command with result: [::hsi::utils::closehw /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/export/mcs_top_sampler/hw/mcs_top_sampler.xsa], Result: [null, ]. Thread: Worker-76: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-06 12:27:58.883
+!MESSAGE XSCT Command: [::hsi::utils::openhw /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/export/mcs_top_sampler/hw/mcs_top_sampler.xsa], Thread: Worker-76: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-06 12:27:58.918
+!MESSAGE XSCT command with result: [::hsi::utils::openhw /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/export/mcs_top_sampler/hw/mcs_top_sampler.xsa], Result: [null, ]. Thread: Worker-76: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-06 12:27:58.918
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/export/mcs_top_sampler/hw/mcs_top_sampler.xsa /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/export/mcs_top_sampler/sw/mcs_top_sampler/standalone_domain/system.mss ], Thread: Worker-76: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-06 12:27:58.920
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/export/mcs_top_sampler/hw/mcs_top_sampler.xsa /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/export/mcs_top_sampler/sw/mcs_top_sampler/standalone_domain/system.mss ], Result: [null, ]. Thread: Worker-76: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-06 12:27:58.920
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/export/mcs_top_sampler/hw/mcs_top_sampler.xsa /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/export/mcs_top_sampler/sw/mcs_top_sampler/standalone_domain/system.mss], Thread: Worker-76: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-06 12:27:58.922
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/export/mcs_top_sampler/hw/mcs_top_sampler.xsa /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/export/mcs_top_sampler/sw/mcs_top_sampler/standalone_domain/system.mss], Result: [null, {"procname": "microblaze_I",
+"osname": "standalone",
+"osver": "7.1",
+}]. Thread: Worker-76: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2020-11-06 12:27:58.922
+!MESSAGE Generating MD5 hash for file: /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/export/mcs_top_sampler/sw/mcs_top_sampler/standalone_domain/system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-06 12:27:58.923
+!MESSAGE XSCT Command: [::hsi::utils::closesw /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/export/mcs_top_sampler/sw/mcs_top_sampler/standalone_domain/system.mss], Thread: Worker-76: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-06 12:27:58.925
+!MESSAGE XSCT command with result: [::hsi::utils::closesw /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/export/mcs_top_sampler/sw/mcs_top_sampler/standalone_domain/system.mss], Result: [null, ]. Thread: Worker-76: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-06 12:29:34.320
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/export/mcs_top_sampler/hw/mcs_top_sampler.xsa /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/export/mcs_top_sampler/sw/mcs_top_sampler/standalone_domain/system.mss ], Thread: Worker-82: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-06 12:29:34.322
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/export/mcs_top_sampler/hw/mcs_top_sampler.xsa /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/export/mcs_top_sampler/sw/mcs_top_sampler/standalone_domain/system.mss ], Result: [null, ]. Thread: Worker-82: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-06 12:29:34.323
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/export/mcs_top_sampler/hw/mcs_top_sampler.xsa /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/export/mcs_top_sampler/sw/mcs_top_sampler/standalone_domain/system.mss], Thread: Worker-82: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-06 12:29:34.325
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/export/mcs_top_sampler/hw/mcs_top_sampler.xsa /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/export/mcs_top_sampler/sw/mcs_top_sampler/standalone_domain/system.mss], Result: [null, {"procname": "microblaze_I",
+"osname": "standalone",
+"osver": "7.1",
+}]. Thread: Worker-82: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2020-11-06 12:29:34.326
+!MESSAGE Generating MD5 hash for file: /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/export/mcs_top_sampler/sw/mcs_top_sampler/standalone_domain/system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-06 12:29:34.326
+!MESSAGE XSCT Command: [::hsi::utils::closesw /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/export/mcs_top_sampler/sw/mcs_top_sampler/standalone_domain/system.mss], Thread: Worker-82: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-06 12:29:34.327
+!MESSAGE XSCT command with result: [::hsi::utils::closesw /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/export/mcs_top_sampler/sw/mcs_top_sampler/standalone_domain/system.mss], Result: [null, ]. Thread: Worker-82: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-06 12:30:03.358
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/export/mcs_top_sampler/hw/mcs_top_sampler.xsa /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/export/mcs_top_sampler/sw/mcs_top_sampler/standalone_domain/system.mss ], Thread: Worker-83: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-06 12:30:03.360
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/export/mcs_top_sampler/hw/mcs_top_sampler.xsa /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/export/mcs_top_sampler/sw/mcs_top_sampler/standalone_domain/system.mss ], Result: [null, ]. Thread: Worker-83: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-06 12:30:03.360
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/export/mcs_top_sampler/hw/mcs_top_sampler.xsa /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/export/mcs_top_sampler/sw/mcs_top_sampler/standalone_domain/system.mss], Thread: Worker-83: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-06 12:30:03.362
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/export/mcs_top_sampler/hw/mcs_top_sampler.xsa /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/export/mcs_top_sampler/sw/mcs_top_sampler/standalone_domain/system.mss], Result: [null, {"procname": "microblaze_I",
+"osname": "standalone",
+"osver": "7.1",
+}]. Thread: Worker-83: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2020-11-06 12:30:03.363
+!MESSAGE Generating MD5 hash for file: /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/export/mcs_top_sampler/sw/mcs_top_sampler/standalone_domain/system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-06 12:30:03.363
+!MESSAGE XSCT Command: [::hsi::utils::closesw /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/export/mcs_top_sampler/sw/mcs_top_sampler/standalone_domain/system.mss], Thread: Worker-83: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-06 12:30:03.365
+!MESSAGE XSCT command with result: [::hsi::utils::closesw /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/export/mcs_top_sampler/sw/mcs_top_sampler/standalone_domain/system.mss], Result: [null, ]. Thread: Worker-83: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-06 12:30:53.206
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/export/mcs_top_sampler/hw/mcs_top_sampler.xsa /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/export/mcs_top_sampler/sw/mcs_top_sampler/standalone_domain/system.mss ], Thread: Worker-79: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-06 12:30:53.209
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/export/mcs_top_sampler/hw/mcs_top_sampler.xsa /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/export/mcs_top_sampler/sw/mcs_top_sampler/standalone_domain/system.mss ], Result: [null, ]. Thread: Worker-79: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-06 12:30:53.210
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/export/mcs_top_sampler/hw/mcs_top_sampler.xsa /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/export/mcs_top_sampler/sw/mcs_top_sampler/standalone_domain/system.mss], Thread: Worker-79: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-06 12:30:53.212
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/export/mcs_top_sampler/hw/mcs_top_sampler.xsa /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/export/mcs_top_sampler/sw/mcs_top_sampler/standalone_domain/system.mss], Result: [null, {"procname": "microblaze_I",
+"osname": "standalone",
+"osver": "7.1",
+}]. Thread: Worker-79: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2020-11-06 12:30:53.213
+!MESSAGE Generating MD5 hash for file: /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/export/mcs_top_sampler/sw/mcs_top_sampler/standalone_domain/system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-06 12:30:53.215
+!MESSAGE XSCT Command: [::hsi::utils::closesw /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/export/mcs_top_sampler/sw/mcs_top_sampler/standalone_domain/system.mss], Thread: Worker-79: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-06 12:30:53.216
+!MESSAGE XSCT command with result: [::hsi::utils::closesw /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/export/mcs_top_sampler/sw/mcs_top_sampler/standalone_domain/system.mss], Result: [null, ]. Thread: Worker-79: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-06 12:32:32.204
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/export/mcs_top_sampler/hw/mcs_top_sampler.xsa /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/export/mcs_top_sampler/sw/mcs_top_sampler/standalone_domain/system.mss ], Thread: Worker-85: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-06 12:32:32.206
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/export/mcs_top_sampler/hw/mcs_top_sampler.xsa /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/export/mcs_top_sampler/sw/mcs_top_sampler/standalone_domain/system.mss ], Result: [null, ]. Thread: Worker-85: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-06 12:32:32.207
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/export/mcs_top_sampler/hw/mcs_top_sampler.xsa /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/export/mcs_top_sampler/sw/mcs_top_sampler/standalone_domain/system.mss], Thread: Worker-85: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-06 12:32:32.209
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/export/mcs_top_sampler/hw/mcs_top_sampler.xsa /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/export/mcs_top_sampler/sw/mcs_top_sampler/standalone_domain/system.mss], Result: [null, {"procname": "microblaze_I",
+"osname": "standalone",
+"osver": "7.1",
+}]. Thread: Worker-85: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2020-11-06 12:32:32.209
+!MESSAGE Generating MD5 hash for file: /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/export/mcs_top_sampler/sw/mcs_top_sampler/standalone_domain/system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-06 12:32:32.210
+!MESSAGE XSCT Command: [::hsi::utils::closesw /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/export/mcs_top_sampler/sw/mcs_top_sampler/standalone_domain/system.mss], Thread: Worker-85: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-06 12:32:32.211
+!MESSAGE XSCT command with result: [::hsi::utils::closesw /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/export/mcs_top_sampler/sw/mcs_top_sampler/standalone_domain/system.mss], Result: [null, ]. Thread: Worker-85: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-06 12:32:56.804
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/export/mcs_top_sampler/hw/mcs_top_sampler.xsa /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/export/mcs_top_sampler/sw/mcs_top_sampler/standalone_domain/system.mss ], Thread: Worker-78: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-06 12:32:56.807
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/export/mcs_top_sampler/hw/mcs_top_sampler.xsa /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/export/mcs_top_sampler/sw/mcs_top_sampler/standalone_domain/system.mss ], Result: [null, ]. Thread: Worker-78: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-06 12:32:56.807
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/export/mcs_top_sampler/hw/mcs_top_sampler.xsa /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/export/mcs_top_sampler/sw/mcs_top_sampler/standalone_domain/system.mss], Thread: Worker-78: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-06 12:32:56.810
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/export/mcs_top_sampler/hw/mcs_top_sampler.xsa /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/export/mcs_top_sampler/sw/mcs_top_sampler/standalone_domain/system.mss], Result: [null, {"procname": "microblaze_I",
+"osname": "standalone",
+"osver": "7.1",
+}]. Thread: Worker-78: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2020-11-06 12:32:56.811
+!MESSAGE Generating MD5 hash for file: /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/export/mcs_top_sampler/sw/mcs_top_sampler/standalone_domain/system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-06 12:32:56.811
+!MESSAGE XSCT Command: [::hsi::utils::closesw /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/export/mcs_top_sampler/sw/mcs_top_sampler/standalone_domain/system.mss], Thread: Worker-78: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-06 12:32:56.812
+!MESSAGE XSCT command with result: [::hsi::utils::closesw /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/export/mcs_top_sampler/sw/mcs_top_sampler/standalone_domain/system.mss], Result: [null, ]. Thread: Worker-78: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-06 12:33:05.968
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/export/mcs_top_sampler/hw/mcs_top_sampler.xsa /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/export/mcs_top_sampler/sw/mcs_top_sampler/standalone_domain/system.mss ], Thread: Worker-85: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-06 12:33:05.970
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/export/mcs_top_sampler/hw/mcs_top_sampler.xsa /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/export/mcs_top_sampler/sw/mcs_top_sampler/standalone_domain/system.mss ], Result: [null, ]. Thread: Worker-85: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-06 12:33:05.971
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/export/mcs_top_sampler/hw/mcs_top_sampler.xsa /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/export/mcs_top_sampler/sw/mcs_top_sampler/standalone_domain/system.mss], Thread: Worker-85: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-06 12:33:05.972
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/export/mcs_top_sampler/hw/mcs_top_sampler.xsa /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/export/mcs_top_sampler/sw/mcs_top_sampler/standalone_domain/system.mss], Result: [null, {"procname": "microblaze_I",
+"osname": "standalone",
+"osver": "7.1",
+}]. Thread: Worker-85: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2020-11-06 12:33:05.973
+!MESSAGE Generating MD5 hash for file: /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/export/mcs_top_sampler/sw/mcs_top_sampler/standalone_domain/system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-06 12:33:05.973
+!MESSAGE XSCT Command: [::hsi::utils::closesw /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/export/mcs_top_sampler/sw/mcs_top_sampler/standalone_domain/system.mss], Thread: Worker-85: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-06 12:33:05.974
+!MESSAGE XSCT command with result: [::hsi::utils::closesw /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/export/mcs_top_sampler/sw/mcs_top_sampler/standalone_domain/system.mss], Result: [null, ]. Thread: Worker-85: Build Project
