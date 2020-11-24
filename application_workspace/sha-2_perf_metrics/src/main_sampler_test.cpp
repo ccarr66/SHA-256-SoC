@@ -9,16 +9,20 @@
 
 // #define _DEBUG
 #include "chu_init.h"
-#include "sseg_core.h"
 #include "sha256.h"
 
-SsegCore sseg(get_slot_addr(BRIDGE_BASE, S8_SSEG));
-
-
 int main() {
-   sseg.set_dp(0);
-   const auto hash = SHA256("abc", 3);
-   constexpr auto ssegPerByte = 2;
+   //sseg.set_dp(0);
+   
+   volatile auto str = "abcwaryestrytfuygiuhoipjoesturydtifuygiu";
+         
+   while(1)
+   {
+	   volatile auto hash = SHA256(str, 3);
+
+	   uart.disp((int)(hash.resultHashValues[0]));
+   }
+   /*constexpr auto ssegPerByte = 2;
    auto wordIdx = 0;
    while (1) {
       for(auto byteIdx = 0u; byteIdx < SHA256::wordLenInByte; byteIdx++)
@@ -30,8 +34,8 @@ int main() {
          sseg.write_1ptn(sseg.h2s(upperNibble), ssegPerByte * byteIdx + 1);
          sseg.write_1ptn(sseg.h2s(lowerNibble), ssegPerByte * byteIdx + 0);
       }
-      sleep_ms(3000);
+      sleep_ms(50);
       wordIdx = (wordIdx + 1) % 8;
-   } //while
+   } //while*/
 } //main
 

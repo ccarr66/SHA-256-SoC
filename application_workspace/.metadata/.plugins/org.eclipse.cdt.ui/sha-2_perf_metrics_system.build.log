@@ -1,6 +1,6 @@
-16:12:08 **** Incremental Build of configuration Release for project sha-2_perf_metrics_system ****
+19:37:29 **** Incremental Build of configuration Release for project sha-2_perf_metrics_system ****
 make all 
 Skipping SD card image generation. Reason: The system project only has applications for microblaze processors.
 
-16:12:09 Build Finished (took 587ms)
+19:37:30 Build Finished (took 468ms)
 

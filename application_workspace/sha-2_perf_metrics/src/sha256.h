@@ -5,22 +5,22 @@
 class SHA256
 {
 public:
-    using word_ty = uint32_t;
+    using word_ty   = uint32_t;
     using bitLen_ty = size_t;
 
-    static constexpr bitLen_ty byteLen = CHAR_BIT;
-    static constexpr bitLen_ty blockLen = 512;
-    static constexpr size_t wordLenInByte = sizeof(word_ty);
-    static constexpr bitLen_ty wordLen = byteLen * wordLenInByte;
-    static constexpr size_t blockLenInWord = blockLen / wordLen;
+    static constexpr bitLen_ty  byteLen = CHAR_BIT;
+    static constexpr bitLen_ty  blockLen = 512;
+    static constexpr size_t     wordLenInByte = sizeof(word_ty);
+    static constexpr bitLen_ty  wordLen = byteLen * wordLenInByte;
+    static constexpr size_t     blockLenInWord = blockLen / wordLen;
 
-    static constexpr bitLen_ty endMarkerLen = 64;
-    static constexpr size_t endMarkerLenInWord = endMarkerLen / wordLen;
+    static constexpr bitLen_ty  endMarkerLen = 64;
+    static constexpr size_t     endMarkerLenInWord = endMarkerLen / wordLen;
 
-    static constexpr size_t hashLenInWord = 8;
-    static constexpr size_t messageSchedLenInWord = 64;
+    static constexpr size_t     hashLenInWord = 8;
+    static constexpr size_t     messageSchedLenInWord = 64;
 
-    using block_ty = word_ty[blockLenInWord];
+    using block_ty  = word_ty[blockLenInWord];
 
     word_ty resultHashValues[hashLenInWord] = {
         0x6a09e667, 0xbb67ae85, 0x3c6ef372, 0xa54ff53a, 0x510e527f, 0x9b05688c, 0x1f83d9ab, 0x5be0cd19
@@ -85,18 +85,17 @@ private:
 
         const auto beginPtr = data + blockLenInByte * blockIdx;
         const auto endPtr = data + std::min(blockLenInByte * (blockIdx + 1), dataLen);
-        std::for_each(
-            beginPtr, 
-            endPtr, 
-            [&](char c) {
-                const auto shiftAmt = CHAR_BIT * (wordLenInByte - 1 - byteInWordIdx);
-                block[wordIdx] |= static_cast<word_ty>(c) << shiftAmt;
+        
+        for(auto c = beginPtr; c < endPtr; c++)
+        {
+            const auto shiftAmt = CHAR_BIT * (wordLenInByte - 1 - byteInWordIdx);
+            block[wordIdx] |= static_cast<word_ty>(*c) << shiftAmt;
 
-                byteInWordIdx = (byteInWordIdx + 1) % wordLenInByte;
-                if(byteInWordIdx == 0) 
-                    wordIdx++;
-            }
-        );
+            byteInWordIdx = (byteInWordIdx + 1) % wordLenInByte;
+            if(byteInWordIdx == 0) 
+                wordIdx++;
+        }
+        
     }
 
     void setEndMarker(block_ty& block, bitLen_ty dataBitLen)
@@ -186,11 +185,14 @@ private:
         workingVariables currVar(resultHashValues);
         auto kIdx = size_t{0};
         for(const auto& w : messageSched)
+        {
             processWorkingVars(currVar, w, K[kIdx++]);
-
+        }
         auto resultIdx = size_t{0};
         for(const auto& wv: currVar.vars)
+        {
             resultHashValues[resultIdx++] += wv;
+        }
     }
 
 public:

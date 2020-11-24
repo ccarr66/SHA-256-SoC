@@ -1,6 +1,6 @@
-2020-11-01T16:12:08.80407200255-16:12:08 **** Incremental Build of configuration Release for project sha-2_perf_metrics_system ****
+2020-11-22T19:37:29.72610600255-19:37:29 **** Incremental Build of configuration Release for project sha-2_perf_metrics_system ****
 000-make all 
 000-Skipping SD card image generation. Reason: The system project only has applications for microblaze processors.
 00255-
-16:12:09 Build Finished (took 587ms)
+19:37:30 Build Finished (took 468ms)
 

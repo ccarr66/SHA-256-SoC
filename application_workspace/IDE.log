@@ -187,3 +187,157 @@
 12:32:32 INFO  : Checking for BSP changes to sync application flags for project 'sha-2_perf_metrics'...
 12:32:56 INFO  : Checking for BSP changes to sync application flags for project 'sha-2_perf_metrics'...
 12:33:05 INFO  : Checking for BSP changes to sync application flags for project 'sha-2_perf_metrics'...
+14:42:23 INFO  : Launching XSCT server: xsct -n  -interactive /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/temp_xsdb_launch_script.tcl
+14:42:28 INFO  : Registering command handlers for Vitis TCF services
+14:42:29 INFO  : XSCT server has started successfully.
+14:42:30 INFO  : plnx-install-location is set to ''
+14:42:35 INFO  : Successfully done setting XSCT server connection channel  
+14:42:35 INFO  : Successfully done query RDI_DATADIR 
+14:42:35 INFO  : Successfully done setting workspace for the tool. 
+14:58:56 INFO  : Checking for BSP changes to sync application flags for project 'sha-2_perf_metrics'...
+15:00:08 INFO  : Checking for BSP changes to sync application flags for project 'sha-2_perf_metrics'...
+15:05:09 INFO  : Checking for BSP changes to sync application flags for project 'sha-2_perf_metrics'...
+15:08:02 INFO  : Checking for BSP changes to sync application flags for project 'sha-2_perf_metrics'...
+15:19:51 INFO  : Checking for BSP changes to sync application flags for project 'sha-2_perf_metrics'...
+15:24:39 INFO  : Bit file '/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/hw/download.bit' is generated.
+15:24:40 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:24:40 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AE9FA" && level==0} -index 0' command is executed.
+15:24:41 INFO  : FPGA configured successfully with bitstream "/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/hw/download.bit"
+14:20:05 INFO  : Launching XSCT server: xsct -n  -interactive /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/temp_xsdb_launch_script.tcl
+14:20:15 INFO  : XSCT server has started successfully.
+14:20:15 INFO  : plnx-install-location is set to ''
+14:20:15 INFO  : Successfully done setting XSCT server connection channel  
+14:20:15 INFO  : Successfully done setting workspace for the tool. 
+14:20:18 INFO  : Registering command handlers for Vitis TCF services
+14:20:34 INFO  : Successfully done query RDI_DATADIR 
+14:26:33 INFO  : Checking for BSP changes to sync application flags for project 'sha-2_perf_metrics'...
+14:26:47 INFO  : Checking for BSP changes to sync application flags for project 'sha-2_perf_metrics'...
+14:27:13 INFO  : Checking for BSP changes to sync application flags for project 'sha-2_perf_metrics'...
+14:28:21 INFO  : Checking for BSP changes to sync application flags for project 'sha-2_perf_metrics'...
+14:28:39 INFO  : Bit file '/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/hw/download.bit' is generated.
+14:28:40 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:28:40 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AE9FA" && level==0} -index 0' command is executed.
+14:28:41 INFO  : FPGA configured successfully with bitstream "/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/hw/download.bit"
+14:29:59 INFO  : Bit file '/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/hw/download.bit' is generated.
+14:29:59 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:29:59 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AE9FA" && level==0} -index 0' command is executed.
+14:30:00 INFO  : FPGA configured successfully with bitstream "/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/hw/download.bit"
+14:30:34 INFO  : Checking for BSP changes to sync application flags for project 'sha-2_perf_metrics'...
+14:31:16 INFO  : Checking for BSP changes to sync application flags for project 'sha-2_perf_metrics'...
+14:31:38 INFO  : Bit file '/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/hw/download.bit' is generated.
+14:31:38 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:31:38 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AE9FA" && level==0} -index 0' command is executed.
+14:31:39 INFO  : FPGA configured successfully with bitstream "/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/hw/download.bit"
+14:32:40 INFO  : Checking for BSP changes to sync application flags for project 'sha-2_perf_metrics'...
+14:33:22 INFO  : Bit file '/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/hw/download.bit' is generated.
+14:33:22 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:33:22 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AE9FA" && level==0} -index 0' command is executed.
+14:33:23 INFO  : FPGA configured successfully with bitstream "/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/hw/download.bit"
+14:34:53 INFO  : Checking for BSP changes to sync application flags for project 'sha-2_perf_metrics'...
+14:35:06 INFO  : Checking for BSP changes to sync application flags for project 'sha-2_perf_metrics'...
+14:35:35 INFO  : Bit file '/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/hw/download.bit' is generated.
+14:35:35 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:35:35 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AE9FA" && level==0} -index 0' command is executed.
+14:35:36 INFO  : FPGA configured successfully with bitstream "/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/hw/download.bit"
+14:37:02 INFO  : Checking for BSP changes to sync application flags for project 'sha-2_perf_metrics'...
+14:37:25 INFO  : Bit file '/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/hw/download.bit' is generated.
+14:37:25 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:37:25 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AE9FA" && level==0} -index 0' command is executed.
+14:37:26 INFO  : FPGA configured successfully with bitstream "/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/hw/download.bit"
+14:38:38 INFO  : Bit file '/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/hw/download.bit' is generated.
+14:38:38 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:38:38 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AE9FA" && level==0} -index 0' command is executed.
+14:38:38 INFO  : FPGA configured successfully with bitstream "/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/hw/download.bit"
+14:40:03 INFO  : Bit file '/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/hw/download.bit' is generated.
+14:40:03 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:40:03 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AE9FA" && level==0} -index 0' command is executed.
+14:40:04 INFO  : FPGA configured successfully with bitstream "/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/hw/download.bit"
+14:41:22 INFO  : Checking for BSP changes to sync application flags for project 'sha-2_perf_metrics'...
+14:41:54 INFO  : Bit file '/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/hw/download.bit' is generated.
+14:41:54 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:41:54 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AE9FA" && level==0} -index 0' command is executed.
+14:41:55 INFO  : FPGA configured successfully with bitstream "/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/hw/download.bit"
+14:45:33 INFO  : Checking for BSP changes to sync application flags for project 'sha-2_perf_metrics'...
+14:47:29 INFO  : Checking for BSP changes to sync application flags for project 'sha-2_perf_metrics'...
+14:47:49 INFO  : Bit file '/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/hw/download.bit' is generated.
+14:47:49 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:47:49 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AE9FA" && level==0} -index 0' command is executed.
+14:47:50 INFO  : FPGA configured successfully with bitstream "/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/hw/download.bit"
+14:52:23 INFO  : Checking for BSP changes to sync application flags for project 'sha-2_perf_metrics'...
+14:52:47 INFO  : Checking for BSP changes to sync application flags for project 'sha-2_perf_metrics'...
+14:53:07 INFO  : Bit file '/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/hw/download.bit' is generated.
+14:53:07 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:53:07 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AE9FA" && level==0} -index 0' command is executed.
+14:53:08 INFO  : FPGA configured successfully with bitstream "/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/hw/download.bit"
+14:58:43 INFO  : Bit file '/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/hw/download.bit' is generated.
+14:58:43 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:58:43 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AE9FA" && level==0} -index 0' command is executed.
+14:58:44 INFO  : FPGA configured successfully with bitstream "/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/hw/download.bit"
+15:27:22 INFO  : Launching XSCT server: xsct -n  -interactive /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/temp_xsdb_launch_script.tcl
+15:27:27 INFO  : XSCT server has started successfully.
+15:27:27 INFO  : plnx-install-location is set to ''
+15:27:27 INFO  : Successfully done setting XSCT server connection channel  
+15:27:27 INFO  : Successfully done setting workspace for the tool. 
+15:27:28 INFO  : Successfully done query RDI_DATADIR 
+15:27:28 INFO  : Registering command handlers for Vitis TCF services
+15:31:30 INFO  : Bit file '/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/hw/download.bit' is generated.
+15:31:31 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:31:31 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AE9FA" && level==0} -index 0' command is executed.
+15:31:32 INFO  : FPGA configured successfully with bitstream "/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/hw/download.bit"
+16:59:45 INFO  : Checking for BSP changes to sync application flags for project 'sha-2_perf_metrics'...
+17:01:01 INFO  : Bit file '/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/hw/download.bit' is generated.
+17:01:01 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:01:01 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AE9FA" && level==0} -index 0' command is executed.
+17:01:02 INFO  : FPGA configured successfully with bitstream "/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/hw/download.bit"
+17:01:30 INFO  : Bit file '/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/hw/download.bit' is generated.
+17:01:30 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:01:30 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AE9FA" && level==0} -index 0' command is executed.
+17:01:30 INFO  : FPGA configured successfully with bitstream "/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/hw/download.bit"
+17:31:19 INFO  : Checking for BSP changes to sync application flags for project 'sha-2_perf_metrics'...
+17:42:32 INFO  : Checking for BSP changes to sync application flags for project 'sha-2_perf_metrics'...
+17:42:50 INFO  : Bit file '/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/hw/download.bit' is generated.
+17:42:50 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:42:51 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AE9FA" && level==0} -index 0' command is executed.
+17:42:51 INFO  : FPGA configured successfully with bitstream "/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/hw/download.bit"
+17:49:47 INFO  : Checking for BSP changes to sync application flags for project 'sha-2_perf_metrics'...
+17:50:42 INFO  : Bit file '/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/hw/download.bit' is generated.
+17:50:42 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:50:42 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AE9FA" && level==0} -index 0' command is executed.
+17:50:43 INFO  : FPGA configured successfully with bitstream "/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/hw/download.bit"
+17:52:18 INFO  : Checking for BSP changes to sync application flags for project 'sha-2_perf_metrics'...
+17:52:40 INFO  : Checking for BSP changes to sync application flags for project 'sha-2_perf_metrics'...
+17:53:07 INFO  : Bit file '/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/hw/download.bit' is generated.
+17:53:07 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:53:07 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AE9FA" && level==0} -index 0' command is executed.
+17:53:08 INFO  : FPGA configured successfully with bitstream "/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/hw/download.bit"
+18:28:40 INFO  : Launching XSCT server: xsct -n  -interactive /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/temp_xsdb_launch_script.tcl
+18:28:43 INFO  : XSCT server has started successfully.
+18:28:43 INFO  : plnx-install-location is set to ''
+18:28:43 INFO  : Successfully done setting XSCT server connection channel  
+18:28:43 INFO  : Successfully done setting workspace for the tool. 
+18:28:47 INFO  : Registering command handlers for Vitis TCF services
+18:29:06 INFO  : Successfully done query RDI_DATADIR 
+19:37:01 INFO  : Checking for BSP changes to sync application flags for project 'sha-2_perf_metrics'...
+19:37:27 INFO  : Checking for BSP changes to sync application flags for project 'sha-2_perf_metrics'...
+19:43:05 INFO  : Checking for BSP changes to sync application flags for project 'sha-2_perf_metrics'...
+19:44:22 INFO  : Checking for BSP changes to sync application flags for project 'sha-2_perf_metrics'...
+19:45:53 INFO  : Checking for BSP changes to sync application flags for project 'sha-2_perf_metrics'...
+19:46:09 INFO  : Checking for BSP changes to sync application flags for project 'sha-2_perf_metrics'...
+19:47:38 INFO  : Checking for BSP changes to sync application flags for project 'sha-2_perf_metrics'...
+19:51:48 INFO  : Checking for BSP changes to sync application flags for project 'sha-2_perf_metrics'...
+08:50:53 INFO  : Launching XSCT server: xsct -n  -interactive /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/temp_xsdb_launch_script.tcl
+08:51:02 INFO  : XSCT server has started successfully.
+08:51:02 INFO  : Successfully done setting XSCT server connection channel  
+08:51:02 INFO  : plnx-install-location is set to ''
+08:51:02 INFO  : Successfully done setting workspace for the tool. 
+08:51:04 INFO  : Registering command handlers for Vitis TCF services
+08:51:17 INFO  : Successfully done query RDI_DATADIR 
+13:13:42 ERROR : (XSDB Server)Terminated
+
+16:06:07 INFO  : Launching XSCT server: xsct -n  -interactive /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/temp_xsdb_launch_script.tcl
+16:06:16 INFO  : XSCT server has started successfully.
+16:06:16 INFO  : plnx-install-location is set to ''
+16:06:16 INFO  : Successfully done setting XSCT server connection channel  
+16:06:16 INFO  : Successfully done setting workspace for the tool. 
+16:06:19 INFO  : Registering command handlers for Vitis TCF services
+16:06:36 INFO  : Successfully done query RDI_DATADIR 
