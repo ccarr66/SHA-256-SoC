@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sdx:platform sdx:vendor="xilinx.com"
+              sdx:library="sdx"
+              sdx:name="debug_cpu"
+              sdx:version="1.0"
+              sdx:schemaVersion="1.0"
+              xmlns:sdx="http://www.xilinx.com/sdx">
+    <sdx:description>
+debug_cpu
+    </sdx:description>
+    <sdx:systemConfigurations sdx:defaultConfiguration="debug_cpu">
+        <sdx:configuration sdx:name="debug_cpu"
+                           sdx:displayName="debug_cpu"
+                           sdx:defaultProcessorGroup="standalone_domain"
+                           sdx:runtimes="cpp">
+            <sdx:description>debug_cpu</sdx:description>
+            <sdx:bootImages sdx:default="standard">
+                <sdx:image sdx:name="standard"
+                            sdx:bif="debug_cpu/boot/debug_cpu.bif"
+                            sdx:readme="debug_cpu/boot/generic.readme"
+                            />
+            </sdx:bootImages>
+            <sdx:processorGroup sdx:name="standalone_domain"
+                                sdx:displayName="standalone on microblaze_mcs_0_microblaze_I"
+                                sdx:cpuType="microblaze_mcs_0_microblaze_I"
+                                sdx:cpuInstance="microblaze_mcs_0_microblaze_I">
+                <sdx:os sdx:name="standalone"
+                        sdx:displayName="standalone"
+                        sdx:bspLibraryPaths="debug_cpu/standalone_domain/bsplib/lib"
+                        sdx:bspIncludePaths="debug_cpu/standalone_domain/bspinclude/include"
+                        sdx:bspConfig="debug_cpu/standalone_domain/system.mss"
+                />
+            </sdx:processorGroup>
+        </sdx:configuration>
+    </sdx:systemConfigurations>
+</sdx:platform>

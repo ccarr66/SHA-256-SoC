@@ -47,7 +47,7 @@ all: sha-2_perf_metrics.elf secondary-outputs
 sha-2_perf_metrics.elf: $(OBJS) ../src/lscript.ld $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: MicroBlaze g++ linker'
-	mb-g++ -Wl,-T -Wl,../src/lscript.ld -L/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/export/mcs_top_sampler/sw/mcs_top_sampler/standalone_domain/bsplib/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "sha-2_perf_metrics.elf" $(OBJS) $(USER_OBJS) $(LIBS)
+	mb-g++ -Wl,-T -Wl,../src/lscript.ld -LC:/Users/conno/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/export/mcs_top_sampler/sw/mcs_top_sampler/standalone_domain/bsplib/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "sha-2_perf_metrics.elf" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 

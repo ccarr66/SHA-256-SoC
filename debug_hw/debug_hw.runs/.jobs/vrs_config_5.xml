@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="debug_cpu_v2_rst_0_0_synth_1" LaunchDir="/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_hw/debug_hw.runs/debug_cpu_v2_rst_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="debug_cpu_v2_ilmb_0_synth_1" LaunchDir="/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_hw/debug_hw.runs/debug_cpu_v2_ilmb_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="debug_cpu_v2_ilmb_cntlr_0_synth_1" LaunchDir="/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_hw/debug_hw.runs/debug_cpu_v2_ilmb_cntlr_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="debug_cpu_v2_microblaze_I_0_synth_1" LaunchDir="/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_hw/debug_hw.runs/debug_cpu_v2_microblaze_I_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="debug_cpu_v2_iomodule_0_0_synth_1" LaunchDir="/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_hw/debug_hw.runs/debug_cpu_v2_iomodule_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="debug_cpu_v2_dlmb_cntlr_0_synth_1" LaunchDir="/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_hw/debug_hw.runs/debug_cpu_v2_dlmb_cntlr_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="debug_cpu_v2_mdm_0_0_synth_1" LaunchDir="/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_hw/debug_hw.runs/debug_cpu_v2_mdm_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="debug_cpu_v2_dlmb_0_synth_1" LaunchDir="/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_hw/debug_hw.runs/debug_cpu_v2_dlmb_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="debug_cpu_v2_lmb_bram_I_0_synth_1" LaunchDir="/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_hw/debug_hw.runs/debug_cpu_v2_lmb_bram_I_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="synth_1" LaunchDir="/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_hw/debug_hw.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="debug_cpu_v2_rst_0_0_synth_1"/>
+		<Parent Id="debug_cpu_v2_ilmb_0_synth_1"/>
+		<Parent Id="debug_cpu_v2_ilmb_cntlr_0_synth_1"/>
+		<Parent Id="debug_cpu_v2_microblaze_I_0_synth_1"/>
+		<Parent Id="debug_cpu_v2_iomodule_0_0_synth_1"/>
+		<Parent Id="debug_cpu_v2_dlmb_cntlr_0_synth_1"/>
+		<Parent Id="debug_cpu_v2_mdm_0_0_synth_1"/>
+		<Parent Id="debug_cpu_v2_dlmb_0_synth_1"/>
+		<Parent Id="debug_cpu_v2_lmb_bram_I_0_synth_1"/>
+	</Run>
+	<Run Id="impl_1" LaunchDir="/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_hw/debug_hw.runs/impl_1" FlowId="Vivado_Implementation" FromStepId="init_design" ToStepId="write_bitstream">
+		<Parent Id="synth_1"/>
+		<Parent Id="debug_cpu_v2_rst_0_0_synth_1"/>
+		<Parent Id="debug_cpu_v2_ilmb_0_synth_1"/>
+		<Parent Id="debug_cpu_v2_ilmb_cntlr_0_synth_1"/>
+		<Parent Id="debug_cpu_v2_microblaze_I_0_synth_1"/>
+		<Parent Id="debug_cpu_v2_iomodule_0_0_synth_1"/>
+		<Parent Id="debug_cpu_v2_dlmb_cntlr_0_synth_1"/>
+		<Parent Id="debug_cpu_v2_mdm_0_0_synth_1"/>
+		<Parent Id="debug_cpu_v2_dlmb_0_synth_1"/>
+		<Parent Id="debug_cpu_v2_lmb_bram_I_0_synth_1"/>
+	</Run>
+	<Parameters>
+		<Parameter Name="runs.monitorLSFJobs" Val="true" Type="bool"/>
+		<Parameter Name="runs.enableClusterConf" Val="true" Type="bool"/>
+	</Parameters>
+</Runs>
+

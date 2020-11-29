@@ -1,0 +1,6 @@
+/*debug_cpu*/
+the_ROM_image:
+{
+   <bitstream> 
+   <elf> 
+}

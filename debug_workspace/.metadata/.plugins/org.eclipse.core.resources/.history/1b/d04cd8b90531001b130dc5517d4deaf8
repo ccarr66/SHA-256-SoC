@@ -1,0 +1,18 @@
+#include "sha256.h"
+
+int main()
+{
+	volatile const auto str = "abc";
+
+	volatile auto hash = SHA256(str, 3);
+
+	volatile auto result0 = hash.resultHashValues[0];
+	volatile auto result1 = hash.resultHashValues[1];
+	volatile auto result2 = hash.resultHashValues[2];
+	volatile auto result3 = hash.resultHashValues[3];
+	volatile auto result4 = hash.resultHashValues[4];
+	volatile auto result5 = hash.resultHashValues[5];
+	volatile auto result6 = hash.resultHashValues[6];
+	volatile auto result7 = hash.resultHashValues[7];
+
+}

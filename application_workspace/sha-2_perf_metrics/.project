@@ -3,7 +3,6 @@
 	<name>sha-2_perf_metrics</name>
 	<comment>Created by Vitis v2019.2</comment>
 	<projects>
-		<project>mcs_top_sampler</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>

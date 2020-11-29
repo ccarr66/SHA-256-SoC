@@ -53,7 +53,7 @@ CPP_DEPS += \
 src/%.o: ../src/%.cpp
 	@echo 'Building file: $<'
 	@echo 'Invoking: MicroBlaze g++ compiler'
-	mb-g++ -Wall -O2 -c -fmessage-length=0 -MT"$@" -I/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/export/mcs_top_sampler/sw/mcs_top_sampler/standalone_domain/bspinclude/include -mno-xl-reorder -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@)" -o "$@" "$<"
+	mb-g++ -Wall -O2 -c -fmessage-length=0 -MT"$@" -IC:/Users/conno/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/export/mcs_top_sampler/sw/mcs_top_sampler/standalone_domain/bspinclude/include -mno-xl-reorder -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@)" -o "$@" "$<"
 	@echo 'Finished building: $<'
 	@echo ' '
 

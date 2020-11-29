@@ -1,6 +1,6 @@
-2020-11-22T19:51:48.06937300255-19:51:48 **** Incremental Build of configuration Debug for project sha-2_perf_metrics ****
+2020-11-27T09:53:42.19639500255-09:53:42 **** Incremental Build of configuration Debug for project sha-2_perf_metrics ****
 000-make all 
 000-make: Nothing to be done for 'all'.
 00255-
-19:51:48 Build Finished (took 521ms)
+09:53:42 Build Finished (took 472ms)
 

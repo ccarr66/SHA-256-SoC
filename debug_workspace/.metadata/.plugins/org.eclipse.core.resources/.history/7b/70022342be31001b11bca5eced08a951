@@ -1,0 +1,14 @@
+#include "sha256.h"
+
+int main()
+{
+
+	while(1)
+	{
+		volatile static int counter = 0;
+		counter++;
+		volatile auto hash = SHA256("abc", 3);
+	}
+
+
+}

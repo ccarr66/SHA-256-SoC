@@ -22,7 +22,7 @@ RMDIR = rm -rf
 all: sd_card
 
 sd_card:
-	-@echo Skipping SD card image generation. Reason: "The system project only has applications for microblaze processors."
+	-@echo Skipping SD card image generation. Reason: "Invalid platform for the system project - /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/export/mcs_top_sampler/mcs_top_sampler.xpfm"
 
 clean:
 	$(RMDIR) ./_sds

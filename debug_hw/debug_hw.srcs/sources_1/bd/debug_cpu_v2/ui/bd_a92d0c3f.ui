@@ -1,0 +1,44 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.708674",
+   "Default View_TopLeft":"278,-334",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0.21  2019-05-29 bk=1.5064 VDI=41 GEI=36 GUI=JA:9.0 TLS
+#  -string -flagsOSRD
+preplace port UART -pg 1 -lvl 2 -x 2100 -y 400 -defaultsOSRD
+preplace port Clk -pg 1 -lvl 0 -x -80 -y 190 -defaultsOSRD
+preplace port Reset -pg 1 -lvl 0 -x -80 -y 280 -defaultsOSRD
+preplace inst dlmb -pg 1 -lvl 1 -x 1010 -y -940 -defaultsOSRD
+preplace inst dlmb_cntlr -pg 1 -lvl 1 -x 1010 -y -800 -defaultsOSRD
+preplace inst ilmb -pg 1 -lvl 1 -x 1010 -y -660 -defaultsOSRD
+preplace inst ilmb_cntlr -pg 1 -lvl 1 -x 1010 -y 570 -defaultsOSRD
+preplace inst iomodule_0 -pg 1 -lvl 1 -x 1010 -y -520 -defaultsOSRD
+preplace inst lmb_bram_I -pg 1 -lvl 1 -x 1010 -y 440 -defaultsOSRD
+preplace inst mdm_0 -pg 1 -lvl 1 -x 1010 -y -380 -defaultsOSRD
+preplace inst microblaze_I -pg 1 -lvl 1 -x 1010 -y -160 -defaultsOSRD
+preplace inst rst_0 -pg 1 -lvl 1 -x 1010 -y 80 -defaultsOSRD
+preplace inst xlconcat_0 -pg 1 -lvl 1 -x 1010 -y 230 -defaultsOSRD
+preplace netloc Clk3 1 0 1 -60 -940n
+preplace netloc Dbg_Wakeup 1 0 2 60 340 1310
+preplace netloc Debug_SYS_Rst 1 0 2 -10 680 1380
+preplace netloc IO_Rst 1 0 2 -30 690 1350
+preplace netloc LMB_Rst1 1 0 2 -40 670 1320
+preplace netloc MB_Reset 1 0 2 30 350 1300
+preplace netloc Reset 1 0 1 -50J 60n
+preplace netloc Wakeup 1 0 2 40 360 1260
+preplace netloc mdm_0_ARESETN 1 0 2 -20 700 1340
+preplace netloc dlmb 1 0 2 0 300 1290
+preplace netloc dlmb_port 1 0 2 60 370 1370
+preplace netloc dlmb_sl_0 1 0 2 -30 -1030 1390
+preplace netloc dlmb_sl_1 1 0 2 -20 -1020 1260
+preplace netloc ilmb 1 0 2 10 310 1280
+preplace netloc ilmb_port 1 0 2 50 660 1260
+preplace netloc ilmb_sl_0 1 0 2 60 650 1360
+preplace netloc iomodule_0_UART 1 1 1 1390 -520n
+preplace netloc mdm_0_s_axi 1 0 2 20 320 1270
+preplace netloc microblaze_I_mdm_bus 1 0 2 50 330 1330
+levelinfo -pg 1 -80 1010 2100
+pagesize -pg 1 -db -bbox -sgen -170 -1040 2190 970
+"
+}
+

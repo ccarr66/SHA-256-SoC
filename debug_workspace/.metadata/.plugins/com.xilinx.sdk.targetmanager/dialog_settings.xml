@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="Local" key="debug_hw-target"/>
+	<item value="false" key="debug_hw-skip_rev_check"/>
+	<item value="/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_hw/_ide/bitstream/debug_cpu.mmi" key="debug_hw-bmmFile"/>
+	<item value="false" key="debug_hw-partial_bit"/>
+	<item value="Auto Detect" key="debug_hw-device"/>
+	<item value="debug_hw" key="programfpga.sdxproject"/>
+	<item value="/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_hw/_ide/bitstream/debug_cpu.bit" key="debug_hw-bitFile"/>
+	<item value="/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_hw/Debug/debug_hw.elf" key="debug_hw-microblaze_mcs_0_microblaze_I-initElf"/>
+</section>

@@ -1,0 +1,110 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x91577990535E6437",
+      "device": "xc7a100tcsg324-1",
+      "name": "debug_cpu",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2019.2.1",
+      "validated": "true"
+    },
+    "design_tree": {
+      "microblaze_mcs_0": ""
+    },
+    "interface_ports": {
+      "usb_uart": {
+        "mode": "Master",
+        "vlnv": "xilinx.com:interface:uart_rtl:1.0"
+      }
+    },
+    "ports": {
+      "sys_clock": {
+        "type": "clk",
+        "direction": "I",
+        "parameters": {
+          "CLK_DOMAIN": {
+            "value": "debug_cpu_sys_clock",
+            "value_src": "default"
+          },
+          "FREQ_HZ": {
+            "value": "100000000"
+          },
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "PHASE": {
+            "value": "0.000"
+          }
+        }
+      },
+      "reset": {
+        "type": "rst",
+        "direction": "I",
+        "parameters": {
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "POLARITY": {
+            "value": "ACTIVE_LOW"
+          }
+        }
+      }
+    },
+    "components": {
+      "microblaze_mcs_0": {
+        "vlnv": "xilinx.com:ip:microblaze_mcs:3.0",
+        "xci_name": "debug_cpu_microblaze_mcs_0_0",
+        "parameters": {
+          "CLK_BOARD_INTERFACE": {
+            "value": "sys_clock"
+          },
+          "DEBUG_ENABLED": {
+            "value": "2"
+          },
+          "MEMSIZE": {
+            "value": "65536"
+          },
+          "RESET_BOARD_INTERFACE": {
+            "value": "reset"
+          },
+          "UART_BOARD_INTERFACE": {
+            "value": "usb_uart"
+          },
+          "USE_BOARD_FLOW": {
+            "value": "true"
+          }
+        },
+        "interface_ports": {
+          "UART": {
+            "mode": "Master",
+            "vlnv": "xilinx.com:interface:uart_rtl:1.0"
+          }
+        }
+      }
+    },
+    "interface_nets": {
+      "microblaze_mcs_0_UART": {
+        "interface_ports": [
+          "usb_uart",
+          "microblaze_mcs_0/UART"
+        ]
+      }
+    },
+    "nets": {
+      "sys_clock_1": {
+        "ports": [
+          "sys_clock",
+          "microblaze_mcs_0/Clk"
+        ]
+      },
+      "reset_1": {
+        "ports": [
+          "reset",
+          "microblaze_mcs_0/Reset"
+        ]
+      }
+    }
+  }
+}

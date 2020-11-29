@@ -1,0 +1,33 @@
+-- Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+-- --------------------------------------------------------------------------------
+-- Tool Version: Vivado v.2019.2.1 (lin64) Build 2729669 Thu Dec  5 04:48:12 MST 2019
+-- Date        : Fri Nov 27 09:15:49 2020
+-- Host        : connors-workstation running 64-bit Ubuntu 18.04.5 LTS
+-- Command     : write_vhdl -force -mode synth_stub
+--               /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_hw/debug_hw.srcs/sources_1/bd/debug_cpu/ip/debug_cpu_microblaze_mcs_0_0/debug_cpu_microblaze_mcs_0_0_stub.vhdl
+-- Design      : debug_cpu_microblaze_mcs_0_0
+-- Purpose     : Stub declaration of top-level module interface
+-- Device      : xc7a100tcsg324-1
+-- --------------------------------------------------------------------------------
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+entity debug_cpu_microblaze_mcs_0_0 is
+  Port ( 
+    Clk : in STD_LOGIC;
+    Reset : in STD_LOGIC;
+    UART_rxd : in STD_LOGIC;
+    UART_txd : out STD_LOGIC
+  );
+
+end debug_cpu_microblaze_mcs_0_0;
+
+architecture stub of debug_cpu_microblaze_mcs_0_0 is
+attribute syn_black_box : boolean;
+attribute black_box_pad_pin : string;
+attribute syn_black_box of stub : architecture is true;
+attribute black_box_pad_pin of stub : architecture is "Clk,Reset,UART_rxd,UART_txd";
+attribute X_CORE_INFO : string;
+attribute X_CORE_INFO of stub : architecture is "bd_6665,Vivado 2019.2.1";
+begin
+end;

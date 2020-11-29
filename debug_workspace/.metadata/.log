@@ -1,0 +1,990 @@
+!SESSION 2020-11-29 13:11:55.823 -----------------------------------------------
+eclipse.buildId=2019.2
+java.version=9.0.4
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+This is a continuation of log file /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/.metadata/.bak_0.log
+Created Time: 2020-11-29 13:12:37.456
+!SESSION 2020-11-29 13:11:55.823 -----------------------------------------------
+eclipse.buildId=2019.2
+java.version=9.0.4
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.core.resources 2 10035 2020-11-29 13:12:37.457
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.emf.ecore 2 0 2020-11-29 13:12:39.193
+!MESSAGE Both 'com.autoesl.autopilot.ui.models' and 'com.autoesl.autopilot.ui.models' register a package for 'com.autoesl.autopilot.solution'
+
+!ENTRY org.eclipse.launchbar.core 2 0 2020-11-29 13:12:50.323
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2020-11-29 13:12:50.344
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2020-11-29 13:12:50.344
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.ui 4 4 2020-11-29 13:13:06.818
+!MESSAGE Conflicting handlers for com.xilinx.sdx.system.core.importSourcesCommand: {com.xilinx.sdx.system.core.handler.ImportSourcesHandler} vs {com.xilinx.sdx.system.core.handler.ImportSourcesHandler}
+
+!ENTRY org.eclipse.ui 4 4 2020-11-29 13:13:06.820
+!MESSAGE Conflicting handlers for com.xilinx.sdx.system.core.importSourcesCommand: {com.xilinx.sdx.system.core.handler.ImportSourcesHandler} vs {com.xilinx.sdx.system.core.handler.ImportSourcesHandler}
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-29 13:13:17.242
+!MESSAGE XSCT Command: [set sdk::sdk_chan tcfchan#0], Thread: Thread-14
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-29 13:13:17.243
+!MESSAGE XSCT Command: [plnx-install-path  ; ::scw::scw_mode gui], Thread: Thread-5
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-29 13:13:17.244
+!MESSAGE XSCT Command: [enable_info_messages], Thread: Worker-6: Enabling info messages in xsct server
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-29 13:13:17.263
+!MESSAGE XSCT command with result: [plnx-install-path  ; ::scw::scw_mode gui], Result: [null, ]. Thread: Thread-5
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-29 13:13:17.279
+!MESSAGE XSCT command with result: [set sdk::sdk_chan tcfchan#0], Result: [null, tcfchan#0]. Thread: Thread-14
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-29 13:13:17.298
+!MESSAGE XSCT command with result: [enable_info_messages], Result: [null, ]. Thread: Worker-6: Enabling info messages in xsct server
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-29 13:13:17.298
+!MESSAGE XSCT Command: [setws /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace], Thread: Thread-14
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-29 13:13:17.300
+!MESSAGE XSCT command with result: [setws /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace], Result: [null, ]. Thread: Thread-14
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-29 13:13:24.396
+!MESSAGE XSCT Command: [::hsi::utils::init_repo], Thread: Worker-2: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-29 13:14:23.219
+!MESSAGE XSCT command with result: [::hsi::utils::init_repo], Result: [null, ]. Thread: Worker-2: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-29 13:14:23.221
+!MESSAGE XSCT Command: [set query_var1 $::env(RDI_DATADIR)], Thread: Worker-2: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-29 13:14:23.224
+!MESSAGE XSCT command with result: [set query_var1 $::env(RDI_DATADIR)], Result: [null, /home/connor/Tools/Xilinx/Vitis/2019.2/data]. Thread: Worker-2: Initializing s/w repositories
+
+!ENTRY org.eclipse.ui 4 4 2020-11-29 13:16:29.687
+!MESSAGE Conflicting handlers for com.xilinx.sdx.system.core.importSourcesCommand: {com.xilinx.sdx.system.core.handler.ImportSourcesHandler@128921c4} vs {com.xilinx.sdx.system.core.handler.ImportSourcesHandler}
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-29 13:16:29.857
+!MESSAGE XSCT Command: [::hsi::utils::openhw /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_cpu/export/debug_cpu/hw/debug_cpu.xsa], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-29 13:16:30.062
+!MESSAGE XSCT command with result: [::hsi::utils::openhw /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_cpu/export/debug_cpu/hw/debug_cpu.xsa], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-29 13:16:30.063
+!MESSAGE XSCT Command: [::hsi::utils::get_design_properties -json /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_cpu/export/debug_cpu/hw/debug_cpu.xsa], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-29 13:16:30.079
+!MESSAGE XSCT command with result: [::hsi::utils::get_design_properties -json /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_cpu/export/debug_cpu/hw/debug_cpu.xsa], Result: [null, {"device": "7a100t",
+"family": "artix7",
+"timestamp": "Fri Nov 27 09:21:40 2020",
+"vivado_version": "2019.2.1",
+"part": "xc7a100tcsg324-1",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-29 13:16:30.081
+!MESSAGE XSCT Command: [::hsi::utils::get_all_periphs -json /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_cpu/export/debug_cpu/hw/debug_cpu.xsa], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-29 13:16:30.085
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_periphs -json /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_cpu/export/debug_cpu/hw/debug_cpu.xsa], Result: [null, {"microblaze_mcs_0": {"hier_name": "microblaze_mcs_0",
+"type": "microblaze_mcs",
+"version": "3.0",
+"ip_type": "PERIPHERAL",
+},
+"microblaze_mcs_0_dlmb": {"hier_name": "microblaze_mcs_0/microblaze_mcs_0_dlmb",
+"type": "lmb_v10",
+"version": "3.0",
+"ip_type": "BUS",
+},
+"microblaze_mcs_0_dlmb_cntlr": {"hier_name": "microblaze_mcs_0/microblaze_mcs_0_dlmb_cntlr",
+"type": "lmb_bram_if_cntlr",
+"version": "4.0",
+"ip_type": "MEMORY_CNTLR",
+},
+"microblaze_mcs_0_ilmb": {"hier_name": "microblaze_mcs_0/microblaze_mcs_0_ilmb",
+"type": "lmb_v10",
+"version": "3.0",
+"ip_type": "BUS",
+},
+"microblaze_mcs_0_ilmb_cntlr": {"hier_name": "microblaze_mcs_0/microblaze_mcs_0_ilmb_cntlr",
+"type": "lmb_bram_if_cntlr",
+"version": "4.0",
+"ip_type": "MEMORY_CNTLR",
+},
+"microblaze_mcs_0_iomodule_0": {"hier_name": "microblaze_mcs_0/microblaze_mcs_0_iomodule_0",
+"type": "iomodule",
+"version": "3.1",
+"ip_type": "PERIPHERAL",
+},
+"microblaze_mcs_0_lmb_bram_I": {"hier_name": "microblaze_mcs_0/microblaze_mcs_0_lmb_bram_I",
+"type": "blk_mem_gen",
+"version": "8.4",
+"ip_type": "MEMORY",
+},
+"microblaze_mcs_0_mdm_0": {"hier_name": "microblaze_mcs_0/microblaze_mcs_0_mdm_0",
+"type": "mdm",
+"version": "3.2",
+"ip_type": "DEBUG",
+},
+"microblaze_mcs_0_microblaze_I": {"hier_name": "microblaze_mcs_0/microblaze_mcs_0_microblaze_I",
+"type": "microblaze",
+"version": "11.0",
+"ip_type": "PROCESSOR",
+},
+"microblaze_mcs_0_rst_0": {"hier_name": "microblaze_mcs_0/microblaze_mcs_0_rst_0",
+"type": "proc_sys_reset",
+"version": "5.0",
+"ip_type": "PERIPHERAL",
+},
+"microblaze_mcs_0_xlconcat_0": {"hier_name": "microblaze_mcs_0/microblaze_mcs_0_xlconcat_0",
+"type": "xlconcat",
+"version": "2.1",
+"ip_type": "PERIPHERAL",
+},
+}]. Thread: main
+
+!ENTRY org.eclipse.jface 4 0 2020-11-29 13:16:33.290
+!MESSAGE The command ("com.xilinx.sdx.system.debug.launch.SdxMultiLaunchShortcut.run") is undefined
+!STACK 0
+java.lang.Exception
+	at org.eclipse.jface.action.ExternalActionManager$CommandCallback.isActive(ExternalActionManager.java:364)
+	at org.eclipse.jface.action.ActionContributionItem.isCommandActive(ActionContributionItem.java:626)
+	at org.eclipse.jface.action.ActionContributionItem.isVisible(ActionContributionItem.java:682)
+	at org.eclipse.jface.action.ContributionItem.toString(ContributionItem.java:200)
+	at com.xilinx.sdx.robot.widget.utils.RobotUidUtils.getDataAsString(RobotUidUtils.java:132)
+	at com.xilinx.sdx.robot.widget.utils.RobotUidUtils._getCanonicalName(RobotUidUtils.java:523)
+	at com.xilinx.sdx.robot.widget.utils.RobotUidUtils.getUid(RobotUidUtils.java:169)
+	at com.xilinx.sdx.robot.recorder.RobotRecorder._generateRobotFunction(RobotRecorder.java:145)
+	at com.xilinx.sdx.robot.recorder.RobotRecorder.processEvent(RobotRecorder.java:137)
+	at com.xilinx.sdx.robot.recorder.RobotRecorder$_RobotRecorderBotGeneratorEventDispatcher.handleEvent(RobotRecorder.java:617)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:86)
+	at org.eclipse.swt.widgets.Display.filterEvent(Display.java:1721)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1369)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4940)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4518)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1170)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1059)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:667)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:597)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at com.xilinx.ide.application.ui.Application.start(Application.java:78)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:656)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1471)
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-29 13:16:33.493
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_cpu/export/debug_cpu/hw/debug_cpu.xsa microblaze_mcs_0_microblaze_I C_DEBUG_ENABLED], Thread: Worker-5: Launching SystemDebugger_debug_hw_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-29 13:16:33.494
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_cpu/export/debug_cpu/hw/debug_cpu.xsa microblaze_mcs_0_microblaze_I C_DEBUG_ENABLED], Result: [null, 1]. Thread: Worker-5: Launching SystemDebugger_debug_hw_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-29 13:16:33.495
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_cpu/export/debug_cpu/hw/debug_cpu.xsa microblaze_mcs_0_microblaze_I C_DEBUG_PROFILE_SIZE], Thread: Worker-5: Launching SystemDebugger_debug_hw_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-29 13:16:33.496
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_cpu/export/debug_cpu/hw/debug_cpu.xsa microblaze_mcs_0_microblaze_I C_DEBUG_PROFILE_SIZE], Result: [null, 0]. Thread: Worker-5: Launching SystemDebugger_debug_hw_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-29 13:16:33.497
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_cpu/export/debug_cpu/hw/debug_cpu.xsa microblaze_mcs_0_microblaze_I C_FREQ], Thread: Worker-5: Launching SystemDebugger_debug_hw_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-29 13:16:33.498
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_cpu/export/debug_cpu/hw/debug_cpu.xsa microblaze_mcs_0_microblaze_I C_FREQ], Result: [null, 100000000]. Thread: Worker-5: Launching SystemDebugger_debug_hw_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-29 13:16:33.661
+!MESSAGE XSCT Command: [::hsi::utils::get_ps_config_params -json /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_cpu/export/debug_cpu/hw/debug_cpu.xsa], Thread: Worker-5: Launching SystemDebugger_debug_hw_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-29 13:16:33.665
+!MESSAGE XSCT command with result: [::hsi::utils::get_ps_config_params -json /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_cpu/export/debug_cpu/hw/debug_cpu.xsa], Result: [null, {}]. Thread: Worker-5: Launching SystemDebugger_debug_hw_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-29 13:16:33.666
+!MESSAGE XSCT Command: [::hsi::utils::get_all_register_data -json /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_cpu/export/debug_cpu/hw/debug_cpu.xsa microblaze_mcs_0_microblaze_I], Thread: Worker-5: Launching SystemDebugger_debug_hw_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-29 13:16:33.682
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_register_data -json /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_cpu/export/debug_cpu/hw/debug_cpu.xsa microblaze_mcs_0_microblaze_I], Result: [null, {"microblaze_mcs_0_dlmb_cntlr": {},
+"microblaze_mcs_0_ilmb_cntlr": {},
+"microblaze_mcs_0_iomodule_0": {"UART_RX": {"description": "UART Receive Data Register",
+"address_offset": "0x0",
+"access": "read-only",
+"size": "8",
+"interface": "SLMB",
+"fields": {"UART_RX": {"access": "read-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "8",
+"desc": "Data received by the UART.",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "modify",
+},
+},
+"memoryAddr": 2147483648,
+},
+"UART_TX": {"description": "UART Transmit Data Register",
+"address_offset": "0x4",
+"access": "write-only",
+"size": "8",
+"interface": "SLMB",
+"fields": {"UART_TX": {"access": "write-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "8",
+"desc": "Data to be transmitted by the UART.",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 2147483652,
+},
+"UART_Status": {"description": "UART Status Register",
+"address_offset": "0x8",
+"access": "read-only",
+"size": "8",
+"interface": "SLMB",
+"fields": {"Rx_Valid_Data": {"access": "read-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates if the receive register has valid data:
+  0 - Receive register is empty.
+  1 - Receive register has valid data.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Tx_Used": {"access": "read-only",
+"bit_offset": "3",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates if the transmit register is in use:
+  0 - Transmit register is not in use.
+  1 - Transmit register is in use.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Overrun_Error": {"access": "read-only",
+"bit_offset": "5",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates that an overrun error has occurred:
+  0 - No overrun has occurred.
+  1 - An overrun has occurred.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Frame_Error": {"access": "read-only",
+"bit_offset": "6",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates that an frame error has occurred:
+  0 - No frame error has occurred.
+  1 - A frame error has occurred.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Parity_Error": {"access": "read-only",
+"bit_offset": "7",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates that a parity error has occurred:
+  0 - No parity error has occurred.
+  1 - A parity error occurred.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 2147483656,
+},
+"IRQ_MODE": {"description": "Interrupt Mode Register",
+"address_offset": "0xC",
+"access": "write-only",
+"size": "17",
+"interface": "SLMB",
+"fields": {"IRQ_Mode": {"access": "write-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "17",
+"desc": "Interrupt Mode.
+For each bit:
+  W - When written with 1 the corresponding interrupt will use fast mode.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 2147483660,
+},
+},
+"microblaze_mcs_0_mdm_0": {"UART_Receive": {"description": "JTAG UART Receive Data",
+"address_offset": "0x0",
+"access": "read-only",
+"size": "8",
+"interface": "S_AXI",
+"fields": {"UART_RX": {"access": "read-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "8",
+"desc": "UART Receive Data.",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "modify",
+},
+},
+"memoryAddr": 1073741824,
+},
+"UART_Transmit": {"description": "JTAG UART Transmit Data",
+"address_offset": "0x4",
+"access": "write-only",
+"size": "8",
+"interface": "S_AXI",
+"fields": {"UART_TX": {"access": "write-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "8",
+"desc": "UART Transmit Data.",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1073741828,
+},
+"UART_Status": {"description": "JTAG UART Status Register",
+"address_offset": "0x8",
+"access": "read-only",
+"size": "5",
+"interface": "S_AXI",
+"fields": {"RX_FIFO_Valid_Data": {"access": "read-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates if the receive FIFO has valid data:
+  0 - Receive FIFO is empty.
+  1 - Receive FIFO has valid data.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"RX_FIFO_Full": {"access": "read-only",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates if the receive FIFO is full:
+  0 - Receive FIFO is not full.
+  1 - Receive FIFO is full.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"TX_FIFO_Empty": {"access": "read-only",
+"bit_offset": "2",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates if the transmit FIFO is empty:
+  0 - Transmit FIFO is not empty.
+  1 - Transmit FIFO is empty.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"TX_FIFO_Full": {"access": "read-only",
+"bit_offset": "3",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates if the transmit FIFO is full:
+  0 - Transmit FIFO is not full.
+  1 - Transmit FIFO is full.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Interrupt_Enabled": {"access": "read-only",
+"bit_offset": "4",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates that interrupt is enabled:
+  0 - Interrupt is disabled.
+  1 - Interrupt is enabled.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1073741832,
+},
+"UART_Control": {"description": "JTAG UART Control Register",
+"address_offset": "0xC",
+"access": "write-only",
+"size": "5",
+"interface": "S_AXI",
+"fields": {"Reset_TX_FIFO": {"access": "write-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Reset/clear the transmit FIFO:
+  0 - Do nothing.
+  1 - Clear the transmit FIFO.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Reset_RX_FIFO": {"access": "write-only",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Reset/clear the receive FIFO:
+  0 - Do nothing.
+  1 - Clear the receive FIFO.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Clear_EXT_BRK": {"access": "write-only",
+"bit_offset": "2",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Clear the EXT_BRK signal set by JTAG:
+  0 - Do nothing.
+  1 - Clear the signal.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Interrupt_Enabled": {"access": "write-only",
+"bit_offset": "4",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates interrupt for the MDM JTAG UART:
+  0 - Disable interrupt interrupt.
+  1 - Enable interrupt signal.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1073741836,
+},
+},
+}]. Thread: Worker-5: Launching SystemDebugger_debug_hw_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-29 13:16:33.684
+!MESSAGE XSCT Command: [::hsi::utils::get_addr_ranges -json /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_cpu/export/debug_cpu/hw/debug_cpu.xsa microblaze_mcs_0_microblaze_I], Thread: Worker-5: Launching SystemDebugger_debug_hw_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-29 13:16:33.688
+!MESSAGE XSCT command with result: [::hsi::utils::get_addr_ranges -json /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_cpu/export/debug_cpu/hw/debug_cpu.xsa microblaze_mcs_0_microblaze_I], Result: [null, {"microblaze_mcs_0/microblaze_mcs_0_mdm_0_S_AXI": {"name": "microblaze_mcs_0/microblaze_mcs_0_mdm_0",
+"base": "0x40000000",
+"high": "0x4000FFFF",
+"size": "65536",
+"slaveintf": "S_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"microblaze_mcs_0/microblaze_mcs_0_iomodule_0_SLMB": {"name": "microblaze_mcs_0/microblaze_mcs_0_iomodule_0",
+"base": "0x80000000",
+"high": "0x8000FFFF",
+"size": "65536",
+"slaveintf": "SLMB",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"microblaze_mcs_0/microblaze_mcs_0_dlmb_cntlr_SLMB_Mem": {"name": "microblaze_mcs_0/microblaze_mcs_0_dlmb_cntlr",
+"base": "0x00000000",
+"high": "0x0000FFFF",
+"size": "65536",
+"slaveintf": "SLMB",
+"type": "MEMORY",
+"flags": "7",
+"segment": "Mem",
+"acctype": "",
+"tz": "",
+},
+}]. Thread: Worker-5: Launching SystemDebugger_debug_hw_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-29 13:16:33.689
+!MESSAGE XSCT Command: [::hsi::utils::get_cpu_nr -json /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_cpu/export/debug_cpu/hw/debug_cpu.xsa], Thread: Worker-5: Launching SystemDebugger_debug_hw_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-29 13:16:33.691
+!MESSAGE XSCT command with result: [::hsi::utils::get_cpu_nr -json /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_cpu/export/debug_cpu/hw/debug_cpu.xsa], Result: [null, {"microblaze_mcs_0_microblaze_I": {"bscan": "2",
+"index": "0",
+},
+}]. Thread: Worker-5: Launching SystemDebugger_debug_hw_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-29 13:16:33.706
+!MESSAGE XSCT Command: [::hsi::utils::get_addr_ranges -json /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_cpu/export/debug_cpu/hw/debug_cpu.xsa microblaze_mcs_0_mdm_0], Thread: Worker-5: Launching SystemDebugger_debug_hw_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-29 13:16:33.708
+!MESSAGE XSCT command with result: [::hsi::utils::get_addr_ranges -json /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_cpu/export/debug_cpu/hw/debug_cpu.xsa microblaze_mcs_0_mdm_0], Result: [null, {}]. Thread: Worker-5: Launching SystemDebugger_debug_hw_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-29 13:16:33.708
+!MESSAGE XSCT Command: [::hsi::utils::get_all_register_data -json /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_cpu/export/debug_cpu/hw/debug_cpu.xsa microblaze_mcs_0_mdm_0], Thread: Worker-5: Launching SystemDebugger_debug_hw_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-29 13:16:33.710
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_register_data -json /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_cpu/export/debug_cpu/hw/debug_cpu.xsa microblaze_mcs_0_mdm_0], Result: [null, {"microblaze_mcs_0_microblaze_I": {},
+}]. Thread: Worker-5: Launching SystemDebugger_debug_hw_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-29 13:16:33.710
+!MESSAGE XSCT Command: [::hsi::utils::get_connected_periphs /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_cpu/export/debug_cpu/hw/debug_cpu.xsa microblaze_mcs_0_mdm_0], Thread: Worker-5: Launching SystemDebugger_debug_hw_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-29 13:16:33.711
+!MESSAGE XSCT command with result: [::hsi::utils::get_connected_periphs /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_cpu/export/debug_cpu/hw/debug_cpu.xsa microblaze_mcs_0_mdm_0], Result: [null, microblaze_mcs_0_microblaze_I]. Thread: Worker-5: Launching SystemDebugger_debug_hw_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-29 13:16:33.711
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_cpu/export/debug_cpu/hw/debug_cpu.xsa microblaze_mcs_0_microblaze_I C_DEBUG_EVENT_COUNTERS], Thread: Worker-5: Launching SystemDebugger_debug_hw_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-29 13:16:33.712
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_cpu/export/debug_cpu/hw/debug_cpu.xsa microblaze_mcs_0_microblaze_I C_DEBUG_EVENT_COUNTERS], Result: [null, 5]. Thread: Worker-5: Launching SystemDebugger_debug_hw_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-29 13:16:33.713
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_cpu/export/debug_cpu/hw/debug_cpu.xsa microblaze_mcs_0_microblaze_I C_DEBUG_COUNTER_WIDTH], Thread: Worker-5: Launching SystemDebugger_debug_hw_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-29 13:16:33.714
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_cpu/export/debug_cpu/hw/debug_cpu.xsa microblaze_mcs_0_microblaze_I C_DEBUG_COUNTER_WIDTH], Result: [null, 32]. Thread: Worker-5: Launching SystemDebugger_debug_hw_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-29 13:16:33.715
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-5: Launching SystemDebugger_debug_hw_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-29 13:16:34.619
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#1]. Thread: Worker-5: Launching SystemDebugger_debug_hw_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-29 13:16:34.621
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-5: Launching SystemDebugger_debug_hw_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-29 13:16:34.778
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Nexys4DDR 210292A8AE9FA]. Thread: Worker-5: Launching SystemDebugger_debug_hw_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-29 13:16:34.779
+!MESSAGE XSCT Command: [version -server], Thread: Worker-5: Launching SystemDebugger_debug_hw_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-29 13:16:34.781
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2019.2.1]. Thread: Worker-5: Launching SystemDebugger_debug_hw_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-29 13:16:34.781
+!MESSAGE XSCT Command: [version], Thread: Worker-5: Launching SystemDebugger_debug_hw_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-29 13:16:34.782
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2019.2.1
+SW Build 2729669 on Thu Dec  5 04:48:12 MST 2019
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-5: Launching SystemDebugger_debug_hw_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-29 13:16:34.802
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-5: Launching SystemDebugger_debug_hw_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-29 13:16:34.807
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Nexys4DDR 210292A8AE9FA]. Thread: Worker-5: Launching SystemDebugger_debug_hw_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-29 13:16:34.807
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AE9FA" && level==1}], Thread: Worker-5: Launching SystemDebugger_debug_hw_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-29 13:16:34.821
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AE9FA" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-5: Launching SystemDebugger_debug_hw_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-29 13:16:34.822
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-5: Launching SystemDebugger_debug_hw_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-29 13:16:34.826
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Nexys4DDR 210292A8AE9FA]. Thread: Worker-5: Launching SystemDebugger_debug_hw_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-29 13:16:34.826
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AE9FA" && level==1}], Thread: Worker-5: Launching SystemDebugger_debug_hw_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-29 13:16:34.838
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AE9FA" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-5: Launching SystemDebugger_debug_hw_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-29 13:16:34.838
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-5: Launching SystemDebugger_debug_hw_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-29 13:16:34.842
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Nexys4DDR 210292A8AE9FA]. Thread: Worker-5: Launching SystemDebugger_debug_hw_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-29 13:16:34.842
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AE9FA" && level==1}], Thread: Worker-5: Launching SystemDebugger_debug_hw_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-29 13:16:34.854
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AE9FA" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-5: Launching SystemDebugger_debug_hw_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-29 13:16:34.855
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-5: Launching SystemDebugger_debug_hw_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-29 13:16:34.859
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Nexys4DDR 210292A8AE9FA]. Thread: Worker-5: Launching SystemDebugger_debug_hw_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-29 13:16:34.859
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AE9FA" && level==1}], Thread: Worker-5: Launching SystemDebugger_debug_hw_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-29 13:16:34.871
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AE9FA" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-5: Launching SystemDebugger_debug_hw_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-29 13:16:34.871
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent Nexys4DDR 210292A8AE9FA" && level == 0}], Thread: Worker-5: Launching SystemDebugger_debug_hw_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-29 13:16:34.883
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent Nexys4DDR 210292A8AE9FA" && level == 0}], Result: [null, ]. Thread: Worker-5: Launching SystemDebugger_debug_hw_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-29 13:16:34.884
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-5: Launching SystemDebugger_debug_hw_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-29 13:16:34.885
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-5: Launching SystemDebugger_debug_hw_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-29 13:16:34.885
+!MESSAGE XSCT Command: [::hsi::utils::get_clock_info -json /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_cpu/export/debug_cpu/hw/debug_cpu.xsa microblaze_mcs_0_microblaze_I], Thread: Worker-5: Launching SystemDebugger_debug_hw_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-29 13:16:34.887
+!MESSAGE XSCT command with result: [::hsi::utils::get_clock_info -json /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_cpu/export/debug_cpu/hw/debug_cpu.xsa microblaze_mcs_0_microblaze_I], Result: [null, {"Clk": "100000000",
+"Dbg_Clk": "",
+}]. Thread: Worker-5: Launching SystemDebugger_debug_hw_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-29 13:16:34.936
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-29 13:16:34.942
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4DDR 210292A8AE9FA]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-29 13:16:34.942
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AE9FA" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-29 13:16:34.958
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AE9FA" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-29 13:16:34.959
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AE9FA" && level==0} -index 0], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-29 13:16:34.974
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AE9FA" && level==0} -index 0], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-29 13:16:34.975
+!MESSAGE XSCT Command: [fpga -file /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_hw/_ide/bitstream/download.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-29 13:16:37.182
+!MESSAGE XSCT command with result: [fpga -file /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_hw/_ide/bitstream/download.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-29 13:16:37.224
+!MESSAGE XSCT Command: [configparams mdm-detect-bscan-mask 2], Thread: Worker-5: Launching SystemDebugger_debug_hw_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-29 13:16:37.228
+!MESSAGE XSCT command with result: [configparams mdm-detect-bscan-mask 2], Result: [null, ]. Thread: Worker-5: Launching SystemDebugger_debug_hw_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-29 13:16:37.228
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-5: Launching SystemDebugger_debug_hw_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-29 13:16:37.268
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-5: Launching SystemDebugger_debug_hw_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-29 13:16:37.269
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-5: Launching SystemDebugger_debug_hw_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-29 13:16:37.273
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-5: Launching SystemDebugger_debug_hw_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-29 13:16:37.274
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-5: Launching SystemDebugger_debug_hw_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-29 13:16:40.279
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-5: Launching SystemDebugger_debug_hw_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-29 13:16:40.280
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-5: Launching SystemDebugger_debug_hw_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-29 13:16:40.337
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-5: Launching SystemDebugger_debug_hw_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-29 13:16:40.338
+!MESSAGE XSCT Command: [dow /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_hw/Debug/debug_hw.elf], Thread: Worker-5: Launching SystemDebugger_debug_hw_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-29 13:16:40.442
+!MESSAGE XSCT command with result: [dow /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_hw/Debug/debug_hw.elf], Result: [null, ]. Thread: Worker-5: Launching SystemDebugger_debug_hw_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-29 13:16:40.552
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-5: Launching SystemDebugger_debug_hw_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-29 13:16:40.572
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-5: Launching SystemDebugger_debug_hw_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-29 13:16:40.573
+!MESSAGE XSCT Command: [con], Thread: Worker-5: Launching SystemDebugger_debug_hw_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-29 13:16:40.578
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-5: Launching SystemDebugger_debug_hw_system
+
+!ENTRY org.eclipse.jface 4 0 2020-11-29 13:17:08.662
+!MESSAGE /icons/elcl16/watchpoint_co.gif
+!STACK 0
+java.io.FileNotFoundException: /icons/elcl16/watchpoint_co.gif
+	at org.eclipse.osgi.storage.url.bundleentry.Handler.findBundleEntry(Handler.java:51)
+	at org.eclipse.osgi.storage.url.BundleResourceHandler.openConnection(BundleResourceHandler.java:169)
+	at java.base/java.net.URL.openConnection(Unknown Source)
+	at org.eclipse.core.internal.boot.PlatformURLConnection.connect(PlatformURLConnection.java:112)
+	at org.eclipse.core.internal.boot.PlatformURLConnection.getURLAsLocal(PlatformURLConnection.java:237)
+	at org.eclipse.core.internal.runtime.PlatformURLConverter.toFileURL(PlatformURLConverter.java:34)
+	at org.eclipse.core.runtime.FileLocator.toFileURL(FileLocator.java:255)
+	at org.eclipse.jface.resource.URLImageDescriptor.getFilePath(URLImageDescriptor.java:230)
+	at org.eclipse.jface.resource.URLImageDescriptor.access$2(URLImageDescriptor.java:218)
+	at org.eclipse.jface.resource.URLImageDescriptor$URLImageFileNameProvider.getImagePath(URLImageDescriptor.java:54)
+	at org.eclipse.swt.internal.DPIUtil.validateAndGetImagePathAtZoom(DPIUtil.java:416)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:668)
+	at org.eclipse.jface.resource.URLImageDescriptor.createImage(URLImageDescriptor.java:261)
+	at org.eclipse.jface.resource.ImageDescriptor.createResource(ImageDescriptor.java:180)
+	at org.eclipse.jface.resource.DeviceResourceManager.allocate(DeviceResourceManager.java:52)
+	at org.eclipse.jface.resource.AbstractResourceManager.create(AbstractResourceManager.java:85)
+	at org.eclipse.jface.resource.LocalResourceManager.allocate(LocalResourceManager.java:69)
+	at org.eclipse.jface.resource.AbstractResourceManager.create(AbstractResourceManager.java:85)
+	at org.eclipse.jface.resource.ResourceManager.createImage(ResourceManager.java:172)
+	at org.eclipse.e4.ui.workbench.renderers.swt.AbstractContributionItem.getImage(AbstractContributionItem.java:148)
+	at org.eclipse.e4.ui.workbench.renderers.swt.AbstractContributionItem.updateIcons(AbstractContributionItem.java:174)
+	at org.eclipse.e4.ui.workbench.renderers.swt.AbstractContributionItem.update(AbstractContributionItem.java:124)
+	at org.eclipse.e4.ui.workbench.renderers.swt.AbstractContributionItem.fill(AbstractContributionItem.java:261)
+	at org.eclipse.jface.action.MenuManager.doItemFill(MenuManager.java:728)
+	at org.eclipse.jface.action.MenuManager.update(MenuManager.java:810)
+	at org.eclipse.jface.action.MenuManager.update(MenuManager.java:669)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRenderer.scheduleManagerUpdate(MenuManagerRenderer.java:1219)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRenderer.processContents(MenuManagerRenderer.java:649)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRenderer.subscribeTopicChildAdded(MenuManagerRenderer.java:324)
+	at jdk.internal.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:55)
+	at org.eclipse.e4.ui.internal.di.UIEventObjectSupplier$UIEventHandler$1.run(UIEventObjectSupplier.java:64)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:233)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:144)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:5831)
+	at org.eclipse.e4.ui.internal.workbench.swt.E4Application$1.syncExec(E4Application.java:212)
+	at org.eclipse.e4.ui.internal.di.UIEventObjectSupplier$UIEventHandler.handleEvent(UIEventObjectSupplier.java:61)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:201)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:196)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:135)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:78)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:39)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:52)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:60)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:374)
+	at org.eclipse.emf.ecore.util.EcoreEList.dispatchNotification(EcoreEList.java:249)
+	at org.eclipse.emf.common.notify.impl.NotifyingListImpl.addUnique(NotifyingListImpl.java:356)
+	at org.eclipse.emf.common.util.AbstractEList.add(AbstractEList.java:340)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributionRecord.mergeIntoModel(ContributionRecord.java:250)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRenderer.processAddition(MenuManagerRenderer.java:546)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRenderer.generateContributions(MenuManagerRenderer.java:525)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRenderer.processContributions(MenuManagerRenderer.java:493)
+	at org.eclipse.ui.internal.PopupMenuExtender.addMenuContributions(PopupMenuExtender.java:410)
+	at org.eclipse.ui.internal.PopupMenuExtender.menuAboutToShow(PopupMenuExtender.java:382)
+	at org.eclipse.jface.action.MenuManager.fireAboutToShow(MenuManager.java:339)
+	at org.eclipse.jface.action.MenuManager.handleAboutToShow(MenuManager.java:470)
+	at org.eclipse.jface.action.MenuManager.access$1(MenuManager.java:465)
+	at org.eclipse.jface.action.MenuManager$2.menuShown(MenuManager.java:497)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:256)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:86)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5686)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1370)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1396)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1375)
+	at org.eclipse.swt.widgets.Menu._setVisible(Menu.java:203)
+	at org.eclipse.swt.widgets.Display.runPopups(Display.java:4982)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4508)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1170)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1059)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:667)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:597)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at com.xilinx.ide.application.ui.Application.start(Application.java:78)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:656)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1471)
+
+!ENTRY org.eclipse.jface 4 0 2020-11-29 13:17:43.564
+!MESSAGE /icons/elcl16/watchpoint_co.gif
+!STACK 0
+java.io.FileNotFoundException: /icons/elcl16/watchpoint_co.gif
+	at org.eclipse.osgi.storage.url.bundleentry.Handler.findBundleEntry(Handler.java:51)
+	at org.eclipse.osgi.storage.url.BundleResourceHandler.openConnection(BundleResourceHandler.java:169)
+	at java.base/java.net.URL.openConnection(Unknown Source)
+	at org.eclipse.core.internal.boot.PlatformURLConnection.connect(PlatformURLConnection.java:112)
+	at org.eclipse.core.internal.boot.PlatformURLConnection.getURLAsLocal(PlatformURLConnection.java:237)
+	at org.eclipse.core.internal.runtime.PlatformURLConverter.toFileURL(PlatformURLConverter.java:34)
+	at org.eclipse.core.runtime.FileLocator.toFileURL(FileLocator.java:255)
+	at org.eclipse.jface.resource.URLImageDescriptor.getFilePath(URLImageDescriptor.java:230)
+	at org.eclipse.jface.resource.URLImageDescriptor.access$2(URLImageDescriptor.java:218)
+	at org.eclipse.jface.resource.URLImageDescriptor$URLImageFileNameProvider.getImagePath(URLImageDescriptor.java:54)
+	at org.eclipse.swt.internal.DPIUtil.validateAndGetImagePathAtZoom(DPIUtil.java:416)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:668)
+	at org.eclipse.jface.resource.URLImageDescriptor.createImage(URLImageDescriptor.java:261)
+	at org.eclipse.jface.resource.ImageDescriptor.createResource(ImageDescriptor.java:180)
+	at org.eclipse.jface.resource.DeviceResourceManager.allocate(DeviceResourceManager.java:52)
+	at org.eclipse.jface.resource.AbstractResourceManager.create(AbstractResourceManager.java:85)
+	at org.eclipse.jface.resource.LocalResourceManager.allocate(LocalResourceManager.java:69)
+	at org.eclipse.jface.resource.AbstractResourceManager.create(AbstractResourceManager.java:85)
+	at org.eclipse.jface.resource.ResourceManager.createImage(ResourceManager.java:172)
+	at org.eclipse.e4.ui.workbench.renderers.swt.AbstractContributionItem.getImage(AbstractContributionItem.java:148)
+	at org.eclipse.e4.ui.workbench.renderers.swt.AbstractContributionItem.updateIcons(AbstractContributionItem.java:174)
+	at org.eclipse.e4.ui.workbench.renderers.swt.AbstractContributionItem.update(AbstractContributionItem.java:124)
+	at org.eclipse.e4.ui.workbench.renderers.swt.AbstractContributionItem.fill(AbstractContributionItem.java:261)
+	at org.eclipse.jface.action.MenuManager.doItemFill(MenuManager.java:728)
+	at org.eclipse.jface.action.MenuManager.update(MenuManager.java:810)
+	at org.eclipse.jface.action.MenuManager.update(MenuManager.java:669)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRenderer.scheduleManagerUpdate(MenuManagerRenderer.java:1219)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRenderer.processContents(MenuManagerRenderer.java:649)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRenderer.subscribeTopicChildAdded(MenuManagerRenderer.java:324)
+	at jdk.internal.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:55)
+	at org.eclipse.e4.ui.internal.di.UIEventObjectSupplier$UIEventHandler$1.run(UIEventObjectSupplier.java:64)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:233)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:144)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:5831)
+	at org.eclipse.e4.ui.internal.workbench.swt.E4Application$1.syncExec(E4Application.java:212)
+	at org.eclipse.e4.ui.internal.di.UIEventObjectSupplier$UIEventHandler.handleEvent(UIEventObjectSupplier.java:61)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:201)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:196)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:135)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:78)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:39)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:52)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:60)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:374)
+	at org.eclipse.emf.ecore.util.EcoreEList.dispatchNotification(EcoreEList.java:249)
+	at org.eclipse.emf.common.notify.impl.NotifyingListImpl.addUnique(NotifyingListImpl.java:356)
+	at org.eclipse.emf.common.util.AbstractEList.add(AbstractEList.java:340)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributionRecord.mergeIntoModel(ContributionRecord.java:250)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRenderer.processAddition(MenuManagerRenderer.java:546)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRenderer.generateContributions(MenuManagerRenderer.java:525)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRenderer.processContributions(MenuManagerRenderer.java:493)
+	at org.eclipse.ui.internal.PopupMenuExtender.addMenuContributions(PopupMenuExtender.java:410)
+	at org.eclipse.ui.internal.PopupMenuExtender.menuAboutToShow(PopupMenuExtender.java:382)
+	at org.eclipse.jface.action.MenuManager.fireAboutToShow(MenuManager.java:339)
+	at org.eclipse.jface.action.MenuManager.handleAboutToShow(MenuManager.java:470)
+	at org.eclipse.jface.action.MenuManager.access$1(MenuManager.java:465)
+	at org.eclipse.jface.action.MenuManager$2.menuShown(MenuManager.java:497)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:256)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:86)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5686)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1370)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1396)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1375)
+	at org.eclipse.swt.widgets.Menu._setVisible(Menu.java:203)
+	at org.eclipse.swt.widgets.Display.runPopups(Display.java:4982)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4508)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1170)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1059)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:667)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:597)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at com.xilinx.ide.application.ui.Application.start(Application.java:78)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:656)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1471)

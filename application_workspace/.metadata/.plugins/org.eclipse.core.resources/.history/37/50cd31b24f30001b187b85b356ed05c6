@@ -1,0 +1,18 @@
+#ifndef DESKTOP_MAKE
+#include "chu_init.h"
+#define DISPLAY_TEXT(x) uart.disp(x)
+#else
+#include <iostream>
+#define DISPLAY_TEXT(x) std::cout << x
+#endif
+
+#include "sha256.h"
+
+int main() {
+   auto str = "abc";
+         
+   auto hash = SHA256(str, 3);
+
+   DISPLAY_TEXT((int)(hash.resultHashValues[0]));
+} //main
+

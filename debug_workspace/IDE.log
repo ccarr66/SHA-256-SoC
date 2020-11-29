@@ -1,0 +1,1211 @@
+09:55:30 INFO  : Launching XSCT server: xsct -n  -interactive /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/temp_xsdb_launch_script.tcl
+09:55:33 INFO  : XSCT server has started successfully.
+09:55:33 INFO  : plnx-install-location is set to ''
+09:55:33 INFO  : Successfully done setting XSCT server connection channel  
+09:55:33 INFO  : Successfully done query RDI_DATADIR 
+09:55:33 INFO  : Successfully done setting workspace for the tool. 
+09:55:33 INFO  : Registering command handlers for Vitis TCF services
+09:56:50 INFO  : Checking for BSP changes to sync application flags for project 'debug_hw'...
+09:59:24 INFO  : Bit file '/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_hw/_ide/bitstream/download.bit' is generated.
+09:59:25 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+09:59:25 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AE9FA" && level==0} -index 0' command is executed.
+09:59:27 INFO  : FPGA configured successfully with bitstream "/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_hw/_ide/bitstream/download.bit"
+09:59:52 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+09:59:52 INFO  : Jtag cable 'Digilent Nexys4DDR 210292A8AE9FA' is selected.
+09:59:52 INFO  : 'jtag frequency' command is executed.
+09:59:52 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AE9FA" && level==0} -index 0' command is executed.
+09:59:54 INFO  : FPGA configured successfully with bitstream "/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_hw/_ide/bitstream/download.bit"
+09:59:54 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+09:59:54 INFO  : Context for processor 'microblaze_mcs_0_microblaze_I' is selected.
+09:59:54 INFO  : System reset is completed.
+09:59:57 INFO  : 'after 3000' command is executed.
+09:59:57 INFO  : Context for processor 'microblaze_mcs_0_microblaze_I' is selected.
+09:59:57 INFO  : The application '/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_hw/Debug/debug_hw.elf' is downloaded to processor 'microblaze_mcs_0_microblaze_I'.
+09:59:57 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AE9FA" && level==0} -index 0
+fpga -file /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_hw/_ide/bitstream/download.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_hw/Debug/debug_hw.elf
+----------------End of Script----------------
+
+09:59:57 INFO  : Memory regions updated for context MicroBlaze #0
+09:59:57 INFO  : Memory regions updated for context MicroBlaze Debug Module at USER2
+09:59:57 INFO  : Context for processor 'microblaze_mcs_0_microblaze_I' is selected.
+09:59:57 INFO  : 'con' command is executed.
+09:59:57 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+09:59:57 INFO  : Launch script is exported to file '/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/.sdk/launch_scripts/single_application_debug/debugger_debug_hw-default.tcl'
+10:00:47 INFO  : Disconnected from the channel tcfchan#2.
+10:00:48 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:00:57 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+----------------End of Script----------------
+
+10:00:57 ERROR : Could not find FPGA device on the board for connection 'Local'.
+
+
+Troubleshooting hints:
+1. Check whether board is connected to system properly.
+2. In case of zynq board, check whether Digilent/Xilinx cable switch settings are correct.
+3. If you are using Xilinx Platform Cable USB, ensure that status LED is green.
+10:01:22 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:01:22 INFO  : Jtag cable 'Digilent Nexys4DDR 210292A8AE9FA' is selected.
+10:01:22 INFO  : 'jtag frequency' command is executed.
+10:01:22 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AE9FA" && level==0} -index 0' command is executed.
+10:01:25 INFO  : FPGA configured successfully with bitstream "/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_hw/_ide/bitstream/download.bit"
+10:01:25 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+10:01:25 INFO  : Context for processor 'microblaze_mcs_0_microblaze_I' is selected.
+10:01:25 INFO  : System reset is completed.
+10:01:28 INFO  : 'after 3000' command is executed.
+10:01:28 INFO  : Context for processor 'microblaze_mcs_0_microblaze_I' is selected.
+10:01:28 INFO  : The application '/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_hw/Debug/debug_hw.elf' is downloaded to processor 'microblaze_mcs_0_microblaze_I'.
+10:01:28 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AE9FA" && level==0} -index 0
+fpga -file /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_hw/_ide/bitstream/download.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_hw/Debug/debug_hw.elf
+----------------End of Script----------------
+
+10:01:28 INFO  : Memory regions updated for context MicroBlaze #0
+10:01:28 INFO  : Memory regions updated for context MicroBlaze Debug Module at USER2
+10:01:28 INFO  : Context for processor 'microblaze_mcs_0_microblaze_I' is selected.
+10:01:28 INFO  : 'con' command is executed.
+10:01:28 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+10:01:28 INFO  : Launch script is exported to file '/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/.sdk/launch_scripts/single_application_debug/systemdebugger_debug_hw_system_standalone.tcl'
+10:02:28 WARN  : Processor 'microblaze_mcs_0_microblaze_I' is not supported for performance analysis as extended debug is not enabled.
+10:10:13 INFO  : Disconnected from the channel tcfchan#3.
+10:11:03 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:11:03 INFO  : Jtag cable 'Digilent Nexys4DDR 210292A8AE9FA' is selected.
+10:11:03 INFO  : 'jtag frequency' command is executed.
+10:11:03 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AE9FA" && level==0} -index 0' command is executed.
+10:11:05 INFO  : FPGA configured successfully with bitstream "/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_hw/_ide/bitstream/download.bit"
+10:11:05 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+10:11:05 INFO  : Context for processor 'microblaze_mcs_0_microblaze_I' is selected.
+10:11:05 INFO  : System reset is completed.
+10:11:08 INFO  : 'after 3000' command is executed.
+10:11:09 INFO  : Context for processor 'microblaze_mcs_0_microblaze_I' is selected.
+10:11:09 INFO  : The application '/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_hw/Debug/debug_hw.elf' is downloaded to processor 'microblaze_mcs_0_microblaze_I'.
+10:11:09 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AE9FA" && level==0} -index 0
+fpga -file /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_hw/_ide/bitstream/download.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_hw/Debug/debug_hw.elf
+----------------End of Script----------------
+
+10:11:09 INFO  : Memory regions updated for context MicroBlaze #0
+10:11:09 INFO  : Memory regions updated for context MicroBlaze Debug Module at USER2
+10:11:09 INFO  : Context for processor 'microblaze_mcs_0_microblaze_I' is selected.
+10:11:09 INFO  : 'con' command is executed.
+10:11:09 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+10:11:09 INFO  : Launch script is exported to file '/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/.sdk/launch_scripts/single_application_debug/debugger_debug_hw-default.tcl'
+10:11:11 WARN  : Processor 'microblaze_mcs_0_microblaze_I' is not supported for performance analysis as extended debug is not enabled.
+10:12:51 INFO  : Disconnected from the channel tcfchan#4.
+10:12:52 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:12:52 INFO  : Jtag cable 'Digilent Nexys4DDR 210292A8AE9FA' is selected.
+10:12:52 INFO  : 'jtag frequency' command is executed.
+10:12:52 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AE9FA" && level==0} -index 0' command is executed.
+10:12:54 INFO  : FPGA configured successfully with bitstream "/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_hw/_ide/bitstream/download.bit"
+10:12:54 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+10:12:54 INFO  : Context for processor 'microblaze_mcs_0_microblaze_I' is selected.
+10:12:54 INFO  : System reset is completed.
+10:12:57 INFO  : 'after 3000' command is executed.
+10:12:57 INFO  : Context for processor 'microblaze_mcs_0_microblaze_I' is selected.
+10:12:58 INFO  : The application '/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_hw/Debug/debug_hw.elf' is downloaded to processor 'microblaze_mcs_0_microblaze_I'.
+10:12:58 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AE9FA" && level==0} -index 0
+fpga -file /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_hw/_ide/bitstream/download.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_hw/Debug/debug_hw.elf
+----------------End of Script----------------
+
+10:12:58 INFO  : Memory regions updated for context MicroBlaze #0
+10:12:58 INFO  : Memory regions updated for context MicroBlaze Debug Module at USER2
+10:12:58 INFO  : Context for processor 'microblaze_mcs_0_microblaze_I' is selected.
+10:12:58 INFO  : 'con' command is executed.
+10:12:58 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+10:12:58 INFO  : Launch script is exported to file '/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/.sdk/launch_scripts/single_application_debug/debugger_debug_hw-default.tcl'
+10:13:00 WARN  : Processor 'microblaze_mcs_0_microblaze_I' is not supported for performance analysis as extended debug is not enabled.
+10:13:50 INFO  : Disconnected from the channel tcfchan#5.
+10:16:29 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:16:29 INFO  : Jtag cable 'Digilent Nexys4DDR 210292A8AE9FA' is selected.
+10:16:29 INFO  : 'jtag frequency' command is executed.
+10:16:29 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AE9FA" && level==0} -index 0' command is executed.
+10:16:32 INFO  : FPGA configured successfully with bitstream "/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_hw/_ide/bitstream/download.bit"
+10:16:32 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+10:16:32 INFO  : Context for processor 'microblaze_mcs_0_microblaze_I' is selected.
+10:16:32 INFO  : System reset is completed.
+10:16:35 INFO  : 'after 3000' command is executed.
+10:16:35 INFO  : Context for processor 'microblaze_mcs_0_microblaze_I' is selected.
+10:16:35 INFO  : The application '/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_hw/Debug/debug_hw.elf' is downloaded to processor 'microblaze_mcs_0_microblaze_I'.
+10:16:35 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AE9FA" && level==0} -index 0
+fpga -file /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_hw/_ide/bitstream/download.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_hw/Debug/debug_hw.elf
+----------------End of Script----------------
+
+10:16:35 INFO  : Memory regions updated for context MicroBlaze #0
+10:16:35 INFO  : Memory regions updated for context MicroBlaze Debug Module at USER2
+10:16:35 INFO  : Launch script is exported to file '/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/.sdk/launch_scripts/single_application_debug/debugger_debug_hw-default.tcl'
+10:16:37 WARN  : Processor 'microblaze_mcs_0_microblaze_I' is not supported for performance analysis as extended debug is not enabled.
+10:18:48 INFO  : Disconnected from the channel tcfchan#6.
+10:18:56 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:18:56 INFO  : Jtag cable 'Digilent Nexys4DDR 210292A8AE9FA' is selected.
+10:18:56 INFO  : 'jtag frequency' command is executed.
+10:18:56 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AE9FA" && level==0} -index 0' command is executed.
+10:18:58 INFO  : FPGA configured successfully with bitstream "/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_hw/_ide/bitstream/download.bit"
+10:18:58 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+10:18:58 INFO  : Context for processor 'microblaze_mcs_0_microblaze_I' is selected.
+10:18:58 INFO  : System reset is completed.
+10:19:01 INFO  : 'after 3000' command is executed.
+10:19:01 INFO  : Context for processor 'microblaze_mcs_0_microblaze_I' is selected.
+10:19:01 INFO  : The application '/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_hw/Debug/debug_hw.elf' is downloaded to processor 'microblaze_mcs_0_microblaze_I'.
+10:19:01 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AE9FA" && level==0} -index 0
+fpga -file /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_hw/_ide/bitstream/download.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_hw/Debug/debug_hw.elf
+----------------End of Script----------------
+
+10:19:01 INFO  : Memory regions updated for context MicroBlaze #0
+10:19:01 INFO  : Memory regions updated for context MicroBlaze Debug Module at USER2
+10:19:01 INFO  : Launch script is exported to file '/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/.sdk/launch_scripts/single_application_debug/debugger_debug_hw-default.tcl'
+10:19:03 WARN  : Processor 'microblaze_mcs_0_microblaze_I' is not supported for performance analysis as extended debug is not enabled.
+10:20:28 INFO  : Disconnected from the channel tcfchan#7.
+10:20:34 INFO  : Checking for BSP changes to sync application flags for project 'debug_hw'...
+10:20:39 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:20:39 INFO  : Jtag cable 'Digilent Nexys4DDR 210292A8AE9FA' is selected.
+10:20:39 INFO  : 'jtag frequency' command is executed.
+10:20:40 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AE9FA" && level==0} -index 0' command is executed.
+10:20:42 INFO  : FPGA configured successfully with bitstream "/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_hw/_ide/bitstream/download.bit"
+10:20:42 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+10:20:42 INFO  : Context for processor 'microblaze_mcs_0_microblaze_I' is selected.
+10:20:42 INFO  : System reset is completed.
+10:20:45 INFO  : 'after 3000' command is executed.
+10:20:45 INFO  : Context for processor 'microblaze_mcs_0_microblaze_I' is selected.
+10:20:45 INFO  : The application '/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_hw/Debug/debug_hw.elf' is downloaded to processor 'microblaze_mcs_0_microblaze_I'.
+10:20:45 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AE9FA" && level==0} -index 0
+fpga -file /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_hw/_ide/bitstream/download.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_hw/Debug/debug_hw.elf
+----------------End of Script----------------
+
+10:20:45 INFO  : Memory regions updated for context MicroBlaze #0
+10:20:45 INFO  : Memory regions updated for context MicroBlaze Debug Module at USER2
+10:20:45 INFO  : Launch script is exported to file '/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/.sdk/launch_scripts/single_application_debug/debugger_debug_hw-default.tcl'
+10:20:47 WARN  : Processor 'microblaze_mcs_0_microblaze_I' is not supported for performance analysis as extended debug is not enabled.
+10:21:48 INFO  : Disconnected from the channel tcfchan#8.
+10:22:57 INFO  : Checking for BSP changes to sync application flags for project 'debug_hw'...
+10:23:31 INFO  : Checking for BSP changes to sync application flags for project 'debug_hw'...
+10:24:33 INFO  : Checking for BSP changes to sync application flags for project 'debug_hw'...
+10:24:40 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:24:40 INFO  : Jtag cable 'Digilent Nexys4DDR 210292A8AE9FA' is selected.
+10:24:40 INFO  : 'jtag frequency' command is executed.
+10:24:41 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AE9FA" && level==0} -index 0' command is executed.
+10:24:43 INFO  : FPGA configured successfully with bitstream "/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_hw/_ide/bitstream/download.bit"
+10:24:43 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+10:24:43 INFO  : Context for processor 'microblaze_mcs_0_microblaze_I' is selected.
+10:24:43 INFO  : System reset is completed.
+10:24:46 INFO  : 'after 3000' command is executed.
+10:24:46 INFO  : Context for processor 'microblaze_mcs_0_microblaze_I' is selected.
+10:24:46 INFO  : The application '/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_hw/Debug/debug_hw.elf' is downloaded to processor 'microblaze_mcs_0_microblaze_I'.
+10:24:46 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AE9FA" && level==0} -index 0
+fpga -file /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_hw/_ide/bitstream/download.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_hw/Debug/debug_hw.elf
+----------------End of Script----------------
+
+10:24:46 INFO  : Memory regions updated for context MicroBlaze #0
+10:24:46 INFO  : Memory regions updated for context MicroBlaze Debug Module at USER2
+10:24:46 INFO  : Launch script is exported to file '/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/.sdk/launch_scripts/single_application_debug/debugger_debug_hw-default.tcl'
+10:24:48 WARN  : Processor 'microblaze_mcs_0_microblaze_I' is not supported for performance analysis as extended debug is not enabled.
+10:25:54 INFO  : Disconnected from the channel tcfchan#9.
+14:56:40 INFO  : Launching XSCT server: xsct -n  -interactive /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/temp_xsdb_launch_script.tcl
+14:56:43 INFO  : XSCT server has started successfully.
+14:56:43 INFO  : plnx-install-location is set to ''
+14:56:43 INFO  : Successfully done setting XSCT server connection channel  
+14:56:43 INFO  : Successfully done query RDI_DATADIR 
+14:56:43 INFO  : Successfully done setting workspace for the tool. 
+14:56:43 INFO  : Registering command handlers for Vitis TCF services
+14:57:19 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:57:19 INFO  : Jtag cable 'Digilent Nexys4DDR 210292A8AE9FA' is selected.
+14:57:19 INFO  : 'jtag frequency' command is executed.
+14:57:20 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AE9FA" && level==0} -index 0' command is executed.
+14:57:22 INFO  : FPGA configured successfully with bitstream "/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_hw/_ide/bitstream/download.bit"
+14:57:22 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+14:57:22 INFO  : Context for processor 'microblaze_mcs_0_microblaze_I' is selected.
+14:57:22 INFO  : System reset is completed.
+14:57:25 INFO  : 'after 3000' command is executed.
+14:57:25 INFO  : Context for processor 'microblaze_mcs_0_microblaze_I' is selected.
+14:57:25 INFO  : The application '/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_hw/Debug/debug_hw.elf' is downloaded to processor 'microblaze_mcs_0_microblaze_I'.
+14:57:25 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AE9FA" && level==0} -index 0
+fpga -file /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_hw/_ide/bitstream/download.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_hw/Debug/debug_hw.elf
+----------------End of Script----------------
+
+14:57:25 INFO  : Memory regions updated for context MicroBlaze #0
+14:57:25 INFO  : Memory regions updated for context MicroBlaze Debug Module at USER2
+14:57:25 INFO  : Launch script is exported to file '/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/.sdk/launch_scripts/single_application_debug/debugger_debug_hw-default.tcl'
+15:07:12 INFO  : Disconnected from the channel tcfchan#1.
+15:07:20 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:07:20 INFO  : Jtag cable 'Digilent Nexys4DDR 210292A8AE9FA' is selected.
+15:07:20 INFO  : 'jtag frequency' command is executed.
+15:07:20 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AE9FA" && level==0} -index 0' command is executed.
+15:07:22 INFO  : FPGA configured successfully with bitstream "/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_hw/_ide/bitstream/download.bit"
+15:07:22 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+15:07:22 INFO  : Context for processor 'microblaze_mcs_0_microblaze_I' is selected.
+15:07:22 INFO  : System reset is completed.
+15:07:25 INFO  : 'after 3000' command is executed.
+15:07:25 INFO  : Context for processor 'microblaze_mcs_0_microblaze_I' is selected.
+15:07:25 INFO  : The application '/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_hw/Debug/debug_hw.elf' is downloaded to processor 'microblaze_mcs_0_microblaze_I'.
+15:07:25 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AE9FA" && level==0} -index 0
+fpga -file /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_hw/_ide/bitstream/download.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_hw/Debug/debug_hw.elf
+----------------End of Script----------------
+
+15:07:25 INFO  : Memory regions updated for context MicroBlaze #0
+15:07:25 INFO  : Memory regions updated for context MicroBlaze Debug Module at USER2
+15:07:25 INFO  : Context for processor 'microblaze_mcs_0_microblaze_I' is selected.
+15:07:25 INFO  : 'con' command is executed.
+15:07:25 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+15:07:25 INFO  : Launch script is exported to file '/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/.sdk/launch_scripts/single_application_debug/debugger_debug_hw-default_(1).tcl'
+15:07:55 INFO  : Disconnected from the channel tcfchan#2.
+15:08:25 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:08:26 INFO  : Jtag cable 'Digilent Nexys4DDR 210292A8AE9FA' is selected.
+15:08:26 INFO  : 'jtag frequency' command is executed.
+15:08:26 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AE9FA" && level==0} -index 0' command is executed.
+15:08:28 INFO  : FPGA configured successfully with bitstream "/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_hw/_ide/bitstream/download.bit"
+15:08:28 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+15:08:28 INFO  : Context for processor 'microblaze_mcs_0_microblaze_I' is selected.
+15:08:28 INFO  : System reset is completed.
+15:08:31 INFO  : 'after 3000' command is executed.
+15:08:31 INFO  : Context for processor 'microblaze_mcs_0_microblaze_I' is selected.
+15:08:31 INFO  : The application '/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_hw/Debug/debug_hw.elf' is downloaded to processor 'microblaze_mcs_0_microblaze_I'.
+15:08:31 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AE9FA" && level==0} -index 0
+fpga -file /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_hw/_ide/bitstream/download.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_hw/Debug/debug_hw.elf
+----------------End of Script----------------
+
+15:08:31 INFO  : Memory regions updated for context MicroBlaze #0
+15:08:31 INFO  : Memory regions updated for context MicroBlaze Debug Module at USER2
+15:08:31 INFO  : Context for processor 'microblaze_mcs_0_microblaze_I' is selected.
+15:08:31 INFO  : 'con' command is executed.
+15:08:31 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+15:08:31 INFO  : Launch script is exported to file '/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/.sdk/launch_scripts/single_application_debug/systemdebugger_debug_hw_system_standalone.tcl'
+15:10:48 INFO  : Checking for BSP changes to sync application flags for project 'debug_hw'...
+15:10:51 INFO  : Disconnected from the channel tcfchan#3.
+15:11:00 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:11:00 INFO  : Jtag cable 'Digilent Nexys4DDR 210292A8AE9FA' is selected.
+15:11:00 INFO  : 'jtag frequency' command is executed.
+15:11:00 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AE9FA" && level==0} -index 0' command is executed.
+15:11:02 INFO  : FPGA configured successfully with bitstream "/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_hw/_ide/bitstream/download.bit"
+15:11:02 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+15:11:02 INFO  : Context for processor 'microblaze_mcs_0_microblaze_I' is selected.
+15:11:02 INFO  : System reset is completed.
+15:11:05 INFO  : 'after 3000' command is executed.
+15:11:05 INFO  : Context for processor 'microblaze_mcs_0_microblaze_I' is selected.
+15:11:05 INFO  : The application '/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_hw/Debug/debug_hw.elf' is downloaded to processor 'microblaze_mcs_0_microblaze_I'.
+15:11:05 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AE9FA" && level==0} -index 0
+fpga -file /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_hw/_ide/bitstream/download.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_hw/Debug/debug_hw.elf
+----------------End of Script----------------
+
+15:11:05 INFO  : Memory regions updated for context MicroBlaze #0
+15:11:05 INFO  : Memory regions updated for context MicroBlaze Debug Module at USER2
+15:11:05 INFO  : Context for processor 'microblaze_mcs_0_microblaze_I' is selected.
+15:11:06 INFO  : 'con' command is executed.
+15:11:06 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+15:11:06 INFO  : Launch script is exported to file '/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/.sdk/launch_scripts/single_application_debug/systemdebugger_debug_hw_system_standalone.tcl'
+15:11:25 INFO  : Disconnected from the channel tcfchan#4.
+15:14:51 INFO  : Launching XSCT server: xsct -n  -interactive /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/temp_xsdb_launch_script.tcl
+15:14:54 INFO  : Registering command handlers for Vitis TCF services
+15:14:54 INFO  : XSCT server has started successfully.
+15:14:54 INFO  : plnx-install-location is set to ''
+15:14:54 INFO  : Successfully done query RDI_DATADIR 
+15:14:54 INFO  : Successfully done setting XSCT server connection channel  
+15:14:54 INFO  : Successfully done setting workspace for the tool. 
+15:15:03 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:15:03 INFO  : Jtag cable 'Digilent Nexys4DDR 210292A8AE9FA' is selected.
+15:15:03 INFO  : 'jtag frequency' command is executed.
+15:15:03 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AE9FA" && level==0} -index 0' command is executed.
+15:15:05 INFO  : FPGA configured successfully with bitstream "/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_hw/_ide/bitstream/download.bit"
+15:15:05 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+15:15:05 INFO  : Context for processor 'microblaze_mcs_0_microblaze_I' is selected.
+15:15:05 INFO  : System reset is completed.
+15:15:08 INFO  : 'after 3000' command is executed.
+15:15:08 INFO  : Context for processor 'microblaze_mcs_0_microblaze_I' is selected.
+15:15:08 INFO  : The application '/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_hw/Debug/debug_hw.elf' is downloaded to processor 'microblaze_mcs_0_microblaze_I'.
+15:15:08 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AE9FA" && level==0} -index 0
+fpga -file /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_hw/_ide/bitstream/download.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_hw/Debug/debug_hw.elf
+----------------End of Script----------------
+
+15:15:08 INFO  : Memory regions updated for context MicroBlaze #0
+15:15:08 INFO  : Memory regions updated for context MicroBlaze Debug Module at USER2
+15:15:08 INFO  : Context for processor 'microblaze_mcs_0_microblaze_I' is selected.
+15:15:08 INFO  : 'con' command is executed.
+15:15:08 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+15:15:08 INFO  : Launch script is exported to file '/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/.sdk/launch_scripts/single_application_debug/systemdebugger_debug_hw_system_standalone.tcl'
+15:16:50 INFO  : Checking for BSP changes to sync application flags for project 'debug_hw'...
+15:16:53 INFO  : Disconnected from the channel tcfchan#1.
+15:17:56 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:17:56 INFO  : Jtag cable 'Digilent Nexys4DDR 210292A8AE9FA' is selected.
+15:17:56 INFO  : 'jtag frequency' command is executed.
+15:17:56 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AE9FA" && level==0} -index 0' command is executed.
+15:17:58 INFO  : FPGA configured successfully with bitstream "/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_hw/_ide/bitstream/download.bit"
+15:17:58 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+15:17:58 INFO  : Context for processor 'microblaze_mcs_0_microblaze_I' is selected.
+15:17:58 INFO  : System reset is completed.
+15:18:01 INFO  : 'after 3000' command is executed.
+15:18:01 INFO  : Context for processor 'microblaze_mcs_0_microblaze_I' is selected.
+15:18:02 INFO  : The application '/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_hw/Debug/debug_hw.elf' is downloaded to processor 'microblaze_mcs_0_microblaze_I'.
+15:18:02 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AE9FA" && level==0} -index 0
+fpga -file /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_hw/_ide/bitstream/download.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_hw/Debug/debug_hw.elf
+----------------End of Script----------------
+
+15:18:02 INFO  : Memory regions updated for context MicroBlaze #0
+15:18:02 INFO  : Memory regions updated for context MicroBlaze Debug Module at USER2
+15:18:02 INFO  : Context for processor 'microblaze_mcs_0_microblaze_I' is selected.
+15:18:02 INFO  : 'con' command is executed.
+15:18:02 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+15:18:02 INFO  : Launch script is exported to file '/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/.sdk/launch_scripts/single_application_debug/systemdebugger_debug_hw_system_standalone.tcl'
+15:21:26 INFO  : Disconnected from the channel tcfchan#2.
+13:04:37 INFO  : Launching XSCT server: xsct -n  -interactive /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/temp_xsdb_launch_script.tcl
+13:04:45 INFO  : XSCT server has started successfully.
+13:04:45 INFO  : Successfully done setting XSCT server connection channel  
+13:04:45 INFO  : plnx-install-location is set to ''
+13:04:45 INFO  : Successfully done setting workspace for the tool. 
+13:04:50 INFO  : Registering command handlers for Vitis TCF services
+13:05:05 INFO  : Successfully done query RDI_DATADIR 
+13:07:46 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:07:46 INFO  : Jtag cable 'Digilent Nexys4DDR 210292A8AE9FA' is selected.
+13:07:46 INFO  : 'jtag frequency' command is executed.
+13:07:46 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AE9FA" && level==0} -index 0' command is executed.
+13:07:49 INFO  : FPGA configured successfully with bitstream "/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_hw/_ide/bitstream/download.bit"
+13:07:49 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+13:07:49 INFO  : Context for processor 'microblaze_mcs_0_microblaze_I' is selected.
+13:07:49 INFO  : System reset is completed.
+13:07:52 INFO  : 'after 3000' command is executed.
+13:07:52 INFO  : Context for processor 'microblaze_mcs_0_microblaze_I' is selected.
+13:07:52 INFO  : The application '/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_hw/Debug/debug_hw.elf' is downloaded to processor 'microblaze_mcs_0_microblaze_I'.
+13:07:52 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AE9FA" && level==0} -index 0
+fpga -file /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_hw/_ide/bitstream/download.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_hw/Debug/debug_hw.elf
+----------------End of Script----------------
+
+13:07:52 INFO  : Memory regions updated for context MicroBlaze #0
+13:07:52 INFO  : Memory regions updated for context MicroBlaze Debug Module at USER2
+13:07:52 INFO  : Launch script is exported to file '/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/.sdk/launch_scripts/single_application_debug/debugger_debug_hw-default.tcl'
+13:09:22 INFO  : Disconnected from the channel tcfchan#1.
+13:09:33 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:09:33 INFO  : Jtag cable 'Digilent Nexys4DDR 210292A8AE9FA' is selected.
+13:09:33 INFO  : 'jtag frequency' command is executed.
+13:09:33 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AE9FA" && level==0} -index 0' command is executed.
+13:09:35 INFO  : FPGA configured successfully with bitstream "/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_hw/_ide/bitstream/download.bit"
+13:09:35 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+13:09:35 INFO  : Context for processor 'microblaze_mcs_0_microblaze_I' is selected.
+13:09:35 INFO  : System reset is completed.
+13:09:38 INFO  : 'after 3000' command is executed.
+13:09:38 INFO  : Context for processor 'microblaze_mcs_0_microblaze_I' is selected.
+13:09:38 INFO  : The application '/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_hw/Debug/debug_hw.elf' is downloaded to processor 'microblaze_mcs_0_microblaze_I'.
+13:09:38 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AE9FA" && level==0} -index 0
+fpga -file /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_hw/_ide/bitstream/download.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_hw/Debug/debug_hw.elf
+----------------End of Script----------------
+
+13:09:38 INFO  : Memory regions updated for context MicroBlaze #0
+13:09:38 INFO  : Memory regions updated for context MicroBlaze Debug Module at USER2
+13:09:38 INFO  : Context for processor 'microblaze_mcs_0_microblaze_I' is selected.
+13:09:38 INFO  : 'con' command is executed.
+13:09:38 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+13:09:38 INFO  : Launch script is exported to file '/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/.sdk/launch_scripts/single_application_debug/systemdebugger_debug_hw_system_standalone.tcl'
+13:11:12 INFO  : Disconnected from the channel tcfchan#2.
+13:11:18 INFO  : Checking for BSP changes to sync application flags for project 'debug_hw'...
+13:17:47 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:17:47 INFO  : Jtag cable 'Digilent Nexys4DDR 210292A8AE9FA' is selected.
+13:17:48 INFO  : 'jtag frequency' command is executed.
+13:17:48 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AE9FA" && level==0} -index 0' command is executed.
+13:17:50 INFO  : FPGA configured successfully with bitstream "/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_hw/_ide/bitstream/download.bit"
+13:17:50 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+13:17:50 INFO  : Context for processor 'microblaze_mcs_0_microblaze_I' is selected.
+13:17:50 INFO  : System reset is completed.
+13:17:53 INFO  : 'after 3000' command is executed.
+13:17:53 INFO  : Context for processor 'microblaze_mcs_0_microblaze_I' is selected.
+13:17:53 INFO  : The application '/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_hw/Debug/debug_hw.elf' is downloaded to processor 'microblaze_mcs_0_microblaze_I'.
+13:17:53 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AE9FA" && level==0} -index 0
+fpga -file /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_hw/_ide/bitstream/download.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_hw/Debug/debug_hw.elf
+----------------End of Script----------------
+
+13:17:53 INFO  : Memory regions updated for context MicroBlaze #0
+13:17:53 INFO  : Memory regions updated for context MicroBlaze Debug Module at USER2
+13:17:53 INFO  : Context for processor 'microblaze_mcs_0_microblaze_I' is selected.
+13:17:53 INFO  : 'con' command is executed.
+13:17:53 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+13:17:53 INFO  : Launch script is exported to file '/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/.sdk/launch_scripts/single_application_debug/systemdebugger_debug_hw_system_standalone.tcl'
+13:19:22 INFO  : Disconnected from the channel tcfchan#3.
+13:19:23 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:19:23 INFO  : Jtag cable 'Digilent Nexys4DDR 210292A8AE9FA' is selected.
+13:19:23 INFO  : 'jtag frequency' command is executed.
+13:19:23 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AE9FA" && level==0} -index 0' command is executed.
+13:19:25 INFO  : FPGA configured successfully with bitstream "/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_hw/_ide/bitstream/download.bit"
+13:19:25 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+13:19:25 INFO  : Context for processor 'microblaze_mcs_0_microblaze_I' is selected.
+13:19:25 INFO  : System reset is completed.
+13:19:28 INFO  : 'after 3000' command is executed.
+13:19:28 INFO  : Context for processor 'microblaze_mcs_0_microblaze_I' is selected.
+13:19:28 INFO  : The application '/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_hw/Debug/debug_hw.elf' is downloaded to processor 'microblaze_mcs_0_microblaze_I'.
+13:19:28 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AE9FA" && level==0} -index 0
+fpga -file /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_hw/_ide/bitstream/download.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_hw/Debug/debug_hw.elf
+----------------End of Script----------------
+
+13:19:28 INFO  : Memory regions updated for context MicroBlaze #0
+13:19:28 INFO  : Memory regions updated for context MicroBlaze Debug Module at USER2
+13:19:28 INFO  : Context for processor 'microblaze_mcs_0_microblaze_I' is selected.
+13:19:28 INFO  : 'con' command is executed.
+13:19:28 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+13:19:28 INFO  : Launch script is exported to file '/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/.sdk/launch_scripts/single_application_debug/systemdebugger_debug_hw_system_standalone.tcl'
+13:19:38 INFO  : Checking for BSP changes to sync application flags for project 'debug_hw'...
+13:19:47 INFO  : Disconnected from the channel tcfchan#4.
+13:19:53 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:19:53 INFO  : Jtag cable 'Digilent Nexys4DDR 210292A8AE9FA' is selected.
+13:19:53 INFO  : 'jtag frequency' command is executed.
+13:19:53 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AE9FA" && level==0} -index 0' command is executed.
+13:19:55 INFO  : FPGA configured successfully with bitstream "/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_hw/_ide/bitstream/download.bit"
+13:19:55 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+13:19:55 INFO  : Context for processor 'microblaze_mcs_0_microblaze_I' is selected.
+13:19:55 INFO  : System reset is completed.
+13:19:58 INFO  : 'after 3000' command is executed.
+13:19:58 INFO  : Context for processor 'microblaze_mcs_0_microblaze_I' is selected.
+13:19:58 INFO  : The application '/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_hw/Debug/debug_hw.elf' is downloaded to processor 'microblaze_mcs_0_microblaze_I'.
+13:19:58 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AE9FA" && level==0} -index 0
+fpga -file /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_hw/_ide/bitstream/download.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_hw/Debug/debug_hw.elf
+----------------End of Script----------------
+
+13:19:58 INFO  : Memory regions updated for context MicroBlaze #0
+13:19:58 INFO  : Memory regions updated for context MicroBlaze Debug Module at USER2
+13:19:58 INFO  : Context for processor 'microblaze_mcs_0_microblaze_I' is selected.
+13:19:58 INFO  : 'con' command is executed.
+13:19:58 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+13:19:58 INFO  : Launch script is exported to file '/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/.sdk/launch_scripts/single_application_debug/systemdebugger_debug_hw_system_standalone.tcl'
+13:20:33 INFO  : Disconnected from the channel tcfchan#5.
+13:20:40 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:20:41 INFO  : Jtag cable 'Digilent Nexys4DDR 210292A8AE9FA' is selected.
+13:20:41 INFO  : 'jtag frequency' command is executed.
+13:20:41 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AE9FA" && level==0} -index 0' command is executed.
+13:20:43 INFO  : FPGA configured successfully with bitstream "/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_hw/_ide/bitstream/download.bit"
+13:20:43 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+13:20:43 INFO  : Context for processor 'microblaze_mcs_0_microblaze_I' is selected.
+13:20:43 INFO  : System reset is completed.
+13:20:46 INFO  : 'after 3000' command is executed.
+13:20:46 INFO  : Context for processor 'microblaze_mcs_0_microblaze_I' is selected.
+13:20:46 INFO  : The application '/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_hw/Debug/debug_hw.elf' is downloaded to processor 'microblaze_mcs_0_microblaze_I'.
+13:20:46 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AE9FA" && level==0} -index 0
+fpga -file /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_hw/_ide/bitstream/download.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_hw/Debug/debug_hw.elf
+----------------End of Script----------------
+
+13:20:46 INFO  : Memory regions updated for context MicroBlaze #0
+13:20:46 INFO  : Memory regions updated for context MicroBlaze Debug Module at USER2
+13:20:46 INFO  : Context for processor 'microblaze_mcs_0_microblaze_I' is selected.
+13:20:46 INFO  : 'con' command is executed.
+13:20:46 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+13:20:46 INFO  : Launch script is exported to file '/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/.sdk/launch_scripts/single_application_debug/systemdebugger_debug_hw_system_standalone.tcl'
+13:21:17 INFO  : Disconnected from the channel tcfchan#6.
+13:21:26 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:21:26 INFO  : Jtag cable 'Digilent Nexys4DDR 210292A8AE9FA' is selected.
+13:21:26 INFO  : 'jtag frequency' command is executed.
+13:21:26 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AE9FA" && level==0} -index 0' command is executed.
+13:21:28 INFO  : FPGA configured successfully with bitstream "/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_hw/_ide/bitstream/download.bit"
+13:21:28 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+13:21:28 INFO  : Context for processor 'microblaze_mcs_0_microblaze_I' is selected.
+13:21:28 INFO  : System reset is completed.
+13:21:31 INFO  : 'after 3000' command is executed.
+13:21:31 INFO  : Context for processor 'microblaze_mcs_0_microblaze_I' is selected.
+13:21:31 INFO  : The application '/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_hw/Debug/debug_hw.elf' is downloaded to processor 'microblaze_mcs_0_microblaze_I'.
+13:21:31 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AE9FA" && level==0} -index 0
+fpga -file /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_hw/_ide/bitstream/download.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_hw/Debug/debug_hw.elf
+----------------End of Script----------------
+
+13:21:31 INFO  : Memory regions updated for context MicroBlaze #0
+13:21:31 INFO  : Memory regions updated for context MicroBlaze Debug Module at USER2
+13:21:31 INFO  : Context for processor 'microblaze_mcs_0_microblaze_I' is selected.
+13:21:31 INFO  : 'con' command is executed.
+13:21:31 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+13:21:31 INFO  : Launch script is exported to file '/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/.sdk/launch_scripts/single_application_debug/systemdebugger_debug_hw_system_standalone.tcl'
+13:22:20 INFO  : Checking for BSP changes to sync application flags for project 'debug_hw'...
+13:22:23 INFO  : Disconnected from the channel tcfchan#7.
+13:22:39 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:22:39 INFO  : Jtag cable 'Digilent Nexys4DDR 210292A8AE9FA' is selected.
+13:22:39 INFO  : 'jtag frequency' command is executed.
+13:22:39 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AE9FA" && level==0} -index 0' command is executed.
+13:22:42 INFO  : FPGA configured successfully with bitstream "/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_hw/_ide/bitstream/download.bit"
+13:22:42 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+13:22:42 INFO  : Context for processor 'microblaze_mcs_0_microblaze_I' is selected.
+13:22:42 INFO  : System reset is completed.
+13:22:45 INFO  : 'after 3000' command is executed.
+13:22:45 INFO  : Context for processor 'microblaze_mcs_0_microblaze_I' is selected.
+13:22:45 INFO  : The application '/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_hw/Debug/debug_hw.elf' is downloaded to processor 'microblaze_mcs_0_microblaze_I'.
+13:22:45 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AE9FA" && level==0} -index 0
+fpga -file /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_hw/_ide/bitstream/download.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_hw/Debug/debug_hw.elf
+----------------End of Script----------------
+
+13:22:45 INFO  : Memory regions updated for context MicroBlaze #0
+13:22:45 INFO  : Memory regions updated for context MicroBlaze Debug Module at USER2
+13:22:45 INFO  : Context for processor 'microblaze_mcs_0_microblaze_I' is selected.
+13:22:45 INFO  : 'con' command is executed.
+13:22:45 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+13:22:45 INFO  : Launch script is exported to file '/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/.sdk/launch_scripts/single_application_debug/systemdebugger_debug_hw_system_standalone.tcl'
+13:34:46 INFO  : Disconnected from the channel tcfchan#8.
+13:35:38 INFO  : Checking for BSP changes to sync application flags for project 'debug_hw'...
+13:35:51 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:35:51 INFO  : Jtag cable 'Digilent Nexys4DDR 210292A8AE9FA' is selected.
+13:35:51 INFO  : 'jtag frequency' command is executed.
+13:35:51 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AE9FA" && level==0} -index 0' command is executed.
+13:35:53 INFO  : FPGA configured successfully with bitstream "/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_hw/_ide/bitstream/download.bit"
+13:35:53 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+13:35:53 INFO  : Context for processor 'microblaze_mcs_0_microblaze_I' is selected.
+13:35:53 INFO  : System reset is completed.
+13:35:56 INFO  : 'after 3000' command is executed.
+13:35:57 INFO  : Context for processor 'microblaze_mcs_0_microblaze_I' is selected.
+13:35:57 INFO  : The application '/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_hw/Debug/debug_hw.elf' is downloaded to processor 'microblaze_mcs_0_microblaze_I'.
+13:35:57 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AE9FA" && level==0} -index 0
+fpga -file /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_hw/_ide/bitstream/download.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_hw/Debug/debug_hw.elf
+----------------End of Script----------------
+
+13:35:57 INFO  : Memory regions updated for context MicroBlaze #0
+13:35:57 INFO  : Memory regions updated for context MicroBlaze Debug Module at USER2
+13:35:57 INFO  : Context for processor 'microblaze_mcs_0_microblaze_I' is selected.
+13:35:57 INFO  : 'con' command is executed.
+13:35:57 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+13:35:57 INFO  : Launch script is exported to file '/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/.sdk/launch_scripts/single_application_debug/systemdebugger_debug_hw_system_standalone.tcl'
+13:38:58 INFO  : Disconnected from the channel tcfchan#9.
+13:39:29 INFO  : Checking for BSP changes to sync application flags for project 'debug_hw'...
+13:39:38 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:39:38 INFO  : Jtag cable 'Digilent Nexys4DDR 210292A8AE9FA' is selected.
+13:39:38 INFO  : 'jtag frequency' command is executed.
+13:39:38 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AE9FA" && level==0} -index 0' command is executed.
+13:39:40 INFO  : FPGA configured successfully with bitstream "/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_hw/_ide/bitstream/download.bit"
+13:39:40 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+13:39:41 INFO  : Context for processor 'microblaze_mcs_0_microblaze_I' is selected.
+13:39:41 INFO  : System reset is completed.
+13:39:44 INFO  : 'after 3000' command is executed.
+13:39:44 INFO  : Context for processor 'microblaze_mcs_0_microblaze_I' is selected.
+13:39:44 INFO  : The application '/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_hw/Debug/debug_hw.elf' is downloaded to processor 'microblaze_mcs_0_microblaze_I'.
+13:39:44 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AE9FA" && level==0} -index 0
+fpga -file /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_hw/_ide/bitstream/download.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_hw/Debug/debug_hw.elf
+----------------End of Script----------------
+
+13:39:44 INFO  : Memory regions updated for context MicroBlaze #0
+13:39:44 INFO  : Memory regions updated for context MicroBlaze Debug Module at USER2
+13:39:44 INFO  : Context for processor 'microblaze_mcs_0_microblaze_I' is selected.
+13:39:44 INFO  : 'con' command is executed.
+13:39:44 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+13:39:44 INFO  : Launch script is exported to file '/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/.sdk/launch_scripts/single_application_debug/systemdebugger_debug_hw_system_standalone.tcl'
+13:40:29 INFO  : Disconnected from the channel tcfchan#12.
+13:40:30 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:40:39 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+----------------End of Script----------------
+
+13:40:39 ERROR : Could not find FPGA device on the board for connection 'Local'.
+
+
+Troubleshooting hints:
+1. Check whether board is connected to system properly.
+2. In case of zynq board, check whether Digilent/Xilinx cable switch settings are correct.
+3. If you are using Xilinx Platform Cable USB, ensure that status LED is green.
+13:41:07 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:41:07 INFO  : Jtag cable 'Digilent Nexys4DDR 210292A8AE9FA' is selected.
+13:41:07 INFO  : 'jtag frequency' command is executed.
+13:41:07 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AE9FA" && level==0} -index 0' command is executed.
+13:41:09 INFO  : FPGA configured successfully with bitstream "/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_hw/_ide/bitstream/download.bit"
+13:41:09 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+13:41:09 INFO  : Context for processor 'microblaze_mcs_0_microblaze_I' is selected.
+13:41:09 INFO  : System reset is completed.
+13:41:12 INFO  : 'after 3000' command is executed.
+13:41:12 INFO  : Context for processor 'microblaze_mcs_0_microblaze_I' is selected.
+13:41:13 INFO  : The application '/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_hw/Debug/debug_hw.elf' is downloaded to processor 'microblaze_mcs_0_microblaze_I'.
+13:41:13 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AE9FA" && level==0} -index 0
+fpga -file /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_hw/_ide/bitstream/download.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_hw/Debug/debug_hw.elf
+----------------End of Script----------------
+
+13:41:13 INFO  : Memory regions updated for context MicroBlaze #0
+13:41:13 INFO  : Memory regions updated for context MicroBlaze Debug Module at USER2
+13:41:13 INFO  : Context for processor 'microblaze_mcs_0_microblaze_I' is selected.
+13:41:13 INFO  : 'con' command is executed.
+13:41:13 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+13:41:13 INFO  : Launch script is exported to file '/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/.sdk/launch_scripts/single_application_debug/systemdebugger_debug_hw_system_standalone.tcl'
+13:57:17 INFO  : Disconnected from the channel tcfchan#13.
+13:57:28 INFO  : Checking for BSP changes to sync application flags for project 'debug_hw'...
+13:57:47 INFO  : Checking for BSP changes to sync application flags for project 'debug_hw'...
+13:58:55 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:58:55 INFO  : Jtag cable 'Digilent Nexys4DDR 210292A8AE9FA' is selected.
+13:58:55 INFO  : 'jtag frequency' command is executed.
+13:58:55 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AE9FA" && level==0} -index 0' command is executed.
+13:58:58 INFO  : FPGA configured successfully with bitstream "/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_hw/_ide/bitstream/download.bit"
+13:58:58 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+13:58:58 INFO  : Context for processor 'microblaze_mcs_0_microblaze_I' is selected.
+13:58:58 INFO  : System reset is completed.
+13:59:01 INFO  : 'after 3000' command is executed.
+13:59:01 INFO  : Context for processor 'microblaze_mcs_0_microblaze_I' is selected.
+13:59:01 INFO  : The application '/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_hw/Debug/debug_hw.elf' is downloaded to processor 'microblaze_mcs_0_microblaze_I'.
+13:59:01 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AE9FA" && level==0} -index 0
+fpga -file /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_hw/_ide/bitstream/download.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_hw/Debug/debug_hw.elf
+----------------End of Script----------------
+
+13:59:01 INFO  : Memory regions updated for context MicroBlaze #0
+13:59:01 INFO  : Memory regions updated for context MicroBlaze Debug Module at USER2
+13:59:01 INFO  : Context for processor 'microblaze_mcs_0_microblaze_I' is selected.
+13:59:01 INFO  : 'con' command is executed.
+13:59:01 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+13:59:01 INFO  : Launch script is exported to file '/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/.sdk/launch_scripts/single_application_debug/systemdebugger_debug_hw_system_standalone.tcl'
+15:16:57 INFO  : Disconnected from the channel tcfchan#16.
+15:17:07 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:17:07 INFO  : Jtag cable 'Digilent Nexys4DDR 210292A8AE9FA' is selected.
+15:17:07 INFO  : 'jtag frequency' command is executed.
+15:17:07 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AE9FA" && level==0} -index 0' command is executed.
+15:17:09 INFO  : FPGA configured successfully with bitstream "/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_hw/_ide/bitstream/download.bit"
+15:17:09 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+15:17:09 INFO  : Context for processor 'microblaze_mcs_0_microblaze_I' is selected.
+15:17:09 INFO  : System reset is completed.
+15:17:12 INFO  : 'after 3000' command is executed.
+15:17:12 INFO  : Context for processor 'microblaze_mcs_0_microblaze_I' is selected.
+15:17:12 INFO  : The application '/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_hw/Debug/debug_hw.elf' is downloaded to processor 'microblaze_mcs_0_microblaze_I'.
+15:17:12 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AE9FA" && level==0} -index 0
+fpga -file /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_hw/_ide/bitstream/download.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_hw/Debug/debug_hw.elf
+----------------End of Script----------------
+
+15:17:12 INFO  : Memory regions updated for context MicroBlaze #0
+15:17:12 INFO  : Memory regions updated for context MicroBlaze Debug Module at USER2
+15:17:12 INFO  : Context for processor 'microblaze_mcs_0_microblaze_I' is selected.
+15:17:12 INFO  : 'con' command is executed.
+15:17:12 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+15:17:12 INFO  : Launch script is exported to file '/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/.sdk/launch_scripts/single_application_debug/systemdebugger_debug_hw_system_standalone.tcl'
+15:25:00 ERROR : (XSDB Server)can't read "help": no such variable
+
+15:25:47 ERROR : (XSDB Server)Invalid file handle argument : fp
+
+15:46:18 ERROR : (XSDB Server)can't read "pc": no such variable
+
+15:46:31 ERROR : (XSDB Server)can't read "pc": no such variable
+
+15:56:45 INFO  : Disconnected from the channel tcfchan#17.
+15:56:46 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:56:46 INFO  : Jtag cable 'Digilent Nexys4DDR 210292A8AE9FA' is selected.
+15:56:46 INFO  : 'jtag frequency' command is executed.
+15:56:46 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AE9FA" && level==0} -index 0' command is executed.
+15:56:49 INFO  : FPGA configured successfully with bitstream "/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_hw/_ide/bitstream/download.bit"
+15:56:49 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+15:56:49 INFO  : Context for processor 'microblaze_mcs_0_microblaze_I' is selected.
+15:56:49 INFO  : System reset is completed.
+15:56:52 INFO  : 'after 3000' command is executed.
+15:56:52 INFO  : Context for processor 'microblaze_mcs_0_microblaze_I' is selected.
+15:56:52 INFO  : The application '/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_hw/Debug/debug_hw.elf' is downloaded to processor 'microblaze_mcs_0_microblaze_I'.
+15:56:52 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AE9FA" && level==0} -index 0
+fpga -file /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_hw/_ide/bitstream/download.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_hw/Debug/debug_hw.elf
+----------------End of Script----------------
+
+15:56:52 INFO  : Memory regions updated for context MicroBlaze #0
+15:56:52 INFO  : Memory regions updated for context MicroBlaze Debug Module at USER2
+15:56:52 INFO  : Context for processor 'microblaze_mcs_0_microblaze_I' is selected.
+15:56:52 INFO  : 'con' command is executed.
+15:56:52 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+15:56:52 INFO  : Launch script is exported to file '/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/.sdk/launch_scripts/single_application_debug/systemdebugger_debug_hw_system_standalone.tcl'
+15:56:52 WARN  : Processor 'microblaze_mcs_0_microblaze_I' is not supported for performance analysis as extended debug is not enabled.
+15:56:53 WARN  : Processor 'microblaze_mcs_0_microblaze_I' is not supported for performance analysis as extended debug is not enabled.
+15:56:53 WARN  : Processor 'microblaze_mcs_0_microblaze_I' is not supported for performance analysis as extended debug is not enabled.
+16:20:41 INFO  : Launching XSCT server: xsct -n  -interactive /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/temp_xsdb_launch_script.tcl
+16:20:49 INFO  : XSCT server has started successfully.
+16:20:49 INFO  : plnx-install-location is set to ''
+16:20:49 INFO  : Successfully done setting XSCT server connection channel  
+16:20:49 INFO  : Successfully done setting workspace for the tool. 
+16:20:52 INFO  : Registering command handlers for Vitis TCF services
+16:21:11 INFO  : Successfully done query RDI_DATADIR 
+16:22:04 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:22:04 INFO  : Jtag cable 'Digilent Nexys4DDR 210292A8AE9FA' is selected.
+16:22:04 INFO  : 'jtag frequency' command is executed.
+16:22:05 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AE9FA" && level==0} -index 0' command is executed.
+16:22:07 INFO  : FPGA configured successfully with bitstream "/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_hw/_ide/bitstream/download.bit"
+16:22:07 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+16:22:07 INFO  : Context for processor 'microblaze_mcs_0_microblaze_I' is selected.
+16:22:07 INFO  : System reset is completed.
+16:22:10 INFO  : 'after 3000' command is executed.
+16:22:10 INFO  : Context for processor 'microblaze_mcs_0_microblaze_I' is selected.
+16:22:10 INFO  : The application '/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_hw/Debug/debug_hw.elf' is downloaded to processor 'microblaze_mcs_0_microblaze_I'.
+16:22:10 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AE9FA" && level==0} -index 0
+fpga -file /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_hw/_ide/bitstream/download.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_hw/Debug/debug_hw.elf
+----------------End of Script----------------
+
+16:22:10 INFO  : Memory regions updated for context MicroBlaze #0
+16:22:10 INFO  : Memory regions updated for context MicroBlaze Debug Module at USER2
+16:22:10 INFO  : Context for processor 'microblaze_mcs_0_microblaze_I' is selected.
+16:22:10 INFO  : 'con' command is executed.
+16:22:10 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+16:22:10 INFO  : Launch script is exported to file '/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/.sdk/launch_scripts/single_application_debug/systemdebugger_debug_hw_system_standalone_(1).tcl'
+16:22:12 WARN  : Processor 'microblaze_mcs_0_microblaze_I' is not supported for performance analysis as extended debug is not enabled.
+16:22:26 WARN  : Processor 'microblaze_mcs_0_microblaze_I' is not supported for performance analysis as extended debug is not enabled.
+16:22:31 WARN  : Processor 'microblaze_mcs_0_microblaze_I' is not supported for performance analysis as extended debug is not enabled.
+16:22:38 WARN  : Processor 'microblaze_mcs_0_microblaze_I' is not supported for performance analysis as extended debug is not enabled.
+16:22:41 WARN  : Processor 'microblaze_mcs_0_microblaze_I' is not supported for performance analysis as extended debug is not enabled.
+16:24:56 ERROR : (XSDB Server)invalid arguments, specify -freq and -scratchaddr
+
+16:37:10 ERROR : (XSDB Server)can't read "logfile": no such variable
+
+16:37:21 ERROR : (XSDB Server)invalid command name "$pc"
+
+16:42:27 ERROR : (XSDB Server)ambiguous command name "v": variable verify version vwait
+
+16:44:48 ERROR : (XSDB Server)no register match: -no-bits
+
+16:57:41 ERROR : (XSDB Server)invalid bareword "00001ba0"
+in expression "$v != 00001ba0 && test > 0";
+should be "$00001ba0" or "{00001ba0}" or "00001ba0(...)" or ...
+
+16:57:59 ERROR : (XSDB Server)invalid bareword "test"
+in expression "$v != "00001ba0" && test > 0";
+should be "$test" or "{test}" or "test(...)" or ...
+
+17:10:15 ERROR : (XSDB Server)can't read "pc": no such variable
+
+17:11:34 ERROR : (XSDB Server)invalid command name "souce"
+
+17:11:38 ERROR : (XSDB Server)Already stopped
+
+17:11:59 ERROR : (XSDB Server)Already stopped
+
+17:14:32 ERROR : (XSDB Server)Already stopped
+
+17:15:18 ERROR : (XSDB Server)Already stopped
+
+17:16:13 ERROR : (XSDB Server)Already stopped
+
+17:17:11 ERROR : (XSDB Server)Already running
+
+17:18:41 ERROR : (XSDB Server)Already running
+
+17:19:17 ERROR : (XSDB Server)Already running
+
+17:19:49 ERROR : (XSDB Server)invalid command name "N/A"
+
+17:21:29 ERROR : (XSDB Server)Already running
+
+17:22:06 ERROR : (XSDB Server)Already running
+
+17:24:40 ERROR : (XSDB Server)Already running
+
+17:28:11 ERROR : (XSDB Server)Already running
+
+11:26:16 ERROR : (XSDB Server)Invalid context
+
+11:26:16 ERROR : (XSDB Server)Invalid context
+
+11:26:19 INFO  : Disconnected from the channel tcfchan#1.
+11:26:49 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:26:49 INFO  : Jtag cable 'Digilent Nexys4DDR 210292A8AE9FA' is selected.
+11:26:49 INFO  : 'jtag frequency' command is executed.
+11:26:49 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AE9FA" && level==0} -index 0' command is executed.
+11:26:51 INFO  : FPGA configured successfully with bitstream "/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_hw/_ide/bitstream/download.bit"
+11:26:51 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+11:26:51 INFO  : Context for processor 'microblaze_mcs_0_microblaze_I' is selected.
+11:26:51 INFO  : System reset is completed.
+11:26:54 INFO  : 'after 3000' command is executed.
+11:26:54 INFO  : Context for processor 'microblaze_mcs_0_microblaze_I' is selected.
+11:26:54 INFO  : The application '/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_hw/Debug/debug_hw.elf' is downloaded to processor 'microblaze_mcs_0_microblaze_I'.
+11:26:54 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AE9FA" && level==0} -index 0
+fpga -file /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_hw/_ide/bitstream/download.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_hw/Debug/debug_hw.elf
+----------------End of Script----------------
+
+11:26:55 INFO  : Memory regions updated for context MicroBlaze #0
+11:26:55 INFO  : Memory regions updated for context MicroBlaze Debug Module at USER2
+11:26:55 INFO  : Context for processor 'microblaze_mcs_0_microblaze_I' is selected.
+11:26:55 INFO  : 'con' command is executed.
+11:26:55 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+11:26:55 INFO  : Launch script is exported to file '/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/.sdk/launch_scripts/single_application_debug/systemdebugger_debug_hw_system_standalone_(2).tcl'
+11:26:57 WARN  : Processor 'microblaze_mcs_0_microblaze_I' is not supported for performance analysis as extended debug is not enabled.
+12:24:00 ERROR : (XSDB Server)Already running
+
+12:24:45 ERROR : (XSDB Server)Already running
+
+12:25:44 ERROR : (XSDB Server)Already running
+
+12:26:02 ERROR : (XSDB Server)Already running
+
+12:27:11 ERROR : (XSDB Server)Already running
+
+12:29:53 ERROR : (XSDB Server)Already running
+
+12:31:54 ERROR : (XSDB Server)Already running
+
+12:31:54 ERROR : (XSDB Server)Already stopped
+
+12:34:08 ERROR : (XSDB Server)Already running
+
+12:34:14 ERROR : (XSDB Server)Already running
+
+12:34:20 ERROR : (XSDB Server)Already running
+
+12:35:37 ERROR : (XSDB Server)Already running
+
+12:37:00 ERROR : (XSDB Server)Already running
+
+12:37:58 ERROR : (XSDB Server)Already running
+
+12:38:01 ERROR : (XSDB Server)Already running
+
+12:38:02 ERROR : (XSDB Server)Already running
+
+12:39:58 ERROR : (XSDB Server)invalid command name "step.tcl"
+
+12:40:59 ERROR : (XSDB Server)Already running
+
+12:51:28 ERROR : (XSDB Server)Already running
+
+13:03:17 ERROR : (XSDB Server)Invalid context
+
+13:13:06 INFO  : Launching XSCT server: xsct -n  -interactive /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/temp_xsdb_launch_script.tcl
+13:13:17 INFO  : XSCT server has started successfully.
+13:13:17 INFO  : plnx-install-location is set to ''
+13:13:17 INFO  : Successfully done setting XSCT server connection channel  
+13:13:17 INFO  : Successfully done setting workspace for the tool. 
+13:13:25 INFO  : Registering command handlers for Vitis TCF services
+13:14:23 INFO  : Successfully done query RDI_DATADIR 
+13:16:34 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:16:34 INFO  : Jtag cable 'Digilent Nexys4DDR 210292A8AE9FA' is selected.
+13:16:34 INFO  : 'jtag frequency' command is executed.
+13:16:34 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AE9FA" && level==0} -index 0' command is executed.
+13:16:37 INFO  : FPGA configured successfully with bitstream "/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_hw/_ide/bitstream/download.bit"
+13:16:37 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+13:16:37 INFO  : Context for processor 'microblaze_mcs_0_microblaze_I' is selected.
+13:16:37 INFO  : System reset is completed.
+13:16:40 INFO  : 'after 3000' command is executed.
+13:16:40 INFO  : Context for processor 'microblaze_mcs_0_microblaze_I' is selected.
+13:16:40 INFO  : The application '/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_hw/Debug/debug_hw.elf' is downloaded to processor 'microblaze_mcs_0_microblaze_I'.
+13:16:40 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AE9FA" && level==0} -index 0
+fpga -file /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_hw/_ide/bitstream/download.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_hw/Debug/debug_hw.elf
+----------------End of Script----------------
+
+13:16:40 INFO  : Memory regions updated for context MicroBlaze #0
+13:16:40 INFO  : Memory regions updated for context MicroBlaze Debug Module at USER2
+13:16:40 INFO  : Context for processor 'microblaze_mcs_0_microblaze_I' is selected.
+13:16:40 INFO  : 'con' command is executed.
+13:16:40 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+13:16:40 INFO  : Launch script is exported to file '/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/.sdk/launch_scripts/single_application_debug/systemdebugger_debug_hw_system_standalone_(2).tcl'
+13:18:20 ERROR : (XSDB Server)wrong # args: should be "bpenable ?id-list? | -all"
+
