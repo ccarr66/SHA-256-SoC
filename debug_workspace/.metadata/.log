@@ -988,3 +988,9 @@ java.io.FileNotFoundException: /icons/elcl16/watchpoint_co.gif
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1471)
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-29 14:25:42.466
+!MESSAGE XSCT Command: [disconnect tcfchan#1], Thread: Thread-12157
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-29 14:25:42.620
+!MESSAGE XSCT command with result: [disconnect tcfchan#1], Result: [null, ]. Thread: Thread-12157

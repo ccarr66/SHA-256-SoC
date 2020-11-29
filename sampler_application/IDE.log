@@ -1,0 +1,7 @@
+14:58:18 INFO  : Launching XSCT server: xsct -n  -interactive /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/sampler_application/temp_xsdb_launch_script.tcl
+14:58:21 INFO  : XSCT server has started successfully.
+14:58:21 INFO  : Successfully done setting XSCT server connection channel  
+14:58:40 INFO  : Registering command handlers for Vitis TCF services
+14:58:51 INFO  : plnx-install-location is set to ''
+14:58:51 INFO  : Successfully done setting workspace for the tool. 
+14:58:51 INFO  : Successfully done query RDI_DATADIR 

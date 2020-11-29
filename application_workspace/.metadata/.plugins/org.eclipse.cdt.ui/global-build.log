@@ -1,5 +1,0 @@
-Nothing to build in platform 'debug_hw'
-
-09:53:42 **** Incremental Build of configuration Debug for project sha-2_perf_metrics ****
-make all 
-make: Nothing to be done for 'all'.

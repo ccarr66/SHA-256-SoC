@@ -1,6 +1,0 @@
-2020-11-25T11:52:07.80662100255-11:52:08 **** Build of configuration Debug for project sha-2_perf_metrics_system ****
-000-make all 
-000-Skipping SD card image generation. Reason: The system project only has applications for microblaze processors.
-00255-
-11:52:09 Build Finished (took 468ms)
-

@@ -1,42 +1,0 @@
-2020-11-22T19:44:22.59123700255-19:44:22 **** Incremental Build of configuration Release for project sha-2_perf_metrics ****
-000-make all 
-000-Building file: ../src/main_sampler_test.cpp
-000-Invoking: MicroBlaze g++ compiler
-000-mb-g++ -Wall -O2 -c -fmessage-length=0 -MT"src/main_sampler_test.o" -I/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/export/mcs_top_sampler/sw/mcs_top_sampler/standalone_domain/bspinclude/include -mno-xl-reorder -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main_sampler_test.d" -MT"src/main_sampler_test.o" -o "src/main_sampler_test.o" "../src/main_sampler_test.cpp"
-000-In file included from ../src/main_sampler_test.cpp:12:
-000/sha-2_perf_metrics/src/sha256.h91-1-1ignoring #pragma HLS unroll [-Wunknown-pragmas]1-../src/sha256.h:91: warning: ignoring #pragma HLS unroll [-Wunknown-pragmas]
-000-             #pragma HLS unroll
-000- 
-000-In file included from ../src/main_sampler_test.cpp:12:
-000/sha-2_perf_metrics/src/sha256.h146-1-1ignoring #pragma HLS unroll [-Wunknown-pragmas]1-../src/sha256.h:146: warning: ignoring #pragma HLS unroll [-Wunknown-pragmas]
-000-             #pragma HLS unroll
-000- 
-000/sha-2_perf_metrics/src/sha256.h192-1-1ignoring #pragma HLS unroll [-Wunknown-pragmas]1-../src/sha256.h:192: warning: ignoring #pragma HLS unroll [-Wunknown-pragmas]
-000-             #pragma HLS unroll
-000- 
-000/sha-2_perf_metrics/src/sha256.h198-1-1ignoring #pragma HLS unroll [-Wunknown-pragmas]1-../src/sha256.h:198: warning: ignoring #pragma HLS unroll [-Wunknown-pragmas]
-000-             #pragma HLS unroll
-000- 
-000/sha-2_perf_metrics/src/sha256.h224-1-1ignoring #pragma HLS unroll [-Wunknown-pragmas]1-../src/sha256.h:224: warning: ignoring #pragma HLS unroll [-Wunknown-pragmas]
-000-             #pragma HLS unroll
-000- 
-000-../src/main_sampler_test.cpp: In function 'int main()':
-000/sha-2_perf_metrics/src/main_sampler_test.cpp19-1-1variable 'hash' set but not used [-Wunused-but-set-variable]1-../src/main_sampler_test.cpp:19:18: warning: variable 'hash' set but not used [-Wunused-but-set-variable]
-000-    volatile auto hash = SHA256(str, 3);
-000-                  ^~~~
-000-Finished building: ../src/main_sampler_test.cpp
-000- 
-000-Building target: sha-2_perf_metrics.elf
-000-Invoking: MicroBlaze g++ linker
-000-mb-g++ -Wl,-T -Wl,../src/lscript.ld -L/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/application_workspace/mcs_top_sampler/export/mcs_top_sampler/sw/mcs_top_sampler/standalone_domain/bsplib/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "sha-2_perf_metrics.elf"  ./src/adsr_core.o ./src/chu_init.o ./src/ddfs_core.o ./src/gpio_cores.o ./src/i2c_core.o ./src/main_sampler_test.o ./src/ps2_core.o ./src/spi_core.o ./src/sseg_core.o ./src/timer_core.o ./src/uart_core.o ./src/xadc_core.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
-000-Finished building target: sha-2_perf_metrics.elf
-000- 
-000-Invoking: MicroBlaze Print Size
-000-mb-size sha-2_perf_metrics.elf  |tee "sha-2_perf_metrics.elf.size"
-000-   text	   data	    bss	    dec	    hex	filename
-000-   2144	    276	   3124	   5544	   15a8	sha-2_perf_metrics.elf
-000-Finished building: sha-2_perf_metrics.elf.size
-000- 
-00255-
-19:44:23 Build Finished (took 720ms)
-

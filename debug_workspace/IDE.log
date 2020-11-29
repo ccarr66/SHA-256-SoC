@@ -1209,3 +1209,4 @@ con
 13:16:40 INFO  : Launch script is exported to file '/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/.sdk/launch_scripts/single_application_debug/systemdebugger_debug_hw_system_standalone_(2).tcl'
 13:18:20 ERROR : (XSDB Server)wrong # args: should be "bpenable ?id-list? | -all"
 
+14:25:42 INFO  : Disconnected from the channel tcfchan#1.

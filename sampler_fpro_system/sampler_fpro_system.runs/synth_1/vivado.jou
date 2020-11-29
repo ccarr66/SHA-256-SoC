@@ -2,11 +2,11 @@
 # Vivado v2019.2.1 (64-bit)
 # SW Build 2729669 on Thu Dec  5 04:48:12 MST 2019
 # IP Build 2729494 on Thu Dec  5 07:38:25 MST 2019
-# Start of session at: Tue Oct 20 13:23:02 2020
-# Process ID: 25991
-# Current directory: /home/connor/Documents/Programs/Vivado/4305/Lab8-PotCtrlLeds/sampler_fpro_system/sampler_fpro_system.runs/synth_1
+# Start of session at: Sun Nov 29 14:36:23 2020
+# Process ID: 21806
+# Current directory: /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/sampler_fpro_system/sampler_fpro_system.runs/synth_1
 # Command line: vivado -log mcs_top_sampler.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source mcs_top_sampler.tcl
-# Log file: /home/connor/Documents/Programs/Vivado/4305/Lab8-PotCtrlLeds/sampler_fpro_system/sampler_fpro_system.runs/synth_1/mcs_top_sampler.vds
-# Journal file: /home/connor/Documents/Programs/Vivado/4305/Lab8-PotCtrlLeds/sampler_fpro_system/sampler_fpro_system.runs/synth_1/vivado.jou
+# Log file: /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/sampler_fpro_system/sampler_fpro_system.runs/synth_1/mcs_top_sampler.vds
+# Journal file: /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/sampler_fpro_system/sampler_fpro_system.runs/synth_1/vivado.jou
 #-----------------------------------------------------------
 source mcs_top_sampler.tcl -notrace

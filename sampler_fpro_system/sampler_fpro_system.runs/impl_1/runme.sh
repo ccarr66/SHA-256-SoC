@@ -20,7 +20,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='/home/connor/Documents/Programs/Vivado/4305/Lab8-PotCtrlLeds/sampler_fpro_system/sampler_fpro_system.runs/impl_1'
+HD_PWD='/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/sampler_fpro_system/sampler_fpro_system.runs/impl_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

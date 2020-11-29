@@ -17,6 +17,7 @@ proc create_report { reportName command } {
     send_msg_id runtcl-5 warning "$msg"
   }
 }
+set_param ced.repoPaths {/home/connor/.Xilinx/Vivado/2019.2/xhub/ced_store /home/connor/Downloads/digilent_presets_2017.4-2/Digilent_Presets_2017.4/Microblaze_CEDs}
 set_msg_config  -id {[BD 41-1306]}  -suppress 
 set_msg_config  -id {[BD 41-1271]}  -suppress 
 create_project -in_memory -part xc7a100tcsg324-1
@@ -25,72 +26,72 @@ set_param project.singleFileAddWarning.threshold 0
 set_param project.compositeFile.enableAutoGeneration 0
 set_param synth.vivado.isSynthRun true
 set_msg_config -source 4 -id {IP_Flow 19-2162} -severity warning -new_severity info
-set_property webtalk.parent_dir /home/connor/Documents/Programs/Vivado/4305/Lab8-PotCtrlLeds/sampler_fpro_system/sampler_fpro_system.cache/wt [current_project]
-set_property parent.project_path /home/connor/Documents/Programs/Vivado/4305/Lab8-PotCtrlLeds/sampler_fpro_system/sampler_fpro_system.xpr [current_project]
+set_property webtalk.parent_dir /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/sampler_fpro_system/sampler_fpro_system.cache/wt [current_project]
+set_property parent.project_path /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/sampler_fpro_system/sampler_fpro_system.xpr [current_project]
 set_property XPM_LIBRARIES XPM_MEMORY [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language Verilog [current_project]
-set_property ip_output_repo /home/connor/Documents/Programs/Vivado/4305/Lab8-PotCtrlLeds/sampler_fpro_system/sampler_fpro_system.cache/ip [current_project]
+set_property ip_output_repo /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/sampler_fpro_system/sampler_fpro_system.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]
-read_verilog /home/connor/Documents/Programs/Vivado/4305/Lab8-PotCtrlLeds/sampler_fpro_system/sampler_fpro_system.srcs/sources_1/imports/HDL/chu_io_map.svh
-set_property file_type "Verilog Header" [get_files /home/connor/Documents/Programs/Vivado/4305/Lab8-PotCtrlLeds/sampler_fpro_system/sampler_fpro_system.srcs/sources_1/imports/HDL/chu_io_map.svh]
+read_verilog /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/sampler_fpro_system/sampler_fpro_system.srcs/sources_1/imports/HDL/chu_io_map.svh
+set_property file_type "Verilog Header" [get_files /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/sampler_fpro_system/sampler_fpro_system.srcs/sources_1/imports/HDL/chu_io_map.svh]
 read_verilog -library xil_defaultlib -sv {
-  /home/connor/Documents/Programs/Vivado/4305/Lab8-PotCtrlLeds/sampler_fpro_system/sampler_fpro_system.srcs/sources_1/imports/HDL/adsr.sv
-  /home/connor/Documents/Programs/Vivado/4305/Lab8-PotCtrlLeds/sampler_fpro_system/sampler_fpro_system.srcs/sources_1/imports/HDL/uart/baud_gen.sv
-  /home/connor/Documents/Programs/Vivado/4305/Lab8-PotCtrlLeds/sampler_fpro_system/sampler_fpro_system.srcs/sources_1/imports/HDL/chu_adsr_core.sv
-  /home/connor/Documents/Programs/Vivado/4305/Lab8-PotCtrlLeds/sampler_fpro_system/sampler_fpro_system.srcs/sources_1/imports/HDL/chu_ddfs_core.sv
-  /home/connor/Documents/Programs/Vivado/4305/Lab8-PotCtrlLeds/sampler_fpro_system/sampler_fpro_system.srcs/sources_1/imports/HDL/chu_debounce_core.sv
-  /home/connor/Documents/Programs/Vivado/4305/Lab8-PotCtrlLeds/sampler_fpro_system/sampler_fpro_system.srcs/sources_1/imports/HDL/chu_gpi.sv
-  /home/connor/Documents/Programs/Vivado/4305/Lab8-PotCtrlLeds/sampler_fpro_system/sampler_fpro_system.srcs/sources_1/imports/HDL/chu_gpo.sv
-  /home/connor/Documents/Programs/Vivado/4305/Lab8-PotCtrlLeds/sampler_fpro_system/sampler_fpro_system.srcs/sources_1/imports/HDL/chu_i2c_core.sv
-  /home/connor/Documents/Programs/Vivado/4305/Lab8-PotCtrlLeds/sampler_fpro_system/sampler_fpro_system.srcs/sources_1/imports/HDL/chu_io_pwm_core.sv
-  /home/connor/Documents/Programs/Vivado/4305/Lab8-PotCtrlLeds/sampler_fpro_system/sampler_fpro_system.srcs/sources_1/imports/HDL/chu_led_mux_core.sv
-  /home/connor/Documents/Programs/Vivado/4305/Lab8-PotCtrlLeds/sampler_fpro_system/sampler_fpro_system.srcs/sources_1/imports/HDL/chu_mcs_bridge.sv
-  /home/connor/Documents/Programs/Vivado/4305/Lab8-PotCtrlLeds/sampler_fpro_system/sampler_fpro_system.srcs/sources_1/imports/HDL/chu_mmio_controller.sv
-  /home/connor/Documents/Programs/Vivado/4305/Lab8-PotCtrlLeds/sampler_fpro_system/sampler_fpro_system.srcs/sources_1/imports/HDL/chu_ps2_core.sv
-  /home/connor/Documents/Programs/Vivado/4305/Lab8-PotCtrlLeds/sampler_fpro_system/sampler_fpro_system.srcs/sources_1/imports/HDL/chu_spi_core.sv
-  /home/connor/Documents/Programs/Vivado/4305/Lab8-PotCtrlLeds/sampler_fpro_system/sampler_fpro_system.srcs/sources_1/imports/HDL/chu_timer.sv
-  /home/connor/Documents/Programs/Vivado/4305/Lab8-PotCtrlLeds/sampler_fpro_system/sampler_fpro_system.srcs/sources_1/imports/HDL/uart/chu_uart.sv
-  /home/connor/Documents/Programs/Vivado/4305/Lab8-PotCtrlLeds/sampler_fpro_system/sampler_fpro_system.srcs/sources_1/imports/HDL/chu_xadc_core.sv
-  /home/connor/Documents/Programs/Vivado/4305/Lab8-PotCtrlLeds/sampler_fpro_system/sampler_fpro_system.srcs/sources_1/imports/HDL/ddfs.sv
-  /home/connor/Documents/Programs/Vivado/4305/Lab8-PotCtrlLeds/sampler_fpro_system/sampler_fpro_system.srcs/sources_1/imports/HDL/debounce_counter.sv
-  /home/connor/Documents/Programs/Vivado/4305/Lab8-PotCtrlLeds/sampler_fpro_system/sampler_fpro_system.srcs/sources_1/imports/HDL/debounce_fsm.sv
-  /home/connor/Documents/Programs/Vivado/4305/Lab8-PotCtrlLeds/sampler_fpro_system/sampler_fpro_system.srcs/sources_1/imports/HDL/ds_1bit_dac.sv
-  /home/connor/Documents/Programs/Vivado/4305/Lab8-PotCtrlLeds/sampler_fpro_system/sampler_fpro_system.srcs/sources_1/imports/HDL/fifo/fifo.sv
-  /home/connor/Documents/Programs/Vivado/4305/Lab8-PotCtrlLeds/sampler_fpro_system/sampler_fpro_system.srcs/sources_1/imports/HDL/fifo/fifo_ctrl.sv
-  /home/connor/Documents/Programs/Vivado/4305/Lab8-PotCtrlLeds/sampler_fpro_system/sampler_fpro_system.srcs/sources_1/imports/HDL/i2c_master.sv
-  /home/connor/Documents/Programs/Vivado/4305/Lab8-PotCtrlLeds/sampler_fpro_system/sampler_fpro_system.srcs/sources_1/imports/HDL/led_mux8.sv
-  /home/connor/Documents/Programs/Vivado/4305/Lab8-PotCtrlLeds/sampler_fpro_system/sampler_fpro_system.srcs/sources_1/imports/HDL/mmio_sys_sampler.sv
-  /home/connor/Documents/Programs/Vivado/4305/Lab8-PotCtrlLeds/sampler_fpro_system/sampler_fpro_system.srcs/sources_1/imports/HDL/ps2_top.sv
-  /home/connor/Documents/Programs/Vivado/4305/Lab8-PotCtrlLeds/sampler_fpro_system/sampler_fpro_system.srcs/sources_1/imports/HDL/ps2rx.sv
-  /home/connor/Documents/Programs/Vivado/4305/Lab8-PotCtrlLeds/sampler_fpro_system/sampler_fpro_system.srcs/sources_1/imports/HDL/ps2tx.sv
-  /home/connor/Documents/Programs/Vivado/4305/Lab8-PotCtrlLeds/sampler_fpro_system/sampler_fpro_system.srcs/sources_1/imports/HDL/fifo/reg_file.sv
-  /home/connor/Documents/Programs/Vivado/4305/Lab8-PotCtrlLeds/sampler_fpro_system/sampler_fpro_system.srcs/sources_1/imports/HDL/sin_rom.sv
-  /home/connor/Documents/Programs/Vivado/4305/Lab8-PotCtrlLeds/sampler_fpro_system/sampler_fpro_system.srcs/sources_1/imports/HDL/spi.sv
-  /home/connor/Documents/Programs/Vivado/4305/Lab8-PotCtrlLeds/sampler_fpro_system/sampler_fpro_system.srcs/sources_1/imports/HDL/uart/uart.sv
-  /home/connor/Documents/Programs/Vivado/4305/Lab8-PotCtrlLeds/sampler_fpro_system/sampler_fpro_system.srcs/sources_1/imports/HDL/uart/uart_rx.sv
-  /home/connor/Documents/Programs/Vivado/4305/Lab8-PotCtrlLeds/sampler_fpro_system/sampler_fpro_system.srcs/sources_1/imports/HDL/uart/uart_tx.sv
-  /home/connor/Documents/Programs/Vivado/4305/Lab8-PotCtrlLeds/sampler_fpro_system/sampler_fpro_system.srcs/sources_1/imports/HDL/xadc_fpro.sv
-  /home/connor/Documents/Programs/Vivado/4305/Lab8-PotCtrlLeds/sampler_fpro_system/sampler_fpro_system.srcs/sources_1/imports/HDL/mcs_top_sampler.sv
+  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/sampler_fpro_system/sampler_fpro_system.srcs/sources_1/imports/HDL/adsr.sv
+  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/sampler_fpro_system/sampler_fpro_system.srcs/sources_1/imports/HDL/uart/baud_gen.sv
+  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/sampler_fpro_system/sampler_fpro_system.srcs/sources_1/imports/HDL/chu_adsr_core.sv
+  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/sampler_fpro_system/sampler_fpro_system.srcs/sources_1/imports/HDL/chu_ddfs_core.sv
+  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/sampler_fpro_system/sampler_fpro_system.srcs/sources_1/imports/HDL/chu_debounce_core.sv
+  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/sampler_fpro_system/sampler_fpro_system.srcs/sources_1/imports/HDL/chu_gpi.sv
+  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/sampler_fpro_system/sampler_fpro_system.srcs/sources_1/imports/HDL/chu_gpo.sv
+  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/sampler_fpro_system/sampler_fpro_system.srcs/sources_1/imports/HDL/chu_i2c_core.sv
+  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/sampler_fpro_system/sampler_fpro_system.srcs/sources_1/imports/HDL/chu_io_pwm_core.sv
+  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/sampler_fpro_system/sampler_fpro_system.srcs/sources_1/imports/HDL/chu_led_mux_core.sv
+  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/sampler_fpro_system/sampler_fpro_system.srcs/sources_1/imports/HDL/chu_mcs_bridge.sv
+  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/sampler_fpro_system/sampler_fpro_system.srcs/sources_1/imports/HDL/chu_mmio_controller.sv
+  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/sampler_fpro_system/sampler_fpro_system.srcs/sources_1/imports/HDL/chu_ps2_core.sv
+  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/sampler_fpro_system/sampler_fpro_system.srcs/sources_1/imports/HDL/chu_spi_core.sv
+  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/sampler_fpro_system/sampler_fpro_system.srcs/sources_1/imports/HDL/chu_timer.sv
+  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/sampler_fpro_system/sampler_fpro_system.srcs/sources_1/imports/HDL/uart/chu_uart.sv
+  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/sampler_fpro_system/sampler_fpro_system.srcs/sources_1/imports/HDL/chu_xadc_core.sv
+  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/sampler_fpro_system/sampler_fpro_system.srcs/sources_1/imports/HDL/ddfs.sv
+  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/sampler_fpro_system/sampler_fpro_system.srcs/sources_1/imports/HDL/debounce_counter.sv
+  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/sampler_fpro_system/sampler_fpro_system.srcs/sources_1/imports/HDL/debounce_fsm.sv
+  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/sampler_fpro_system/sampler_fpro_system.srcs/sources_1/imports/HDL/ds_1bit_dac.sv
+  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/sampler_fpro_system/sampler_fpro_system.srcs/sources_1/imports/HDL/fifo/fifo.sv
+  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/sampler_fpro_system/sampler_fpro_system.srcs/sources_1/imports/HDL/fifo/fifo_ctrl.sv
+  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/sampler_fpro_system/sampler_fpro_system.srcs/sources_1/imports/HDL/i2c_master.sv
+  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/sampler_fpro_system/sampler_fpro_system.srcs/sources_1/imports/HDL/led_mux8.sv
+  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/sampler_fpro_system/sampler_fpro_system.srcs/sources_1/imports/HDL/mmio_sys_sampler.sv
+  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/sampler_fpro_system/sampler_fpro_system.srcs/sources_1/imports/HDL/ps2_top.sv
+  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/sampler_fpro_system/sampler_fpro_system.srcs/sources_1/imports/HDL/ps2rx.sv
+  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/sampler_fpro_system/sampler_fpro_system.srcs/sources_1/imports/HDL/ps2tx.sv
+  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/sampler_fpro_system/sampler_fpro_system.srcs/sources_1/imports/HDL/fifo/reg_file.sv
+  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/sampler_fpro_system/sampler_fpro_system.srcs/sources_1/imports/HDL/sin_rom.sv
+  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/sampler_fpro_system/sampler_fpro_system.srcs/sources_1/imports/HDL/spi.sv
+  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/sampler_fpro_system/sampler_fpro_system.srcs/sources_1/imports/HDL/uart/uart.sv
+  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/sampler_fpro_system/sampler_fpro_system.srcs/sources_1/imports/HDL/uart/uart_rx.sv
+  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/sampler_fpro_system/sampler_fpro_system.srcs/sources_1/imports/HDL/uart/uart_tx.sv
+  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/sampler_fpro_system/sampler_fpro_system.srcs/sources_1/imports/HDL/xadc_fpro.sv
+  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/sampler_fpro_system/sampler_fpro_system.srcs/sources_1/imports/HDL/mcs_top_sampler.sv
 }
-read_ip -quiet /home/connor/Documents/Programs/Vivado/4305/Lab8-PotCtrlLeds/sampler_fpro_system/sampler_fpro_system.srcs/sources_1/ip/xadc_fpro/xadc_fpro.xci
-set_property used_in_implementation false [get_files -all /home/connor/Documents/Programs/Vivado/4305/Lab8-PotCtrlLeds/sampler_fpro_system/sampler_fpro_system.srcs/sources_1/ip/xadc_fpro/xadc_fpro_ooc.xdc]
-set_property used_in_implementation false [get_files -all /home/connor/Documents/Programs/Vivado/4305/Lab8-PotCtrlLeds/sampler_fpro_system/sampler_fpro_system.srcs/sources_1/ip/xadc_fpro/xadc_fpro.xdc]
+read_ip -quiet /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/sampler_fpro_system/sampler_fpro_system.srcs/sources_1/ip/xadc_fpro/xadc_fpro.xci
+set_property used_in_implementation false [get_files -all /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/sampler_fpro_system/sampler_fpro_system.srcs/sources_1/ip/xadc_fpro/xadc_fpro_ooc.xdc]
+set_property used_in_implementation false [get_files -all /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/sampler_fpro_system/sampler_fpro_system.srcs/sources_1/ip/xadc_fpro/xadc_fpro.xdc]
 
-read_ip -quiet /home/connor/Documents/Programs/Vivado/4305/Lab8-PotCtrlLeds/sampler_fpro_system/sampler_fpro_system.srcs/sources_1/ip/cpu/cpu.xci
-set_property used_in_implementation false [get_files -all /home/connor/Documents/Programs/Vivado/4305/Lab8-PotCtrlLeds/sampler_fpro_system/sampler_fpro_system.srcs/sources_1/ip/cpu/bd_0/ip/ip_0/bd_3914_microblaze_I_0.xdc]
-set_property used_in_implementation false [get_files -all /home/connor/Documents/Programs/Vivado/4305/Lab8-PotCtrlLeds/sampler_fpro_system/sampler_fpro_system.srcs/sources_1/ip/cpu/bd_0/ip/ip_0/bd_3914_microblaze_I_0_ooc_debug.xdc]
-set_property used_in_implementation false [get_files -all /home/connor/Documents/Programs/Vivado/4305/Lab8-PotCtrlLeds/sampler_fpro_system/sampler_fpro_system.srcs/sources_1/ip/cpu/bd_0/ip/ip_1/bd_3914_rst_0_0_board.xdc]
-set_property used_in_implementation false [get_files -all /home/connor/Documents/Programs/Vivado/4305/Lab8-PotCtrlLeds/sampler_fpro_system/sampler_fpro_system.srcs/sources_1/ip/cpu/bd_0/ip/ip_1/bd_3914_rst_0_0.xdc]
-set_property used_in_implementation false [get_files -all /home/connor/Documents/Programs/Vivado/4305/Lab8-PotCtrlLeds/sampler_fpro_system/sampler_fpro_system.srcs/sources_1/ip/cpu/bd_0/ip/ip_2/bd_3914_ilmb_0.xdc]
-set_property used_in_implementation false [get_files -all /home/connor/Documents/Programs/Vivado/4305/Lab8-PotCtrlLeds/sampler_fpro_system/sampler_fpro_system.srcs/sources_1/ip/cpu/bd_0/ip/ip_3/bd_3914_dlmb_0.xdc]
-set_property used_in_implementation false [get_files -all /home/connor/Documents/Programs/Vivado/4305/Lab8-PotCtrlLeds/sampler_fpro_system/sampler_fpro_system.srcs/sources_1/ip/cpu/bd_0/ip/ip_6/bd_3914_lmb_bram_I_0_ooc.xdc]
-set_property used_in_implementation false [get_files -all /home/connor/Documents/Programs/Vivado/4305/Lab8-PotCtrlLeds/sampler_fpro_system/sampler_fpro_system.srcs/sources_1/ip/cpu/bd_0/ip/ip_7/bd_3914_iomodule_0_0_board.xdc]
-set_property used_in_implementation false [get_files -all /home/connor/Documents/Programs/Vivado/4305/Lab8-PotCtrlLeds/sampler_fpro_system/sampler_fpro_system.srcs/sources_1/ip/cpu/bd_0/bd_3914_ooc.xdc]
-set_property used_in_implementation false [get_files -all /home/connor/Documents/Programs/Vivado/4305/Lab8-PotCtrlLeds/sampler_fpro_system/sampler_fpro_system.srcs/sources_1/ip/cpu/cpu_board.xdc]
-set_property used_in_implementation false [get_files -all /home/connor/Documents/Programs/Vivado/4305/Lab8-PotCtrlLeds/sampler_fpro_system/sampler_fpro_system.srcs/sources_1/ip/cpu/cpu_ooc.xdc]
-set_property used_in_implementation false [get_files -all /home/connor/Documents/Programs/Vivado/4305/Lab8-PotCtrlLeds/sampler_fpro_system/sampler_fpro_system.srcs/sources_1/ip/cpu/bd_0/ip/ip_0/data/mb_bootloop_le.elf]
-set_property used_in_implementation false [get_files -all /home/connor/Documents/Programs/Vivado/4305/Lab8-PotCtrlLeds/sampler_fpro_system/sampler_fpro_system.srcs/sources_1/ip/cpu/mb_bootloop_le.elf]
+read_ip -quiet /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/sampler_fpro_system/sampler_fpro_system.srcs/sources_1/ip/cpu/cpu.xci
+set_property used_in_implementation false [get_files -all /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/sampler_fpro_system/sampler_fpro_system.srcs/sources_1/ip/cpu/bd_0/ip/ip_0/bd_3914_microblaze_I_0.xdc]
+set_property used_in_implementation false [get_files -all /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/sampler_fpro_system/sampler_fpro_system.srcs/sources_1/ip/cpu/bd_0/ip/ip_0/bd_3914_microblaze_I_0_ooc_debug.xdc]
+set_property used_in_implementation false [get_files -all /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/sampler_fpro_system/sampler_fpro_system.srcs/sources_1/ip/cpu/bd_0/ip/ip_1/bd_3914_rst_0_0_board.xdc]
+set_property used_in_implementation false [get_files -all /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/sampler_fpro_system/sampler_fpro_system.srcs/sources_1/ip/cpu/bd_0/ip/ip_1/bd_3914_rst_0_0.xdc]
+set_property used_in_implementation false [get_files -all /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/sampler_fpro_system/sampler_fpro_system.srcs/sources_1/ip/cpu/bd_0/ip/ip_2/bd_3914_ilmb_0.xdc]
+set_property used_in_implementation false [get_files -all /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/sampler_fpro_system/sampler_fpro_system.srcs/sources_1/ip/cpu/bd_0/ip/ip_3/bd_3914_dlmb_0.xdc]
+set_property used_in_implementation false [get_files -all /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/sampler_fpro_system/sampler_fpro_system.srcs/sources_1/ip/cpu/bd_0/ip/ip_6/bd_3914_lmb_bram_I_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/sampler_fpro_system/sampler_fpro_system.srcs/sources_1/ip/cpu/bd_0/ip/ip_7/bd_3914_iomodule_0_0_board.xdc]
+set_property used_in_implementation false [get_files -all /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/sampler_fpro_system/sampler_fpro_system.srcs/sources_1/ip/cpu/bd_0/bd_3914_ooc.xdc]
+set_property used_in_implementation false [get_files -all /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/sampler_fpro_system/sampler_fpro_system.srcs/sources_1/ip/cpu/cpu_board.xdc]
+set_property used_in_implementation false [get_files -all /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/sampler_fpro_system/sampler_fpro_system.srcs/sources_1/ip/cpu/cpu_ooc.xdc]
+set_property used_in_implementation false [get_files -all /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/sampler_fpro_system/sampler_fpro_system.srcs/sources_1/ip/cpu/bd_0/ip/ip_0/data/mb_bootloop_le.elf]
+set_property used_in_implementation false [get_files -all /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/sampler_fpro_system/sampler_fpro_system.srcs/sources_1/ip/cpu/mb_bootloop_le.elf]
 
 # Mark all dcp files as not used in implementation to prevent them from being
 # stitched into the results of this synthesis run. Any black boxes in the
@@ -100,8 +101,8 @@ set_property used_in_implementation false [get_files -all /home/connor/Documents
 foreach dcp [get_files -quiet -all -filter file_type=="Design\ Checkpoint"] {
   set_property used_in_implementation false $dcp
 }
-read_xdc /home/connor/Documents/Programs/Vivado/4305/Lab8-PotCtrlLeds/sampler_fpro_system/sampler_fpro_system.srcs/constrs_1/imports/Constraints/Nexys4_DDR_chu.xdc
-set_property used_in_implementation false [get_files /home/connor/Documents/Programs/Vivado/4305/Lab8-PotCtrlLeds/sampler_fpro_system/sampler_fpro_system.srcs/constrs_1/imports/Constraints/Nexys4_DDR_chu.xdc]
+read_xdc /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/sampler_fpro_system/sampler_fpro_system.srcs/constrs_1/imports/Constraints/Nexys4_DDR_chu.xdc
+set_property used_in_implementation false [get_files /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/sampler_fpro_system/sampler_fpro_system.srcs/constrs_1/imports/Constraints/Nexys4_DDR_chu.xdc]
 
 read_xdc dont_touch.xdc
 set_property used_in_implementation false [get_files dont_touch.xdc]

@@ -67,19 +67,20 @@ start_step init_design
 set ACTIVE_STEP init_design
 set rc [catch {
   create_msg_db init_design.pb
+  set_param ced.repoPaths {/home/connor/.Xilinx/Vivado/2019.2/xhub/ced_store /home/connor/Downloads/digilent_presets_2017.4-2/Digilent_Presets_2017.4/Microblaze_CEDs}
   set_param chipscope.maxJobs 2
   create_project -in_memory -part xc7a100tcsg324-1
   set_property design_mode GateLvl [current_fileset]
   set_param project.singleFileAddWarning.threshold 0
-  set_property webtalk.parent_dir /home/connor/Documents/Programs/Vivado/4305/Lab8-PotCtrlLeds/sampler_fpro_system/sampler_fpro_system.cache/wt [current_project]
-  set_property parent.project_path /home/connor/Documents/Programs/Vivado/4305/Lab8-PotCtrlLeds/sampler_fpro_system/sampler_fpro_system.xpr [current_project]
-  set_property ip_output_repo /home/connor/Documents/Programs/Vivado/4305/Lab8-PotCtrlLeds/sampler_fpro_system/sampler_fpro_system.cache/ip [current_project]
+  set_property webtalk.parent_dir /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/sampler_fpro_system/sampler_fpro_system.cache/wt [current_project]
+  set_property parent.project_path /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/sampler_fpro_system/sampler_fpro_system.xpr [current_project]
+  set_property ip_output_repo /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/sampler_fpro_system/sampler_fpro_system.cache/ip [current_project]
   set_property ip_cache_permissions {read write} [current_project]
   set_property XPM_LIBRARIES XPM_MEMORY [current_project]
-  add_files -quiet /home/connor/Documents/Programs/Vivado/4305/Lab8-PotCtrlLeds/sampler_fpro_system/sampler_fpro_system.runs/synth_1/mcs_top_sampler.dcp
-  read_ip -quiet /home/connor/Documents/Programs/Vivado/4305/Lab8-PotCtrlLeds/sampler_fpro_system/sampler_fpro_system.srcs/sources_1/ip/xadc_fpro/xadc_fpro.xci
-  read_ip -quiet /home/connor/Documents/Programs/Vivado/4305/Lab8-PotCtrlLeds/sampler_fpro_system/sampler_fpro_system.srcs/sources_1/ip/cpu/cpu.xci
-  read_xdc /home/connor/Documents/Programs/Vivado/4305/Lab8-PotCtrlLeds/sampler_fpro_system/sampler_fpro_system.srcs/constrs_1/imports/Constraints/Nexys4_DDR_chu.xdc
+  add_files -quiet /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/sampler_fpro_system/sampler_fpro_system.runs/synth_1/mcs_top_sampler.dcp
+  read_ip -quiet /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/sampler_fpro_system/sampler_fpro_system.srcs/sources_1/ip/xadc_fpro/xadc_fpro.xci
+  read_ip -quiet /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/sampler_fpro_system/sampler_fpro_system.srcs/sources_1/ip/cpu/cpu.xci
+  read_xdc /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/sampler_fpro_system/sampler_fpro_system.srcs/constrs_1/imports/Constraints/Nexys4_DDR_chu.xdc
   link_design -top mcs_top_sampler -part xc7a100tcsg324-1
   write_hwdef -force -file mcs_top_sampler.hwdef
   close_msg_db -file init_design.pb

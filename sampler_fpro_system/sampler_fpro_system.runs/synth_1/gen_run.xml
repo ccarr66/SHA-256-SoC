@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1603225378">
-  <File Type="RDS-RDS" Name="mcs_top_sampler.vds"/>
-  <File Type="REPORTS-TCL" Name="mcs_top_sampler_reports.tcl"/>
-  <File Type="PA-TCL" Name="mcs_top_sampler.tcl"/>
-  <File Type="RDS-UTIL" Name="mcs_top_sampler_utilization_synth.rpt"/>
+<GenRun Id="synth_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1606689379">
+  <File Type="VDS-TIMINGSUMMARY" Name="mcs_top_sampler_timing_summary_synth.rpt"/>
   <File Type="RDS-DCP" Name="mcs_top_sampler.dcp"/>
   <File Type="RDS-UTIL-PB" Name="mcs_top_sampler_utilization_synth.pb"/>
+  <File Type="RDS-UTIL" Name="mcs_top_sampler_utilization_synth.rpt"/>
+  <File Type="RDS-PROPCONSTRS" Name="mcs_top_sampler_drc_synth.rpt"/>
+  <File Type="RDS-RDS" Name="mcs_top_sampler.vds"/>
+  <File Type="REPORTS-TCL" Name="mcs_top_sampler_reports.tcl"/>
+  <File Type="VDS-TIMING-PB" Name="mcs_top_sampler_timing_summary_synth.pb"/>
+  <File Type="PA-TCL" Name="mcs_top_sampler.tcl"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
     <Filter Type="Srcs"/>
     <File Path="$PSRCDIR/sources_1/ip/xadc_fpro/xadc_fpro.xci">

@@ -1,7 +1,7 @@
 Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------
 | Tool Version              : Vivado v.2019.2.1 (lin64) Build 2729669 Thu Dec  5 04:48:12 MST 2019
-| Date                      : Tue Oct 20 13:27:06 2020
+| Date                      : Sun Nov 29 14:41:03 2020
 | Host                      : connors-workstation running 64-bit Ubuntu 18.04.5 LTS
 | Command                   : report_io -file mcs_top_sampler_io_placed.rpt
 | Design                    : mcs_top_sampler
