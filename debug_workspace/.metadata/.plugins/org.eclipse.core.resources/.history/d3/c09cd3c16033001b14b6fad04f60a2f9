@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="debug_hw" location="/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_hw" platform="/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_cpu/export/debug_cpu/debug_cpu.xpfm" platformUID="xilinx:arty-a7-100::0.0(custom)" systemProject="debug_hw_system" sysConfig="debug_cpu" runtime="cpp" cpu="standalone_domain" cpuInstance="microblaze_mcs_0_microblaze_I" os="standalone" language="CPP" mssSignature="46f0cc9e572a6308d3158feb5fea67e5">
+  <configuration name="Debug" id="xilinx.gnu.mb.exe.debug.1373738766" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.mb.exe.release.155338080" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="empty_application"/>
+</sdkproject:SdkProject>

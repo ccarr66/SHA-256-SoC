@@ -76,7 +76,7 @@ private:
         return rotR(x, 17) ^ rotR(x, 19) ^ shR(x, 10);
     }
 
-    void copyDataToBlock(const char* data, size_t dataLen, block_ty& block, size_t blockIdx)
+    void copyDataToBlock(volatile const char* data, size_t dataLen, block_ty& block, size_t blockIdx)
     {
         auto wordIdx = size_t{0};
         auto byteInWordIdx = size_t{0};
@@ -197,7 +197,7 @@ private:
 
 public:
     //requires strData to point to an char array with len elements
-    SHA256(const char* data, size_t dataLen)
+    SHA256(volatile const char* data, size_t dataLen)
     {
         constexpr auto maxLastBlockLen = bitLen_ty {blockLen - endMarkerLen};
         static_assert(maxLastBlockLen < blockLen);

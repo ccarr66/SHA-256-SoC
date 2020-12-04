@@ -1,11 +1,11 @@
-13:57:47 **** Build of configuration Debug for project debug_hw ****
+16:07:29 **** Incremental Build of configuration Debug for project debug_hw ****
 make all 
 Building file: ../src/main_sampler_test.cpp
 Invoking: MicroBlaze g++ compiler
 mb-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main_sampler_test.o" -I/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/debug_workspace/debug_cpu/export/debug_cpu/sw/debug_cpu/standalone_domain/bspinclude/include -mno-xl-reorder -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main_sampler_test.d" -MT"src/main_sampler_test.o" -o "src/main_sampler_test.o" "../src/main_sampler_test.cpp"
 ../src/main_sampler_test.cpp: In function 'int main()':
-../src/main_sampler_test.cpp:6:17: warning: variable 'hash' set but not used [-Wunused-but-set-variable]
-   volatile auto hash = SHA256("abc", 3);
+../src/main_sampler_test.cpp:7:17: warning: variable 'hash' set but not used [-Wunused-but-set-variable]
+   volatile auto hash = SHA256("0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZzyxwvutsrqponmlkjihgfedcba9876543210", 72);
                  ^~~~
 Finished building: ../src/main_sampler_test.cpp
  
@@ -17,9 +17,9 @@ Finished building target: debug_hw.elf
 Invoking: MicroBlaze Print Size
 mb-size debug_hw.elf  |tee "debug_hw.elf.size"
    text	   data	    bss	    dec	    hex	filename
-   8336	    268	   3108	  11712	   2dc0	debug_hw.elf
+   8408	    268	   3108	  11784	   2e08	debug_hw.elf
 Finished building: debug_hw.elf.size
  
 
-13:57:49 Build Finished (took 1s.970ms)
+16:07:30 Build Finished (took 879ms)
 

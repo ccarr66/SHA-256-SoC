@@ -1,6 +1,6 @@
-13:57:51 **** Build of configuration Debug for project debug_hw_system ****
+22:58:24 **** Build of configuration Debug for project debug_hw_system ****
 make all 
 Skipping SD card image generation. Reason: The system project only has applications for microblaze processors.
 
-13:57:51 Build Finished (took 520ms)
+22:58:25 Build Finished (took 588ms)
 

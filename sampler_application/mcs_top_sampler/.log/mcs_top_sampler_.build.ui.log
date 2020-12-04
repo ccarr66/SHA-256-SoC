@@ -1,0 +1,132 @@
+2020-11-29T16:39:28.00988700255-16:39:28 **** Build of project mcs_top_sampler ****
+000-buildplatform.sh 41737 mcs_top_sampler  
+000-XSDB Server Channel: tcfchan#36
+000-Building the BSP Library for domain  - standalone_domain on processor microblaze_I
+000-Running Make include in microblaze_I/libsrc/iomodule_v2_7/src
+000-
+000-make -C microblaze_I/libsrc/iomodule_v2_7/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" 
+000-"COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-section
+000-s -fdata-sections -Wall -Wextra"
+000-
+000-Running Make include in microblaze_I/libsrc/bram_v4_3/src
+000-
+000-make -C microblaze_I/libsrc/bram_v4_3/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+000-PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -f
+000-data-sections -Wall -Wextra"
+000-
+000-Running Make include in microblaze_I/libsrc/standalone_v7_1/src
+000-
+000-make -C microblaze_I/libsrc/standalone_v7_1/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar
+000-" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-secti
+000-ons -fdata-sections -Wall -Wextra"
+000-
+000-Running Make include in microblaze_I/libsrc/cpu_v2_10/src
+000-
+000-make -C microblaze_I/libsrc/cpu_v2_10/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+000-PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -f
+000-data-sections -Wall -Wextra"
+000-
+000-Running Make libs in microblaze_I/libsrc/iomodule_v2_7/src
+000-
+000-make -C microblaze_I/libsrc/iomodule_v2_7/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "CO
+000-MPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -
+000-fdata-sections -Wall -Wextra"
+000-
+000-Compiling iomodule
+000-
+000-xiomodule.c: In function 'XIOModule_Initialize':
+000/mcs_top_sampler/microblaze_I/standalone_domain/bsp/microblaze_I/libsrc/iomodule_v2_7/src/xiomodule.c167-1-1comparison is always false due to limited range of data type [-Wtype-limits]1-xiomodule.c:167:18: warning: comparison is always false due to limited range of data type [-Wtype-limits]
+000-  for (Id = 0; Id < XPAR_IOMODULE_INTC_MAX_INTR_SIZE; Id++) {
+000-                  ^
+000/mcs_top_sampler/microblaze_I/standalone_domain/bsp/microblaze_I/libsrc/iomodule_v2_7/src/xiomodule.c213-1-1comparison is always false due to limited range of data type [-Wtype-limits]1-xiomodule.c:213:19: warning: comparison is always false due to limited range of data type [-Wtype-limits]
+000-   for (Id = 0; Id < XPAR_IOMODULE_INTC_MAX_INTR_SIZE; Id++) {
+000-                   ^
+000-In file included from ../../../include/xstatus.h:49,
+000-                 from xiomodule.h:261,
+000-                 from xiomodule.c:57:
+000-xiomodule.c: In function 'XIOModule_Connect':
+000/mcs_top_sampler/microblaze_I/standalone_domain/bsp/microblaze_I/libsrc/iomodule_v2_7/src/xiomodule.c350-1-1comparison is always false due to limited range of data type [-Wtype-limits]1-xiomodule.c:350:23: warning: comparison is always false due to limited range of data type [-Wtype-limits]
+000-  Xil_AssertNonvoid(Id < XPAR_IOMODULE_INTC_MAX_INTR_SIZE);
+000-                       ^
+000/mcs_top_sampler/microblaze_I/standalone_domain/bsp/microblaze_I/include/xil_assert.h126-1-1in definition of macro 'Xil_AssertNonvoid'0-../../../include/xil_assert.h:126:9: note: in definition of macro 'Xil_AssertNonvoid'
+000-     if (Expression) {                              \
+000-         ^~~~~~~~~~
+000-xiomodule.c: In function 'XIOModule_Disconnect':
+000/mcs_top_sampler/microblaze_I/standalone_domain/bsp/microblaze_I/libsrc/iomodule_v2_7/src/xiomodule.c390-1-1comparison is always false due to limited range of data type [-Wtype-limits]1-xiomodule.c:390:20: warning: comparison is always false due to limited range of data type [-Wtype-limits]
+000-  Xil_AssertVoid(Id < XPAR_IOMODULE_INTC_MAX_INTR_SIZE);
+000-                    ^
+000/mcs_top_sampler/microblaze_I/standalone_domain/bsp/microblaze_I/include/xil_assert.h101-1-1in definition of macro 'Xil_AssertVoid'0-../../../include/xil_assert.h:101:9: note: in definition of macro 'Xil_AssertVoid'
+000-     if (Expression) {                              \
+000-         ^~~~~~~~~~
+000-xiomodule.c: In function 'XIOModule_Enable':
+000/mcs_top_sampler/microblaze_I/standalone_domain/bsp/microblaze_I/libsrc/iomodule_v2_7/src/xiomodule.c440-1-1comparison is always false due to limited range of data type [-Wtype-limits]1-xiomodule.c:440:20: warning: comparison is always false due to limited range of data type [-Wtype-limits]
+000-  Xil_AssertVoid(Id < XPAR_IOMODULE_INTC_MAX_INTR_SIZE);
+000-                    ^
+000/mcs_top_sampler/microblaze_I/standalone_domain/bsp/microblaze_I/include/xil_assert.h101-1-1in definition of macro 'Xil_AssertVoid'0-../../../include/xil_assert.h:101:9: note: in definition of macro 'Xil_AssertVoid'
+000-     if (Expression) {                              \
+000-         ^~~~~~~~~~
+000-xiomodule.c: In function 'XIOModule_Disable':
+000/mcs_top_sampler/microblaze_I/standalone_domain/bsp/microblaze_I/libsrc/iomodule_v2_7/src/xiomodule.c486-1-1comparison is always false due to limited range of data type [-Wtype-limits]1-xiomodule.c:486:20: warning: comparison is always false due to limited range of data type [-Wtype-limits]
+000-  Xil_AssertVoid(Id < XPAR_IOMODULE_INTC_MAX_INTR_SIZE);
+000-                    ^
+000/mcs_top_sampler/microblaze_I/standalone_domain/bsp/microblaze_I/include/xil_assert.h101-1-1in definition of macro 'Xil_AssertVoid'0-../../../include/xil_assert.h:101:9: note: in definition of macro 'Xil_AssertVoid'
+000-     if (Expression) {                              \
+000-         ^~~~~~~~~~
+000-xiomodule.c: In function 'XIOModule_Acknowledge':
+000/mcs_top_sampler/microblaze_I/standalone_domain/bsp/microblaze_I/libsrc/iomodule_v2_7/src/xiomodule.c530-1-1comparison is always false due to limited range of data type [-Wtype-limits]1-xiomodule.c:530:20: warning: comparison is always false due to limited range of data type [-Wtype-limits]
+000-  Xil_AssertVoid(Id < XPAR_IOMODULE_INTC_MAX_INTR_SIZE);
+000-                    ^
+000/mcs_top_sampler/microblaze_I/standalone_domain/bsp/microblaze_I/include/xil_assert.h101-1-1in definition of macro 'Xil_AssertVoid'0-../../../include/xil_assert.h:101:9: note: in definition of macro 'Xil_AssertVoid'
+000-     if (Expression) {                              \
+000-         ^~~~~~~~~~
+000-xiomodule.c: In function 'XIOModule_ConnectFastHandler':
+000/mcs_top_sampler/microblaze_I/standalone_domain/bsp/microblaze_I/libsrc/iomodule_v2_7/src/xiomodule.c635-1-1comparison is always false due to limited range of data type [-Wtype-limits]1-xiomodule.c:635:23: warning: comparison is always false due to limited range of data type [-Wtype-limits]
+000-  Xil_AssertNonvoid(Id < XPAR_IOMODULE_INTC_MAX_INTR_SIZE);
+000-                       ^
+000/mcs_top_sampler/microblaze_I/standalone_domain/bsp/microblaze_I/include/xil_assert.h126-1-1in definition of macro 'Xil_AssertNonvoid'0-../../../include/xil_assert.h:126:9: note: in definition of macro 'Xil_AssertNonvoid'
+000-     if (Expression) {                              \
+000-         ^~~~~~~~~~
+000-xiomodule.c: In function 'XIOModule_SetNormalIntrMode':
+000/mcs_top_sampler/microblaze_I/standalone_domain/bsp/microblaze_I/libsrc/iomodule_v2_7/src/xiomodule.c717-1-1comparison is always false due to limited range of data type [-Wtype-limits]1-xiomodule.c:717:20: warning: comparison is always false due to limited range of data type [-Wtype-limits]
+000-  Xil_AssertVoid(Id < XPAR_IOMODULE_INTC_MAX_INTR_SIZE);
+000-                    ^
+000/mcs_top_sampler/microblaze_I/standalone_domain/bsp/microblaze_I/include/xil_assert.h101-1-1in definition of macro 'Xil_AssertVoid'0-../../../include/xil_assert.h:101:9: note: in definition of macro 'Xil_AssertVoid'
+000-     if (Expression) {                              \
+000-         ^~~~~~~~~~
+000-xiomodule_l.c: In function 'XIOModule_DeviceInterruptHandler':
+000/mcs_top_sampler/microblaze_I/standalone_domain/bsp/microblaze_I/libsrc/iomodule_v2_7/src/xiomodule_l.c163-1-1comparison of unsigned expression < 0 is always false [-Wtype-limits]1-xiomodule_l.c:163:35: warning: comparison of unsigned expression < 0 is always false [-Wtype-limits]
+000-  for (IntrNumber = 0U; IntrNumber < XPAR_IOMODULE_INTC_MAX_INTR_SIZE;
+000-                                   ^
+000-mb-ar: creating ../../../lib/libxil.a
+000-Running Make libs in microblaze_I/libsrc/bram_v4_3/src
+000-
+000-make -C microblaze_I/libsrc/bram_v4_3/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+000-ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdat
+000-a-sections -Wall -Wextra"
+000-
+000-Compiling bram
+000-
+000-Running Make libs in microblaze_I/libsrc/standalone_v7_1/src
+000-
+000-make -C microblaze_I/libsrc/standalone_v7_1/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "
+000-COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections
+000- -fdata-sections -Wall -Wextra"
+000-
+000-Compiling standalone
+000-
+000/mcs_top_sampler/microblaze_I/standalone_domain/bsp/microblaze_I/libsrc/standalone_v7_1/src/microblaze_sleep.c75-1-1#pragma message: For the sleep routines, assembly instructions are used0-microblaze_sleep.c:75:9: note: #pragma message: For the sleep routines, assembly instructions are used
+000- #pragma message ("For the sleep routines, assembly instructions are used")
+000-         ^~~~~~~
+000-Running Make libs in microblaze_I/libsrc/cpu_v2_10/src
+000-
+000-make -C microblaze_I/libsrc/cpu_v2_10/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+000-ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdat
+000-a-sections -Wall -Wextra"
+000-
+000-Compiling cpu
+000-
+000-Finished building libraries
+000-
+00255-
+16:39:35 Build Finished (took 7s.40ms)
+

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/sampler_application/mcs_top_sampler/hw/mcs_top_sampler.mmi" key="sampler_app-bmmFile"/>
+	<item value="/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/sampler_application/mcs_top_sampler/hw/mcs_top_sampler.bit" key="sampler_app-bitFile"/>
+	<item value="sampler_app" key="programfpga.sdxproject"/>
+	<item value="false" key="sampler_app-partial_bit"/>
+	<item value="false" key="sampler_app-skip_rev_check"/>
+	<item value="Auto Detect" key="sampler_app-device"/>
+	<item value="Local" key="sampler_app-target"/>
+	<item value="/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/sampler_application/sampler_app/Debug/sampler_app.elf" key="sampler_app-microblaze_I-initElf"/>
+</section>

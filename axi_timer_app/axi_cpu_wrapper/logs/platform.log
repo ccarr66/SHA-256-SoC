@@ -1,0 +1,1262 @@
+TRACE::2020-12-03.15:54:41::SCWPlatform::Trying to open the hw design at /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:54:41::SCWPlatform::DSA given /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:54:41::SCWPlatform::DSA absoulate path /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:54:43::SCWPlatform::DSA directory /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw
+TRACE::2020-12-03.15:54:43::SCWPlatform:: Platform Path /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:54:43::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2020-12-03.15:54:43::SCWPlatform::Do not have an existing db opened. 
+TRACE::2020-12-03.15:54:43::SCWPlatform::Opened new HwDB with name axi_cpu_wrapper_0
+TRACE::2020-12-03.15:54:43::SCWWriter::formatted JSON is {
+	"platformName":	"axi_cpu_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"axi_cpu_wrapper",
+	"platHandOff":	"/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_hw/axi_cpu_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/axi_cpu_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	""
+}
+TRACE::2020-12-03.15:54:43::SCWWriter::formatted JSON is {
+	"platformName":	"axi_cpu_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"axi_cpu_wrapper",
+	"platHandOff":	"/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_hw/axi_cpu_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/axi_cpu_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"axi_cpu_wrapper",
+	"systems":	[{
+			"systemName":	"axi_cpu_wrapper",
+			"systemDesc":	"axi_cpu_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"axi_cpu_wrapper"
+		}]
+}
+TRACE::2020-12-03.15:54:43::SCWPlatform::Boot application domains not present, creating them
+TRACE::2020-12-03.15:54:43::SCWPlatform::Pure FPGA device, no boot application will be created.
+TRACE::2020-12-03.15:54:43::SCWWriter::formatted JSON is {
+	"platformName":	"axi_cpu_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"axi_cpu_wrapper",
+	"platHandOff":	"/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_hw/axi_cpu_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/axi_cpu_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"axi_cpu_wrapper",
+	"systems":	[{
+			"systemName":	"axi_cpu_wrapper",
+			"systemDesc":	"axi_cpu_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"axi_cpu_wrapper"
+		}]
+}
+TRACE::2020-12-03.15:54:43::SCWWriter::formatted JSON is {
+	"platformName":	"axi_cpu_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"axi_cpu_wrapper",
+	"platHandOff":	"/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_hw/axi_cpu_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/axi_cpu_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"axi_cpu_wrapper",
+	"systems":	[{
+			"systemName":	"axi_cpu_wrapper",
+			"systemDesc":	"axi_cpu_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"axi_cpu_wrapper"
+		}]
+}
+TRACE::2020-12-03.15:54:43::SCWPlatform::Trying to open the hw design at /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:54:43::SCWPlatform::DSA given /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:54:43::SCWPlatform::DSA absoulate path /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:54:43::SCWPlatform::DSA directory /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw
+TRACE::2020-12-03.15:54:43::SCWPlatform:: Platform Path /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:54:43::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2020-12-03.15:54:43::SCWPlatform::Trying to set the existing hwdb with name axi_cpu_wrapper_0
+TRACE::2020-12-03.15:54:43::SCWPlatform::Opened existing hwdb axi_cpu_wrapper_0
+TRACE::2020-12-03.15:54:43::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-12-03.15:54:43::SCWDomain::checking for install qemu data   : 
+TRACE::2020-12-03.15:54:43::SCWPlatform::Trying to open the hw design at /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:54:43::SCWPlatform::DSA given /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:54:43::SCWPlatform::DSA absoulate path /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:54:43::SCWPlatform::DSA directory /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw
+TRACE::2020-12-03.15:54:43::SCWPlatform:: Platform Path /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:54:43::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2020-12-03.15:54:43::SCWPlatform::Trying to set the existing hwdb with name axi_cpu_wrapper_0
+TRACE::2020-12-03.15:54:43::SCWPlatform::Opened existing hwdb axi_cpu_wrapper_0
+TRACE::2020-12-03.15:54:43::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-12-03.15:54:43::SCWPlatform::Trying to open the hw design at /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:54:43::SCWPlatform::DSA given /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:54:43::SCWPlatform::DSA absoulate path /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:54:43::SCWPlatform::DSA directory /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw
+TRACE::2020-12-03.15:54:43::SCWPlatform:: Platform Path /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:54:43::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2020-12-03.15:54:43::SCWPlatform::Trying to set the existing hwdb with name axi_cpu_wrapper_0
+TRACE::2020-12-03.15:54:43::SCWPlatform::Opened existing hwdb axi_cpu_wrapper_0
+TRACE::2020-12-03.15:54:43::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-12-03.15:54:43::SCWMssOS::Checking the sw design at  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-12-03.15:54:43::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2020-12-03.15:54:43::SCWMssOS::No sw design opened at  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-12-03.15:54:43::SCWMssOS::mss does not exists at /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-12-03.15:54:43::SCWMssOS::Creating sw design at  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-12-03.15:54:43::SCWMssOS::Adding the swdes entry, created swdb /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss with des name /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-12-03.15:54:43::SCWMssOS::updating the scw layer changes to swdes at   /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-12-03.15:54:43::SCWMssOS::Writing mss at /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-12-03.15:54:43::SCWMssOS::Completed writing the mss file at /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp
+TRACE::2020-12-03.15:54:43::SCWMssOS::Picking up changes from newly written mss file into SCW Layer. 
+TRACE::2020-12-03.15:54:43::SCWMssOS::Updated the changes from newly written mss file into SCW Layer. 
+TRACE::2020-12-03.15:54:43::SCWPlatform::Trying to open the hw design at /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:54:43::SCWPlatform::DSA given /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:54:43::SCWPlatform::DSA absoulate path /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:54:43::SCWPlatform::DSA directory /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw
+TRACE::2020-12-03.15:54:43::SCWPlatform:: Platform Path /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:54:43::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2020-12-03.15:54:43::SCWPlatform::Trying to set the existing hwdb with name axi_cpu_wrapper_0
+TRACE::2020-12-03.15:54:43::SCWPlatform::Opened existing hwdb axi_cpu_wrapper_0
+TRACE::2020-12-03.15:54:43::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-12-03.15:54:43::SCWMssOS::Checking the sw design at  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-12-03.15:54:43::SCWMssOS::DEBUG:  swdes dump  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss|/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss||
+
+TRACE::2020-12-03.15:54:43::SCWMssOS::Sw design exists and opened at  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-12-03.15:54:43::SCWPlatform::Trying to open the hw design at /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:54:43::SCWPlatform::DSA given /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:54:43::SCWPlatform::DSA absoulate path /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:54:43::SCWPlatform::DSA directory /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw
+TRACE::2020-12-03.15:54:43::SCWPlatform:: Platform Path /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:54:43::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2020-12-03.15:54:43::SCWPlatform::Trying to set the existing hwdb with name axi_cpu_wrapper_0
+TRACE::2020-12-03.15:54:43::SCWPlatform::Opened existing hwdb axi_cpu_wrapper_0
+TRACE::2020-12-03.15:54:43::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-12-03.15:54:43::SCWMssOS::Checking the sw design at  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-12-03.15:54:43::SCWMssOS::DEBUG:  swdes dump  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss|/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss||
+
+TRACE::2020-12-03.15:54:43::SCWMssOS::Sw design exists and opened at  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-12-03.15:54:43::SCWPlatform::Trying to open the hw design at /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:54:43::SCWPlatform::DSA given /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:54:43::SCWPlatform::DSA absoulate path /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:54:43::SCWPlatform::DSA directory /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw
+TRACE::2020-12-03.15:54:43::SCWPlatform:: Platform Path /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:54:43::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2020-12-03.15:54:43::SCWPlatform::Trying to set the existing hwdb with name axi_cpu_wrapper_0
+TRACE::2020-12-03.15:54:43::SCWPlatform::Opened existing hwdb axi_cpu_wrapper_0
+TRACE::2020-12-03.15:54:43::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-12-03.15:54:43::SCWMssOS::Checking the sw design at  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-12-03.15:54:43::SCWMssOS::DEBUG:  swdes dump  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss|/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss||
+
+TRACE::2020-12-03.15:54:43::SCWMssOS::Sw design exists and opened at  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-12-03.15:54:43::SCWWriter::formatted JSON is {
+	"platformName":	"axi_cpu_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"axi_cpu_wrapper",
+	"platHandOff":	"/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_hw/axi_cpu_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/axi_cpu_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"axi_cpu_wrapper",
+	"systems":	[{
+			"systemName":	"axi_cpu_wrapper",
+			"systemDesc":	"axi_cpu_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"axi_cpu_wrapper",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"",
+					"compatibleApp":	"empty_application",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2020-12-03.15:54:43::SCWPlatform::Trying to open the hw design at /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:54:43::SCWPlatform::DSA given /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:54:43::SCWPlatform::DSA absoulate path /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:54:43::SCWPlatform::DSA directory /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw
+TRACE::2020-12-03.15:54:43::SCWPlatform:: Platform Path /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:54:43::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2020-12-03.15:54:43::SCWPlatform::Trying to set the existing hwdb with name axi_cpu_wrapper_0
+TRACE::2020-12-03.15:54:43::SCWPlatform::Opened existing hwdb axi_cpu_wrapper_0
+TRACE::2020-12-03.15:54:43::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-12-03.15:54:43::SCWMssOS::Checking the sw design at  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-12-03.15:54:43::SCWMssOS::DEBUG:  swdes dump  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss|/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss||
+
+TRACE::2020-12-03.15:54:43::SCWMssOS::Sw design exists and opened at  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-12-03.15:54:43::SCWMssOS::Completed writing the mss file at /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp
+TRACE::2020-12-03.15:54:43::SCWMssOS::Forcing BSP Sources regeneration.
+LOG::2020-12-03.15:54:48::SCWPlatform::Started generating the artifacts platform axi_cpu_wrapper
+TRACE::2020-12-03.15:54:48::SCWPlatform::Sanity checking of platform is completed
+LOG::2020-12-03.15:54:48::SCWPlatform::Started generating the artifacts for system configuration axi_cpu_wrapper
+LOG::2020-12-03.15:54:48::SCWSystem::Checking the domain standalone_domain
+LOG::2020-12-03.15:54:48::SCWSystem::Not a boot domain 
+LOG::2020-12-03.15:54:48::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2020-12-03.15:54:48::SCWDomain::Generating domain artifcats
+TRACE::2020-12-03.15:54:48::SCWMssOS::Generating standalone artifcats
+TRACE::2020-12-03.15:54:48::SCWMssOS:: Copying the user libraries. 
+TRACE::2020-12-03.15:54:48::SCWPlatform::Trying to open the hw design at /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:54:48::SCWPlatform::DSA given /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:54:48::SCWPlatform::DSA absoulate path /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:54:48::SCWPlatform::DSA directory /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw
+TRACE::2020-12-03.15:54:48::SCWPlatform:: Platform Path /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:54:48::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2020-12-03.15:54:48::SCWPlatform::Trying to set the existing hwdb with name axi_cpu_wrapper_0
+TRACE::2020-12-03.15:54:48::SCWPlatform::Opened existing hwdb axi_cpu_wrapper_0
+TRACE::2020-12-03.15:54:48::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-12-03.15:54:48::SCWMssOS::Checking the sw design at  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-12-03.15:54:48::SCWMssOS::DEBUG:  swdes dump  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss|/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss||
+
+KEYINFO::2020-12-03.15:54:49::SCWMssOS::Could not open the swdb for /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+KEYINFO::2020-12-03.15:54:49::SCWMssOS::Could not open the sw design at  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+ERROR: [Hsi 55-1558] Software Design /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss is not found
+
+TRACE::2020-12-03.15:54:49::SCWMssOS::Cleared the swdb table entry
+TRACE::2020-12-03.15:54:49::SCWMssOS::No sw design opened at  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-12-03.15:54:49::SCWMssOS::mss exists loading the mss file  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-12-03.15:54:49::SCWMssOS::Opened the sw design from mss  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-12-03.15:54:49::SCWMssOS::Adding the swdes entry /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss with des name system
+TRACE::2020-12-03.15:54:49::SCWMssOS::updating the scw layer about changes
+TRACE::2020-12-03.15:54:49::SCWMssOS::Opened the sw design.  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-12-03.15:54:49::SCWMssOS::Completed writing the mss file at /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp
+TRACE::2020-12-03.15:54:49::SCWMssOS::Mss edits present, copying mssfile into export location /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-12-03.15:54:49::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2020-12-03.15:54:49::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2020-12-03.15:54:49::SCWDomain::Skipping the build for domain :  standalone_domain
+TRACE::2020-12-03.15:54:49::SCWMssOS::skipping the bsp build ... 
+TRACE::2020-12-03.15:54:49::SCWMssOS::Copying to export directory.
+TRACE::2020-12-03.15:54:49::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2020-12-03.15:54:49::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2020-12-03.15:54:49::SCWSystem::Completed Processing the domain standalone_domain
+LOG::2020-12-03.15:54:49::SCWSystem::Completed Processing the sysconfig axi_cpu_wrapper
+LOG::2020-12-03.15:54:49::SCWPlatform::Completed generating the artifacts for system configuration axi_cpu_wrapper
+TRACE::2020-12-03.15:54:49::SCWPlatform::Started preparing the platform 
+TRACE::2020-12-03.15:54:49::SCWSystem::Writing the bif file for system config axi_cpu_wrapper
+TRACE::2020-12-03.15:54:49::SCWSystem::dir created 
+TRACE::2020-12-03.15:54:49::SCWSystem::Writing the bif 
+TRACE::2020-12-03.15:54:49::SCWPlatform::Started writing the spfm file 
+TRACE::2020-12-03.15:54:49::SCWPlatform::Started writing the xpfm file 
+TRACE::2020-12-03.15:54:49::SCWPlatform::Completed generating the platform
+TRACE::2020-12-03.15:54:49::SCWPlatform::Trying to open the hw design at /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:54:49::SCWPlatform::DSA given /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:54:49::SCWPlatform::DSA absoulate path /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:54:49::SCWPlatform::DSA directory /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw
+TRACE::2020-12-03.15:54:49::SCWPlatform:: Platform Path /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:54:49::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2020-12-03.15:54:49::SCWPlatform::Trying to set the existing hwdb with name axi_cpu_wrapper_0
+TRACE::2020-12-03.15:54:49::SCWPlatform::Opened existing hwdb axi_cpu_wrapper_0
+TRACE::2020-12-03.15:54:49::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-12-03.15:54:49::SCWMssOS::Checking the sw design at  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-12-03.15:54:49::SCWMssOS::DEBUG:  swdes dump  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2020-12-03.15:54:49::SCWMssOS::Sw design exists and opened at  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-12-03.15:54:49::SCWPlatform::Trying to open the hw design at /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:54:49::SCWPlatform::DSA given /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:54:49::SCWPlatform::DSA absoulate path /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:54:49::SCWPlatform::DSA directory /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw
+TRACE::2020-12-03.15:54:49::SCWPlatform:: Platform Path /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:54:49::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2020-12-03.15:54:49::SCWPlatform::Trying to set the existing hwdb with name axi_cpu_wrapper_0
+TRACE::2020-12-03.15:54:49::SCWPlatform::Opened existing hwdb axi_cpu_wrapper_0
+TRACE::2020-12-03.15:54:49::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-12-03.15:54:49::SCWMssOS::Checking the sw design at  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-12-03.15:54:49::SCWMssOS::DEBUG:  swdes dump  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2020-12-03.15:54:49::SCWMssOS::Sw design exists and opened at  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-12-03.15:54:49::SCWPlatform::Trying to open the hw design at /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:54:49::SCWPlatform::DSA given /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:54:49::SCWPlatform::DSA absoulate path /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:54:49::SCWPlatform::DSA directory /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw
+TRACE::2020-12-03.15:54:49::SCWPlatform:: Platform Path /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:54:49::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2020-12-03.15:54:49::SCWPlatform::Trying to set the existing hwdb with name axi_cpu_wrapper_0
+TRACE::2020-12-03.15:54:49::SCWPlatform::Opened existing hwdb axi_cpu_wrapper_0
+TRACE::2020-12-03.15:54:49::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-12-03.15:54:49::SCWMssOS::Checking the sw design at  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-12-03.15:54:49::SCWMssOS::DEBUG:  swdes dump  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2020-12-03.15:54:49::SCWMssOS::Sw design exists and opened at  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-12-03.15:54:49::SCWWriter::formatted JSON is {
+	"platformName":	"axi_cpu_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"axi_cpu_wrapper",
+	"platHandOff":	"/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_hw/axi_cpu_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/axi_cpu_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"axi_cpu_wrapper",
+	"systems":	[{
+			"systemName":	"axi_cpu_wrapper",
+			"systemDesc":	"axi_cpu_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"axi_cpu_wrapper",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"b9896986e9bba8c4cdbe59f80d35485b",
+					"compatibleApp":	"empty_application",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2020-12-03.15:54:49::SCWPlatform::updated the xpfm file.
+TRACE::2020-12-03.15:54:49::SCWPlatform::Trying to open the hw design at /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:54:49::SCWPlatform::DSA given /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:54:49::SCWPlatform::DSA absoulate path /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:54:49::SCWPlatform::DSA directory /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw
+TRACE::2020-12-03.15:54:49::SCWPlatform:: Platform Path /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:54:49::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2020-12-03.15:54:49::SCWPlatform::Trying to set the existing hwdb with name axi_cpu_wrapper_0
+TRACE::2020-12-03.15:54:49::SCWPlatform::Opened existing hwdb axi_cpu_wrapper_0
+TRACE::2020-12-03.15:54:49::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-12-03.15:54:49::SCWMssOS::Checking the sw design at  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-12-03.15:54:49::SCWMssOS::DEBUG:  swdes dump  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2020-12-03.15:54:49::SCWMssOS::Sw design exists and opened at  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-12-03.15:54:49::SCWPlatform::Trying to open the hw design at /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:54:49::SCWPlatform::DSA given /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:54:49::SCWPlatform::DSA absoulate path /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:54:49::SCWPlatform::DSA directory /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw
+TRACE::2020-12-03.15:54:49::SCWPlatform:: Platform Path /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:54:49::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2020-12-03.15:54:49::SCWPlatform::Trying to set the existing hwdb with name axi_cpu_wrapper_0
+TRACE::2020-12-03.15:54:49::SCWPlatform::Opened existing hwdb axi_cpu_wrapper_0
+TRACE::2020-12-03.15:54:49::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-12-03.15:54:49::SCWMssOS::Checking the sw design at  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-12-03.15:54:49::SCWMssOS::DEBUG:  swdes dump  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2020-12-03.15:54:49::SCWMssOS::Sw design exists and opened at  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-12-03.15:54:49::SCWPlatform::Trying to open the hw design at /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:54:49::SCWPlatform::DSA given /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:54:49::SCWPlatform::DSA absoulate path /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:54:49::SCWPlatform::DSA directory /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw
+TRACE::2020-12-03.15:54:49::SCWPlatform:: Platform Path /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:54:49::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2020-12-03.15:54:49::SCWPlatform::Trying to set the existing hwdb with name axi_cpu_wrapper_0
+TRACE::2020-12-03.15:54:49::SCWPlatform::Opened existing hwdb axi_cpu_wrapper_0
+TRACE::2020-12-03.15:54:49::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-12-03.15:54:49::SCWMssOS::Checking the sw design at  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-12-03.15:54:49::SCWMssOS::DEBUG:  swdes dump  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2020-12-03.15:54:49::SCWMssOS::Sw design exists and opened at  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-12-03.15:54:49::SCWPlatform::Trying to open the hw design at /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:54:49::SCWPlatform::DSA given /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:54:49::SCWPlatform::DSA absoulate path /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:54:49::SCWPlatform::DSA directory /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw
+TRACE::2020-12-03.15:54:49::SCWPlatform:: Platform Path /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:54:49::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2020-12-03.15:54:49::SCWPlatform::Trying to set the existing hwdb with name axi_cpu_wrapper_0
+TRACE::2020-12-03.15:54:49::SCWPlatform::Opened existing hwdb axi_cpu_wrapper_0
+TRACE::2020-12-03.15:54:49::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-12-03.15:54:49::SCWMssOS::Checking the sw design at  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-12-03.15:54:49::SCWMssOS::DEBUG:  swdes dump  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2020-12-03.15:54:49::SCWMssOS::Sw design exists and opened at  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-12-03.15:54:49::SCWWriter::formatted JSON is {
+	"platformName":	"axi_cpu_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"axi_cpu_wrapper",
+	"platHandOff":	"/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_hw/axi_cpu_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/axi_cpu_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"axi_cpu_wrapper",
+	"systems":	[{
+			"systemName":	"axi_cpu_wrapper",
+			"systemDesc":	"axi_cpu_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"axi_cpu_wrapper",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"b9896986e9bba8c4cdbe59f80d35485b",
+					"compatibleApp":	"empty_application",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2020-12-03.15:54:49::SCWPlatform::Trying to open the hw design at /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:54:49::SCWPlatform::DSA given /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:54:49::SCWPlatform::DSA absoulate path /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:54:49::SCWPlatform::DSA directory /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw
+TRACE::2020-12-03.15:54:49::SCWPlatform:: Platform Path /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:54:49::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2020-12-03.15:54:49::SCWPlatform::Trying to set the existing hwdb with name axi_cpu_wrapper_0
+TRACE::2020-12-03.15:54:49::SCWPlatform::Opened existing hwdb axi_cpu_wrapper_0
+TRACE::2020-12-03.15:54:49::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-12-03.15:54:49::SCWMssOS::Checking the sw design at  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-12-03.15:54:49::SCWMssOS::DEBUG:  swdes dump  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2020-12-03.15:54:49::SCWMssOS::Sw design exists and opened at  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-12-03.15:54:49::SCWPlatform::Trying to open the hw design at /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:54:49::SCWPlatform::DSA given /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:54:49::SCWPlatform::DSA absoulate path /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:54:49::SCWPlatform::DSA directory /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw
+TRACE::2020-12-03.15:54:49::SCWPlatform:: Platform Path /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:54:49::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2020-12-03.15:54:49::SCWPlatform::Trying to set the existing hwdb with name axi_cpu_wrapper_0
+TRACE::2020-12-03.15:54:49::SCWPlatform::Opened existing hwdb axi_cpu_wrapper_0
+TRACE::2020-12-03.15:54:49::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-12-03.15:54:49::SCWMssOS::Checking the sw design at  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-12-03.15:54:49::SCWMssOS::DEBUG:  swdes dump  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2020-12-03.15:54:49::SCWMssOS::Sw design exists and opened at  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-12-03.15:54:49::SCWPlatform::Trying to open the hw design at /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:54:49::SCWPlatform::DSA given /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:54:49::SCWPlatform::DSA absoulate path /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:54:49::SCWPlatform::DSA directory /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw
+TRACE::2020-12-03.15:54:49::SCWPlatform:: Platform Path /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:54:49::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2020-12-03.15:54:49::SCWPlatform::Trying to set the existing hwdb with name axi_cpu_wrapper_0
+TRACE::2020-12-03.15:54:49::SCWPlatform::Opened existing hwdb axi_cpu_wrapper_0
+TRACE::2020-12-03.15:54:49::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-12-03.15:54:49::SCWMssOS::Checking the sw design at  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-12-03.15:54:49::SCWMssOS::DEBUG:  swdes dump  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2020-12-03.15:54:49::SCWMssOS::Sw design exists and opened at  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-12-03.15:54:49::SCWPlatform::Trying to open the hw design at /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:54:49::SCWPlatform::DSA given /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:54:49::SCWPlatform::DSA absoulate path /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:54:49::SCWPlatform::DSA directory /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw
+TRACE::2020-12-03.15:54:49::SCWPlatform:: Platform Path /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:54:49::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2020-12-03.15:54:49::SCWPlatform::Trying to set the existing hwdb with name axi_cpu_wrapper_0
+TRACE::2020-12-03.15:54:49::SCWPlatform::Opened existing hwdb axi_cpu_wrapper_0
+TRACE::2020-12-03.15:54:49::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-12-03.15:54:49::SCWMssOS::Checking the sw design at  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-12-03.15:54:49::SCWMssOS::DEBUG:  swdes dump  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2020-12-03.15:54:49::SCWMssOS::Sw design exists and opened at  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-12-03.15:54:49::SCWPlatform::Trying to open the hw design at /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:54:49::SCWPlatform::DSA given /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:54:49::SCWPlatform::DSA absoulate path /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:54:49::SCWPlatform::DSA directory /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw
+TRACE::2020-12-03.15:54:49::SCWPlatform:: Platform Path /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:54:49::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2020-12-03.15:54:49::SCWPlatform::Trying to set the existing hwdb with name axi_cpu_wrapper_0
+TRACE::2020-12-03.15:54:49::SCWPlatform::Opened existing hwdb axi_cpu_wrapper_0
+TRACE::2020-12-03.15:54:49::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-12-03.15:54:49::SCWMssOS::Checking the sw design at  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-12-03.15:54:49::SCWMssOS::DEBUG:  swdes dump  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2020-12-03.15:54:49::SCWMssOS::Sw design exists and opened at  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-12-03.15:54:49::SCWWriter::formatted JSON is {
+	"platformName":	"axi_cpu_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"axi_cpu_wrapper",
+	"platHandOff":	"/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_hw/axi_cpu_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/axi_cpu_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"axi_cpu_wrapper",
+	"systems":	[{
+			"systemName":	"axi_cpu_wrapper",
+			"systemDesc":	"axi_cpu_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"axi_cpu_wrapper",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"b9896986e9bba8c4cdbe59f80d35485b",
+					"compatibleApp":	"empty_application",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+LOG::2020-12-03.15:54:49::SCWPlatform::Started generating the artifacts platform axi_cpu_wrapper
+TRACE::2020-12-03.15:54:49::SCWPlatform::Sanity checking of platform is completed
+LOG::2020-12-03.15:54:49::SCWPlatform::Started generating the artifacts for system configuration axi_cpu_wrapper
+LOG::2020-12-03.15:54:49::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2020-12-03.15:54:49::SCWDomain::Generating domain artifcats
+TRACE::2020-12-03.15:54:49::SCWMssOS::Generating standalone artifcats
+TRACE::2020-12-03.15:54:49::SCWMssOS:: Copying the user libraries. 
+TRACE::2020-12-03.15:54:49::SCWPlatform::Trying to open the hw design at /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:54:49::SCWPlatform::DSA given /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:54:49::SCWPlatform::DSA absoulate path /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:54:49::SCWPlatform::DSA directory /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw
+TRACE::2020-12-03.15:54:49::SCWPlatform:: Platform Path /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:54:49::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2020-12-03.15:54:49::SCWPlatform::Trying to set the existing hwdb with name axi_cpu_wrapper_0
+TRACE::2020-12-03.15:54:49::SCWPlatform::Opened existing hwdb axi_cpu_wrapper_0
+TRACE::2020-12-03.15:54:49::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-12-03.15:54:49::SCWMssOS::Checking the sw design at  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-12-03.15:54:49::SCWMssOS::DEBUG:  swdes dump  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2020-12-03.15:54:49::SCWMssOS::Sw design exists and opened at  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-12-03.15:54:49::SCWMssOS::Completed writing the mss file at /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp
+TRACE::2020-12-03.15:54:49::SCWMssOS::Mss edits present, copying mssfile into export location /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-12-03.15:54:49::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2020-12-03.15:54:49::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2020-12-03.15:54:49::SCWDomain::Building the domain as part of full build :  standalone_domain
+TRACE::2020-12-03.15:54:49::SCWMssOS::skipping the bsp build ... 
+TRACE::2020-12-03.15:54:49::SCWMssOS::Copying to export directory.
+TRACE::2020-12-03.15:54:49::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2020-12-03.15:54:49::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2020-12-03.15:54:49::SCWSystem::Completed Processing the domain standalone_domain
+LOG::2020-12-03.15:54:49::SCWSystem::Completed Processing the sysconfig axi_cpu_wrapper
+LOG::2020-12-03.15:54:49::SCWPlatform::Completed generating the artifacts for system configuration axi_cpu_wrapper
+TRACE::2020-12-03.15:54:49::SCWPlatform::Started preparing the platform 
+TRACE::2020-12-03.15:54:49::SCWSystem::Writing the bif file for system config axi_cpu_wrapper
+TRACE::2020-12-03.15:54:49::SCWSystem::dir created 
+TRACE::2020-12-03.15:54:49::SCWSystem::Writing the bif 
+TRACE::2020-12-03.15:54:49::SCWPlatform::Started writing the spfm file 
+TRACE::2020-12-03.15:54:49::SCWPlatform::Started writing the xpfm file 
+TRACE::2020-12-03.15:54:49::SCWPlatform::Completed generating the platform
+TRACE::2020-12-03.15:54:49::SCWPlatform::Trying to open the hw design at /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:54:49::SCWPlatform::DSA given /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:54:49::SCWPlatform::DSA absoulate path /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:54:49::SCWPlatform::DSA directory /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw
+TRACE::2020-12-03.15:54:49::SCWPlatform:: Platform Path /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:54:49::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2020-12-03.15:54:49::SCWPlatform::Trying to set the existing hwdb with name axi_cpu_wrapper_0
+TRACE::2020-12-03.15:54:49::SCWPlatform::Opened existing hwdb axi_cpu_wrapper_0
+TRACE::2020-12-03.15:54:49::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-12-03.15:54:49::SCWMssOS::Checking the sw design at  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-12-03.15:54:49::SCWMssOS::DEBUG:  swdes dump  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2020-12-03.15:54:49::SCWMssOS::Sw design exists and opened at  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-12-03.15:54:49::SCWPlatform::Trying to open the hw design at /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:54:49::SCWPlatform::DSA given /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:54:49::SCWPlatform::DSA absoulate path /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:54:49::SCWPlatform::DSA directory /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw
+TRACE::2020-12-03.15:54:49::SCWPlatform:: Platform Path /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:54:49::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2020-12-03.15:54:49::SCWPlatform::Trying to set the existing hwdb with name axi_cpu_wrapper_0
+TRACE::2020-12-03.15:54:49::SCWPlatform::Opened existing hwdb axi_cpu_wrapper_0
+TRACE::2020-12-03.15:54:49::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-12-03.15:54:49::SCWMssOS::Checking the sw design at  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-12-03.15:54:49::SCWMssOS::DEBUG:  swdes dump  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2020-12-03.15:54:49::SCWMssOS::Sw design exists and opened at  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-12-03.15:54:49::SCWPlatform::Trying to open the hw design at /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:54:49::SCWPlatform::DSA given /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:54:49::SCWPlatform::DSA absoulate path /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:54:49::SCWPlatform::DSA directory /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw
+TRACE::2020-12-03.15:54:49::SCWPlatform:: Platform Path /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:54:49::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2020-12-03.15:54:49::SCWPlatform::Trying to set the existing hwdb with name axi_cpu_wrapper_0
+TRACE::2020-12-03.15:54:49::SCWPlatform::Opened existing hwdb axi_cpu_wrapper_0
+TRACE::2020-12-03.15:54:49::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-12-03.15:54:49::SCWMssOS::Checking the sw design at  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-12-03.15:54:49::SCWMssOS::DEBUG:  swdes dump  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2020-12-03.15:54:49::SCWMssOS::Sw design exists and opened at  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-12-03.15:54:49::SCWWriter::formatted JSON is {
+	"platformName":	"axi_cpu_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"axi_cpu_wrapper",
+	"platHandOff":	"/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_hw/axi_cpu_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/axi_cpu_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"axi_cpu_wrapper",
+	"systems":	[{
+			"systemName":	"axi_cpu_wrapper",
+			"systemDesc":	"axi_cpu_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"axi_cpu_wrapper",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"b9896986e9bba8c4cdbe59f80d35485b",
+					"compatibleApp":	"empty_application",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2020-12-03.15:54:49::SCWPlatform::updated the xpfm file.
+LOG::2020-12-03.15:59:20::SCWPlatform::Started generating the artifacts platform axi_cpu_wrapper
+TRACE::2020-12-03.15:59:20::SCWPlatform::Sanity checking of platform is completed
+LOG::2020-12-03.15:59:20::SCWPlatform::Started generating the artifacts for system configuration axi_cpu_wrapper
+LOG::2020-12-03.15:59:20::SCWSystem::Checking the domain standalone_domain
+LOG::2020-12-03.15:59:20::SCWSystem::Not a boot domain 
+LOG::2020-12-03.15:59:20::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2020-12-03.15:59:20::SCWDomain::Generating domain artifcats
+TRACE::2020-12-03.15:59:20::SCWMssOS::Generating standalone artifcats
+TRACE::2020-12-03.15:59:20::SCWMssOS:: Copying the user libraries. 
+TRACE::2020-12-03.15:59:20::SCWPlatform::Trying to open the hw design at /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:59:20::SCWPlatform::DSA given /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:59:20::SCWPlatform::DSA absoulate path /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:59:20::SCWPlatform::DSA directory /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw
+TRACE::2020-12-03.15:59:20::SCWPlatform:: Platform Path /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:59:20::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2020-12-03.15:59:20::SCWPlatform::Trying to set the existing hwdb with name axi_cpu_wrapper_0
+TRACE::2020-12-03.15:59:20::SCWPlatform::Opened existing hwdb axi_cpu_wrapper_0
+TRACE::2020-12-03.15:59:20::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-12-03.15:59:20::SCWMssOS::Checking the sw design at  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-12-03.15:59:20::SCWMssOS::DEBUG:  swdes dump  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2020-12-03.15:59:20::SCWMssOS::Sw design exists and opened at  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-12-03.15:59:20::SCWMssOS::Completed writing the mss file at /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp
+TRACE::2020-12-03.15:59:20::SCWMssOS::Mss edits present, copying mssfile into export location /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-12-03.15:59:20::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2020-12-03.15:59:20::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2020-12-03.15:59:20::SCWDomain::Building the domain as part of full build :  standalone_domain
+TRACE::2020-12-03.15:59:20::SCWMssOS::doing bsp build ... 
+TRACE::2020-12-03.15:59:20::SCWMssOS::System Command Ran  cd  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp ; bash -c "make  " 
+TRACE::2020-12-03.15:59:20::SCWMssOS::Running Make include in microblaze_0/libsrc/tmrctr_v4_5/src
+
+TRACE::2020-12-03.15:59:20::SCWMssOS::make -C microblaze_0/libsrc/tmrctr_v4_5/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2020-12-03.15:59:20::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections 
+TRACE::2020-12-03.15:59:20::SCWMssOS::-Wall -Wextra"
+
+TRACE::2020-12-03.15:59:20::SCWMssOS::Running Make include in microblaze_0/libsrc/uartlite_v3_3/src
+
+TRACE::2020-12-03.15:59:20::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_3/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" 
+TRACE::2020-12-03.15:59:20::SCWMssOS::"COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-section
+TRACE::2020-12-03.15:59:20::SCWMssOS::s -Wall -Wextra"
+
+TRACE::2020-12-03.15:59:20::SCWMssOS::Running Make include in microblaze_0/libsrc/bram_v4_3/src
+
+TRACE::2020-12-03.15:59:20::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_3/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2020-12-03.15:59:20::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2020-12-03.15:59:20::SCWMssOS::all -Wextra"
+
+TRACE::2020-12-03.15:59:20::SCWMssOS::Running Make include in microblaze_0/libsrc/standalone_v7_1/src
+
+TRACE::2020-12-03.15:59:20::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_1/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar
+TRACE::2020-12-03.15:59:20::SCWMssOS::" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-secti
+TRACE::2020-12-03.15:59:20::SCWMssOS::ons -Wall -Wextra"
+
+TRACE::2020-12-03.15:59:20::SCWMssOS::Running Make include in microblaze_0/libsrc/cpu_v2_10/src
+
+TRACE::2020-12-03.15:59:20::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_10/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2020-12-03.15:59:20::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2020-12-03.15:59:20::SCWMssOS::all -Wextra"
+
+TRACE::2020-12-03.15:59:20::SCWMssOS::Running Make libs in microblaze_0/libsrc/tmrctr_v4_5/src
+
+TRACE::2020-12-03.15:59:20::SCWMssOS::make -C microblaze_0/libsrc/tmrctr_v4_5/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMP
+TRACE::2020-12-03.15:59:20::SCWMssOS::ILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wa
+TRACE::2020-12-03.15:59:20::SCWMssOS::ll -Wextra"
+
+TRACE::2020-12-03.15:59:20::SCWMssOS::Compiling tmrctr
+
+TRACE::2020-12-03.15:59:21::SCWMssOS::Running Make libs in microblaze_0/libsrc/uartlite_v3_3/src
+
+TRACE::2020-12-03.15:59:21::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_3/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "CO
+TRACE::2020-12-03.15:59:21::SCWMssOS::MPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -
+TRACE::2020-12-03.15:59:21::SCWMssOS::Wall -Wextra"
+
+TRACE::2020-12-03.15:59:21::SCWMssOS::Compiling uartlite
+
+TRACE::2020-12-03.15:59:21::SCWMssOS::Running Make libs in microblaze_0/libsrc/bram_v4_3/src
+
+TRACE::2020-12-03.15:59:21::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_3/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2020-12-03.15:59:21::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+TRACE::2020-12-03.15:59:21::SCWMssOS:: -Wextra"
+
+TRACE::2020-12-03.15:59:21::SCWMssOS::Compiling bram
+
+TRACE::2020-12-03.15:59:21::SCWMssOS::Running Make libs in microblaze_0/libsrc/standalone_v7_1/src
+
+TRACE::2020-12-03.15:59:21::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_1/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "
+TRACE::2020-12-03.15:59:21::SCWMssOS::COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections
+TRACE::2020-12-03.15:59:21::SCWMssOS:: -Wall -Wextra"
+
+TRACE::2020-12-03.15:59:21::SCWMssOS::Compiling standalone
+
+TRACE::2020-12-03.15:59:23::SCWMssOS::Running Make libs in microblaze_0/libsrc/cpu_v2_10/src
+
+TRACE::2020-12-03.15:59:23::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_10/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2020-12-03.15:59:23::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+TRACE::2020-12-03.15:59:23::SCWMssOS:: -Wextra"
+
+TRACE::2020-12-03.15:59:23::SCWMssOS::Compiling cpu
+
+TRACE::2020-12-03.15:59:23::SCWMssOS::Finished building libraries
+
+TRACE::2020-12-03.15:59:23::SCWMssOS::Copying to export directory.
+TRACE::2020-12-03.15:59:23::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2020-12-03.15:59:23::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2020-12-03.15:59:23::SCWSystem::Completed Processing the domain standalone_domain
+LOG::2020-12-03.15:59:23::SCWSystem::Completed Processing the sysconfig axi_cpu_wrapper
+LOG::2020-12-03.15:59:23::SCWPlatform::Completed generating the artifacts for system configuration axi_cpu_wrapper
+TRACE::2020-12-03.15:59:23::SCWPlatform::Started preparing the platform 
+TRACE::2020-12-03.15:59:23::SCWSystem::Writing the bif file for system config axi_cpu_wrapper
+TRACE::2020-12-03.15:59:23::SCWSystem::dir created 
+TRACE::2020-12-03.15:59:23::SCWSystem::Writing the bif 
+TRACE::2020-12-03.15:59:23::SCWPlatform::Started writing the spfm file 
+TRACE::2020-12-03.15:59:23::SCWPlatform::Started writing the xpfm file 
+TRACE::2020-12-03.15:59:23::SCWPlatform::Completed generating the platform
+TRACE::2020-12-03.15:59:23::SCWPlatform::Trying to open the hw design at /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:59:23::SCWPlatform::DSA given /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:59:23::SCWPlatform::DSA absoulate path /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:59:23::SCWPlatform::DSA directory /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw
+TRACE::2020-12-03.15:59:23::SCWPlatform:: Platform Path /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:59:23::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2020-12-03.15:59:23::SCWPlatform::Trying to set the existing hwdb with name axi_cpu_wrapper_0
+TRACE::2020-12-03.15:59:23::SCWPlatform::Opened existing hwdb axi_cpu_wrapper_0
+TRACE::2020-12-03.15:59:23::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-12-03.15:59:23::SCWMssOS::Checking the sw design at  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-12-03.15:59:23::SCWMssOS::DEBUG:  swdes dump  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2020-12-03.15:59:23::SCWMssOS::Sw design exists and opened at  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-12-03.15:59:23::SCWPlatform::Trying to open the hw design at /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:59:23::SCWPlatform::DSA given /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:59:23::SCWPlatform::DSA absoulate path /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:59:23::SCWPlatform::DSA directory /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw
+TRACE::2020-12-03.15:59:23::SCWPlatform:: Platform Path /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:59:23::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2020-12-03.15:59:23::SCWPlatform::Trying to set the existing hwdb with name axi_cpu_wrapper_0
+TRACE::2020-12-03.15:59:23::SCWPlatform::Opened existing hwdb axi_cpu_wrapper_0
+TRACE::2020-12-03.15:59:23::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-12-03.15:59:23::SCWMssOS::Checking the sw design at  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-12-03.15:59:23::SCWMssOS::DEBUG:  swdes dump  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2020-12-03.15:59:23::SCWMssOS::Sw design exists and opened at  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-12-03.15:59:23::SCWPlatform::Trying to open the hw design at /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:59:23::SCWPlatform::DSA given /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:59:23::SCWPlatform::DSA absoulate path /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:59:23::SCWPlatform::DSA directory /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw
+TRACE::2020-12-03.15:59:23::SCWPlatform:: Platform Path /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:59:23::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2020-12-03.15:59:23::SCWPlatform::Trying to set the existing hwdb with name axi_cpu_wrapper_0
+TRACE::2020-12-03.15:59:23::SCWPlatform::Opened existing hwdb axi_cpu_wrapper_0
+TRACE::2020-12-03.15:59:23::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-12-03.15:59:23::SCWMssOS::Checking the sw design at  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-12-03.15:59:23::SCWMssOS::DEBUG:  swdes dump  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2020-12-03.15:59:23::SCWMssOS::Sw design exists and opened at  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-12-03.15:59:23::SCWWriter::formatted JSON is {
+	"platformName":	"axi_cpu_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"axi_cpu_wrapper",
+	"platHandOff":	"/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_hw/axi_cpu_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/axi_cpu_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"axi_cpu_wrapper",
+	"systems":	[{
+			"systemName":	"axi_cpu_wrapper",
+			"systemDesc":	"axi_cpu_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"axi_cpu_wrapper",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"b9896986e9bba8c4cdbe59f80d35485b",
+					"compatibleApp":	"empty_application",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2020-12-03.15:59:23::SCWPlatform::updated the xpfm file.
+TRACE::2020-12-03.15:59:23::SCWPlatform::Trying to open the hw design at /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:59:23::SCWPlatform::DSA given /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:59:23::SCWPlatform::DSA absoulate path /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:59:23::SCWPlatform::DSA directory /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw
+TRACE::2020-12-03.15:59:23::SCWPlatform:: Platform Path /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:59:23::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2020-12-03.15:59:23::SCWPlatform::Trying to set the existing hwdb with name axi_cpu_wrapper_0
+TRACE::2020-12-03.15:59:23::SCWPlatform::Opened existing hwdb axi_cpu_wrapper_0
+TRACE::2020-12-03.15:59:23::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-12-03.15:59:23::SCWMssOS::Checking the sw design at  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-12-03.15:59:23::SCWMssOS::DEBUG:  swdes dump  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2020-12-03.15:59:23::SCWMssOS::Sw design exists and opened at  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-12-03.15:59:42::SCWPlatform::Clearing the existing platform
+TRACE::2020-12-03.15:59:42::SCWSystem::Clearing the existing sysconfig
+TRACE::2020-12-03.15:59:42::SCWMssOS::Removing the swdes entry for  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-12-03.15:59:42::SCWSystem::Clearing the domains completed.
+TRACE::2020-12-03.15:59:42::SCWPlatform::Clearing the opened hw db.
+TRACE::2020-12-03.15:59:42::SCWPlatform::DSA given /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:59:42::SCWPlatform::DSA absoulate path /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:59:42::SCWPlatform:: Platform location is /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw
+TRACE::2020-12-03.15:59:42::SCWPlatform:: Platform Path /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:59:42::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2020-12-03.15:59:42::SCWPlatform::Removing the HwDB with name /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:59:42::SCWPlatform::Trying to open the hw design at /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:59:42::SCWPlatform::DSA given /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:59:42::SCWPlatform::DSA absoulate path /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:59:42::SCWPlatform::DSA directory /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw
+TRACE::2020-12-03.15:59:42::SCWPlatform:: Platform Path /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:59:42::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2020-12-03.15:59:42::SCWPlatform::Do not have an existing db opened. 
+TRACE::2020-12-03.15:59:42::SCWPlatform::Opened new HwDB with name axi_cpu_wrapper_3
+TRACE::2020-12-03.15:59:42::SCWReader::Active system found as  axi_cpu_wrapper
+TRACE::2020-12-03.15:59:42::SCWReader::Handling sysconfig axi_cpu_wrapper
+TRACE::2020-12-03.15:59:42::SCWDomain::checking for install qemu data   : 
+TRACE::2020-12-03.15:59:42::SCWPlatform::Trying to open the hw design at /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:59:42::SCWPlatform::DSA given /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:59:42::SCWPlatform::DSA absoulate path /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:59:42::SCWPlatform::DSA directory /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw
+TRACE::2020-12-03.15:59:42::SCWPlatform:: Platform Path /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:59:42::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2020-12-03.15:59:42::SCWPlatform::Trying to set the existing hwdb with name axi_cpu_wrapper_3
+TRACE::2020-12-03.15:59:42::SCWPlatform::Opened existing hwdb axi_cpu_wrapper_3
+TRACE::2020-12-03.15:59:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-12-03.15:59:42::SCWPlatform::Trying to open the hw design at /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:59:42::SCWPlatform::DSA given /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:59:42::SCWPlatform::DSA absoulate path /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:59:42::SCWPlatform::DSA directory /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw
+TRACE::2020-12-03.15:59:42::SCWPlatform:: Platform Path /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:59:42::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2020-12-03.15:59:42::SCWPlatform::Trying to set the existing hwdb with name axi_cpu_wrapper_3
+TRACE::2020-12-03.15:59:42::SCWPlatform::Opened existing hwdb axi_cpu_wrapper_3
+TRACE::2020-12-03.15:59:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-12-03.15:59:42::SCWPlatform::Trying to open the hw design at /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:59:42::SCWPlatform::DSA given /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:59:42::SCWPlatform::DSA absoulate path /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:59:42::SCWPlatform::DSA directory /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw
+TRACE::2020-12-03.15:59:42::SCWPlatform:: Platform Path /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:59:42::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2020-12-03.15:59:42::SCWPlatform::Trying to set the existing hwdb with name axi_cpu_wrapper_3
+TRACE::2020-12-03.15:59:42::SCWPlatform::Opened existing hwdb axi_cpu_wrapper_3
+TRACE::2020-12-03.15:59:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-12-03.15:59:42::SCWMssOS::Checking the sw design at  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-12-03.15:59:42::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2020-12-03.15:59:42::SCWMssOS::No sw design opened at  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-12-03.15:59:42::SCWMssOS::mss exists loading the mss file  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-12-03.15:59:42::SCWMssOS::Opened the sw design from mss  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-12-03.15:59:42::SCWMssOS::Adding the swdes entry /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss with des name system
+TRACE::2020-12-03.15:59:42::SCWMssOS::updating the scw layer about changes
+TRACE::2020-12-03.15:59:42::SCWMssOS::Opened the sw design.  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-12-03.15:59:42::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2020-12-03.15:59:42::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2020-12-03.15:59:42::SCWPlatform::Trying to open the hw design at /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:59:42::SCWPlatform::DSA given /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:59:42::SCWPlatform::DSA absoulate path /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:59:42::SCWPlatform::DSA directory /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw
+TRACE::2020-12-03.15:59:42::SCWPlatform:: Platform Path /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:59:42::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2020-12-03.15:59:42::SCWPlatform::Trying to set the existing hwdb with name axi_cpu_wrapper_3
+TRACE::2020-12-03.15:59:42::SCWPlatform::Opened existing hwdb axi_cpu_wrapper_3
+TRACE::2020-12-03.15:59:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-12-03.15:59:42::SCWMssOS::Checking the sw design at  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-12-03.15:59:42::SCWMssOS::DEBUG:  swdes dump  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2020-12-03.15:59:42::SCWMssOS::Sw design exists and opened at  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-12-03.15:59:42::SCWReader::No isolation master present  
+TRACE::2020-12-03.15:59:43::SCWPlatform::Trying to open the hw design at /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:59:43::SCWPlatform::DSA given /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:59:43::SCWPlatform::DSA absoulate path /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:59:43::SCWPlatform::DSA directory /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw
+TRACE::2020-12-03.15:59:43::SCWPlatform:: Platform Path /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:59:43::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2020-12-03.15:59:43::SCWPlatform::Trying to set the existing hwdb with name axi_cpu_wrapper_3
+TRACE::2020-12-03.15:59:43::SCWPlatform::Opened existing hwdb axi_cpu_wrapper_3
+TRACE::2020-12-03.15:59:43::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-12-03.15:59:43::SCWMssOS::Checking the sw design at  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-12-03.15:59:43::SCWMssOS::DEBUG:  swdes dump  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2020-12-03.15:59:43::SCWMssOS::Sw design exists and opened at  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-12-03.15:59:43::SCWMssOS::In reload Mss file.
+TRACE::2020-12-03.15:59:43::SCWPlatform::Trying to open the hw design at /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:59:43::SCWPlatform::DSA given /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:59:43::SCWPlatform::DSA absoulate path /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:59:43::SCWPlatform::DSA directory /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw
+TRACE::2020-12-03.15:59:43::SCWPlatform:: Platform Path /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:59:43::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2020-12-03.15:59:43::SCWPlatform::Trying to set the existing hwdb with name axi_cpu_wrapper_3
+TRACE::2020-12-03.15:59:43::SCWPlatform::Opened existing hwdb axi_cpu_wrapper_3
+TRACE::2020-12-03.15:59:43::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-12-03.15:59:43::SCWMssOS::Checking the sw design at  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-12-03.15:59:43::SCWMssOS::DEBUG:  swdes dump  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+KEYINFO::2020-12-03.15:59:43::SCWMssOS::Could not open the swdb for system
+KEYINFO::2020-12-03.15:59:43::SCWMssOS::Could not open the sw design at  system
+ERROR: [Hsi 55-1558] Software Design system is not found
+
+TRACE::2020-12-03.15:59:43::SCWMssOS::Cleared the swdb table entry
+TRACE::2020-12-03.15:59:43::SCWMssOS::No sw design opened at  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-12-03.15:59:43::SCWMssOS::mss exists loading the mss file  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-12-03.15:59:43::SCWMssOS::Opened the sw design from mss  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-12-03.15:59:43::SCWMssOS::Adding the swdes entry /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss with des name system
+TRACE::2020-12-03.15:59:43::SCWMssOS::updating the scw layer about changes
+TRACE::2020-12-03.15:59:43::SCWMssOS::Opened the sw design.  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-12-03.15:59:43::SCWPlatform::Trying to open the hw design at /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:59:43::SCWPlatform::DSA given /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:59:43::SCWPlatform::DSA absoulate path /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:59:43::SCWPlatform::DSA directory /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw
+TRACE::2020-12-03.15:59:43::SCWPlatform:: Platform Path /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:59:43::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2020-12-03.15:59:43::SCWPlatform::Trying to set the existing hwdb with name axi_cpu_wrapper_3
+TRACE::2020-12-03.15:59:43::SCWPlatform::Opened existing hwdb axi_cpu_wrapper_3
+TRACE::2020-12-03.15:59:43::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-12-03.15:59:43::SCWMssOS::Checking the sw design at  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-12-03.15:59:43::SCWMssOS::DEBUG:  swdes dump  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2020-12-03.15:59:43::SCWMssOS::Sw design exists and opened at  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-12-03.15:59:43::SCWMssOS::Removing the swdes entry for  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-12-03.15:59:48::SCWPlatform::Trying to open the hw design at /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:59:48::SCWPlatform::DSA given /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:59:48::SCWPlatform::DSA absoulate path /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:59:48::SCWPlatform::DSA directory /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw
+TRACE::2020-12-03.15:59:48::SCWPlatform:: Platform Path /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:59:48::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2020-12-03.15:59:48::SCWPlatform::Trying to set the existing hwdb with name axi_cpu_wrapper_3
+TRACE::2020-12-03.15:59:48::SCWPlatform::Opened existing hwdb axi_cpu_wrapper_3
+TRACE::2020-12-03.15:59:48::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-12-03.15:59:48::SCWMssOS::Checking the sw design at  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-12-03.15:59:48::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2020-12-03.15:59:48::SCWMssOS::No sw design opened at  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-12-03.15:59:48::SCWMssOS::mss exists loading the mss file  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-12-03.15:59:48::SCWMssOS::Opened the sw design from mss  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-12-03.15:59:48::SCWMssOS::Adding the swdes entry /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss with des name system
+TRACE::2020-12-03.15:59:48::SCWMssOS::updating the scw layer about changes
+TRACE::2020-12-03.15:59:48::SCWMssOS::Opened the sw design.  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-12-03.15:59:57::SCWPlatform::Trying to open the hw design at /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:59:57::SCWPlatform::DSA given /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:59:57::SCWPlatform::DSA absoulate path /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:59:57::SCWPlatform::DSA directory /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw
+TRACE::2020-12-03.15:59:57::SCWPlatform:: Platform Path /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:59:57::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2020-12-03.15:59:57::SCWPlatform::Trying to set the existing hwdb with name axi_cpu_wrapper_3
+TRACE::2020-12-03.15:59:57::SCWPlatform::Opened existing hwdb axi_cpu_wrapper_3
+TRACE::2020-12-03.15:59:57::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-12-03.15:59:57::SCWMssOS::Checking the sw design at  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-12-03.15:59:57::SCWMssOS::DEBUG:  swdes dump  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2020-12-03.15:59:57::SCWMssOS::Sw design exists and opened at  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-12-03.15:59:57::SCWPlatform::Trying to open the hw design at /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:59:57::SCWPlatform::DSA given /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:59:57::SCWPlatform::DSA absoulate path /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:59:57::SCWPlatform::DSA directory /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw
+TRACE::2020-12-03.15:59:57::SCWPlatform:: Platform Path /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.15:59:57::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2020-12-03.15:59:57::SCWPlatform::Trying to set the existing hwdb with name axi_cpu_wrapper_3
+TRACE::2020-12-03.15:59:57::SCWPlatform::Opened existing hwdb axi_cpu_wrapper_3
+TRACE::2020-12-03.15:59:57::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-12-03.15:59:57::SCWMssOS::Checking the sw design at  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-12-03.15:59:57::SCWMssOS::DEBUG:  swdes dump  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2020-12-03.15:59:57::SCWMssOS::Sw design exists and opened at  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-12-03.16:00:10::SCWPlatform::Trying to open the hw design at /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.16:00:10::SCWPlatform::DSA given /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.16:00:10::SCWPlatform::DSA absoulate path /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.16:00:10::SCWPlatform::DSA directory /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw
+TRACE::2020-12-03.16:00:10::SCWPlatform:: Platform Path /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.16:00:10::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2020-12-03.16:00:10::SCWPlatform::Trying to set the existing hwdb with name axi_cpu_wrapper_3
+TRACE::2020-12-03.16:00:10::SCWPlatform::Opened existing hwdb axi_cpu_wrapper_3
+TRACE::2020-12-03.16:00:10::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-12-03.16:00:10::SCWMssOS::Checking the sw design at  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-12-03.16:00:10::SCWMssOS::DEBUG:  swdes dump  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2020-12-03.16:00:10::SCWMssOS::Sw design exists and opened at  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-12-03.16:00:10::SCWPlatform::Trying to open the hw design at /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.16:00:10::SCWPlatform::DSA given /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.16:00:10::SCWPlatform::DSA absoulate path /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.16:00:10::SCWPlatform::DSA directory /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw
+TRACE::2020-12-03.16:00:10::SCWPlatform:: Platform Path /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.16:00:10::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2020-12-03.16:00:10::SCWPlatform::Trying to set the existing hwdb with name axi_cpu_wrapper_3
+TRACE::2020-12-03.16:00:10::SCWPlatform::Opened existing hwdb axi_cpu_wrapper_3
+TRACE::2020-12-03.16:00:10::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-12-03.16:00:10::SCWMssOS::Checking the sw design at  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-12-03.16:00:10::SCWMssOS::DEBUG:  swdes dump  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2020-12-03.16:00:10::SCWMssOS::Sw design exists and opened at  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-12-03.16:00:12::SCWPlatform::Trying to open the hw design at /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.16:00:12::SCWPlatform::DSA given /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.16:00:12::SCWPlatform::DSA absoulate path /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.16:00:12::SCWPlatform::DSA directory /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw
+TRACE::2020-12-03.16:00:12::SCWPlatform:: Platform Path /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.16:00:12::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2020-12-03.16:00:12::SCWPlatform::Trying to set the existing hwdb with name axi_cpu_wrapper_3
+TRACE::2020-12-03.16:00:12::SCWPlatform::Opened existing hwdb axi_cpu_wrapper_3
+TRACE::2020-12-03.16:00:12::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-12-03.16:00:12::SCWMssOS::Checking the sw design at  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-12-03.16:00:12::SCWMssOS::DEBUG:  swdes dump  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2020-12-03.16:00:12::SCWMssOS::Sw design exists and opened at  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-12-03.16:00:12::SCWWriter::formatted JSON is {
+	"platformName":	"axi_cpu_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"axi_cpu_wrapper",
+	"platHandOff":	"/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_hw/axi_cpu_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/axi_cpu_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"axi_cpu_wrapper",
+	"systems":	[{
+			"systemName":	"axi_cpu_wrapper",
+			"systemDesc":	"axi_cpu_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"axi_cpu_wrapper",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"b9896986e9bba8c4cdbe59f80d35485b",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"microblaze_0":	{
+							"xmdstub_peripheral":	"none",
+							"libOptionNames":	["xmdstub_peripheral"]
+						},
+						"standalone":	{
+							"stdin":	"axi_uartlite_0",
+							"libOptionNames":	["stdin"]
+						},
+						"libsContainingOptions":	["microblaze_0", "standalone"]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2020-12-03.16:00:12::SCWPlatform::Trying to open the hw design at /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.16:00:12::SCWPlatform::DSA given /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.16:00:12::SCWPlatform::DSA absoulate path /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.16:00:12::SCWPlatform::DSA directory /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw
+TRACE::2020-12-03.16:00:12::SCWPlatform:: Platform Path /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/hw/axi_cpu_wrapper.xsa
+TRACE::2020-12-03.16:00:12::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2020-12-03.16:00:12::SCWPlatform::Trying to set the existing hwdb with name axi_cpu_wrapper_3
+TRACE::2020-12-03.16:00:12::SCWPlatform::Opened existing hwdb axi_cpu_wrapper_3
+TRACE::2020-12-03.16:00:12::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-12-03.16:00:12::SCWMssOS::Checking the sw design at  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-12-03.16:00:12::SCWMssOS::DEBUG:  swdes dump  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2020-12-03.16:00:12::SCWMssOS::Sw design exists and opened at  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-12-03.16:00:12::SCWMssOS::Removing the swdes entry for  /home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/axi_timer_app/axi_cpu_wrapper/microblaze_0/standalone_domain/bsp/system.mss

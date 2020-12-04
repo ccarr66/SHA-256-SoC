@@ -5,3 +5,127 @@
 14:58:51 INFO  : plnx-install-location is set to ''
 14:58:51 INFO  : Successfully done setting workspace for the tool. 
 14:58:51 INFO  : Successfully done query RDI_DATADIR 
+15:42:04 INFO  : Checking for BSP changes to sync application flags for project 'sampler_app'...
+15:42:25 INFO  : Checking for BSP changes to sync application flags for project 'sampler_app'...
+15:43:03 INFO  : Bit file '/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/sampler_application/mcs_top_sampler/hw/download.bit' is generated.
+15:43:29 INFO  : Bit file '/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/sampler_application/mcs_top_sampler/hw/download.bit' is generated.
+15:43:30 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:43:30 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AE9FA" && level==0} -index 0' command is executed.
+15:43:31 INFO  : FPGA configured successfully with bitstream "/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/sampler_application/mcs_top_sampler/hw/download.bit"
+15:44:50 INFO  : Bit file '/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/sampler_application/mcs_top_sampler/hw/download.bit' is generated.
+15:44:50 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:44:50 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AE9FA" && level==0} -index 0' command is executed.
+15:44:51 INFO  : FPGA configured successfully with bitstream "/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/sampler_application/mcs_top_sampler/hw/download.bit"
+15:45:32 INFO  : Bit file '/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/sampler_application/mcs_top_sampler/hw/download.bit' is generated.
+15:45:32 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:45:32 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AE9FA" && level==0} -index 0' command is executed.
+15:45:33 INFO  : FPGA configured successfully with bitstream "/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/sampler_application/mcs_top_sampler/hw/download.bit"
+15:46:16 INFO  : Checking for BSP changes to sync application flags for project 'sampler_app'...
+15:46:53 INFO  : Bit file '/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/sampler_application/mcs_top_sampler/hw/download.bit' is generated.
+15:46:53 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:46:53 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AE9FA" && level==0} -index 0' command is executed.
+15:46:54 INFO  : FPGA configured successfully with bitstream "/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/sampler_application/mcs_top_sampler/hw/download.bit"
+15:48:04 INFO  : Bit file '/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/sampler_application/mcs_top_sampler/hw/download.bit' is generated.
+15:48:04 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:48:04 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AE9FA" && level==0} -index 0' command is executed.
+15:48:05 INFO  : FPGA configured successfully with bitstream "/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/sampler_application/mcs_top_sampler/hw/download.bit"
+15:49:22 INFO  : Checking for BSP changes to sync application flags for project 'sampler_app'...
+15:50:06 INFO  : Bit file '/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/sampler_application/mcs_top_sampler/hw/download.bit' is generated.
+15:50:06 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:50:06 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AE9FA" && level==0} -index 0' command is executed.
+15:50:06 INFO  : FPGA configured successfully with bitstream "/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/sampler_application/mcs_top_sampler/hw/download.bit"
+15:59:51 INFO  : Checking for BSP changes to sync application flags for project 'sampler_app'...
+16:00:27 INFO  : Bit file '/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/sampler_application/mcs_top_sampler/hw/download.bit' is generated.
+16:00:27 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:00:28 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AE9FA" && level==0} -index 0' command is executed.
+16:00:28 INFO  : FPGA configured successfully with bitstream "/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/sampler_application/mcs_top_sampler/hw/download.bit"
+16:03:16 INFO  : Checking for BSP changes to sync application flags for project 'sampler_app'...
+16:03:45 INFO  : Bit file '/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/sampler_application/mcs_top_sampler/hw/download.bit' is generated.
+16:03:45 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:03:45 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AE9FA" && level==0} -index 0' command is executed.
+16:03:46 INFO  : FPGA configured successfully with bitstream "/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/sampler_application/mcs_top_sampler/hw/download.bit"
+16:05:06 INFO  : Checking for BSP changes to sync application flags for project 'sampler_app'...
+16:05:35 INFO  : Bit file '/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/sampler_application/mcs_top_sampler/hw/download.bit' is generated.
+16:05:35 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:05:35 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AE9FA" && level==0} -index 0' command is executed.
+16:05:36 INFO  : FPGA configured successfully with bitstream "/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/sampler_application/mcs_top_sampler/hw/download.bit"
+16:06:20 INFO  : Checking for BSP changes to sync application flags for project 'sampler_app'...
+16:06:52 INFO  : Bit file '/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/sampler_application/mcs_top_sampler/hw/download.bit' is generated.
+16:06:52 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:06:52 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AE9FA" && level==0} -index 0' command is executed.
+16:06:53 INFO  : FPGA configured successfully with bitstream "/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/sampler_application/mcs_top_sampler/hw/download.bit"
+16:08:31 INFO  : Checking for BSP changes to sync application flags for project 'sampler_app'...
+16:08:56 INFO  : Bit file '/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/sampler_application/mcs_top_sampler/hw/download.bit' is generated.
+16:08:56 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:08:57 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AE9FA" && level==0} -index 0' command is executed.
+16:08:57 INFO  : FPGA configured successfully with bitstream "/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/sampler_application/mcs_top_sampler/hw/download.bit"
+16:09:53 INFO  : Bit file '/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/sampler_application/mcs_top_sampler/hw/download.bit' is generated.
+16:09:53 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:09:53 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AE9FA" && level==0} -index 0' command is executed.
+16:09:54 INFO  : FPGA configured successfully with bitstream "/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/sampler_application/mcs_top_sampler/hw/download.bit"
+16:11:32 INFO  : Checking for BSP changes to sync application flags for project 'sampler_app'...
+16:12:03 INFO  : Bit file '/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/sampler_application/mcs_top_sampler/hw/download.bit' is generated.
+16:12:03 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:12:03 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AE9FA" && level==0} -index 0' command is executed.
+16:12:04 INFO  : FPGA configured successfully with bitstream "/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/sampler_application/mcs_top_sampler/hw/download.bit"
+16:15:23 INFO  : Checking for BSP changes to sync application flags for project 'sampler_app'...
+16:16:11 INFO  : Checking for BSP changes to sync application flags for project 'sampler_app'...
+16:16:31 INFO  : Bit file '/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/sampler_application/mcs_top_sampler/hw/download.bit' is generated.
+16:16:31 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:16:31 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AE9FA" && level==0} -index 0' command is executed.
+16:16:31 INFO  : FPGA configured successfully with bitstream "/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/sampler_application/mcs_top_sampler/hw/download.bit"
+16:17:59 INFO  : Checking for BSP changes to sync application flags for project 'sampler_app'...
+16:18:30 INFO  : Bit file '/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/sampler_application/mcs_top_sampler/hw/download.bit' is generated.
+16:18:30 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:18:30 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AE9FA" && level==0} -index 0' command is executed.
+16:18:31 INFO  : FPGA configured successfully with bitstream "/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/sampler_application/mcs_top_sampler/hw/download.bit"
+16:20:20 INFO  : Checking for BSP changes to sync application flags for project 'sampler_app'...
+16:20:42 INFO  : Bit file '/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/sampler_application/mcs_top_sampler/hw/download.bit' is generated.
+16:20:42 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:20:42 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AE9FA" && level==0} -index 0' command is executed.
+16:20:43 INFO  : FPGA configured successfully with bitstream "/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/sampler_application/mcs_top_sampler/hw/download.bit"
+16:28:32 INFO  : Bit file '/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/sampler_application/mcs_top_sampler/hw/download.bit' is generated.
+16:28:32 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:28:32 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AE9FA" && level==0} -index 0' command is executed.
+16:28:33 INFO  : FPGA configured successfully with bitstream "/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/sampler_application/mcs_top_sampler/hw/download.bit"
+16:28:58 INFO  : Bit file '/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/sampler_application/mcs_top_sampler/hw/download.bit' is generated.
+16:28:58 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:28:58 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AE9FA" && level==0} -index 0' command is executed.
+16:28:59 INFO  : FPGA configured successfully with bitstream "/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/sampler_application/mcs_top_sampler/hw/download.bit"
+16:29:21 INFO  : Checking for BSP changes to sync application flags for project 'sampler_app'...
+16:30:18 INFO  : Bit file '/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/sampler_application/mcs_top_sampler/hw/download.bit' is generated.
+16:30:19 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:30:19 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AE9FA" && level==0} -index 0' command is executed.
+16:30:19 INFO  : FPGA configured successfully with bitstream "/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/sampler_application/mcs_top_sampler/hw/download.bit"
+16:31:19 INFO  : Checking for BSP changes to sync application flags for project 'sampler_app'...
+16:31:44 INFO  : Bit file '/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/sampler_application/mcs_top_sampler/hw/download.bit' is generated.
+16:31:44 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:31:44 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AE9FA" && level==0} -index 0' command is executed.
+16:31:45 INFO  : FPGA configured successfully with bitstream "/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/sampler_application/mcs_top_sampler/hw/download.bit"
+16:32:26 INFO  : Bit file '/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/sampler_application/mcs_top_sampler/hw/download.bit' is generated.
+16:32:26 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:32:26 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AE9FA" && level==0} -index 0' command is executed.
+16:32:26 INFO  : FPGA configured successfully with bitstream "/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/sampler_application/mcs_top_sampler/hw/download.bit"
+16:33:53 INFO  : Bit file '/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/sampler_application/mcs_top_sampler/hw/download.bit' is generated.
+16:33:53 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:33:53 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AE9FA" && level==0} -index 0' command is executed.
+16:33:54 INFO  : FPGA configured successfully with bitstream "/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/sampler_application/mcs_top_sampler/hw/download.bit"
+16:35:05 INFO  : Checking for BSP changes to sync application flags for project 'sampler_app'...
+16:36:12 INFO  : Bit file '/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/sampler_application/mcs_top_sampler/hw/download.bit' is generated.
+16:36:12 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:36:12 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AE9FA" && level==0} -index 0' command is executed.
+16:36:13 INFO  : FPGA configured successfully with bitstream "/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/sampler_application/mcs_top_sampler/hw/download.bit"
+16:36:49 INFO  : Bit file '/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/sampler_application/mcs_top_sampler/hw/download.bit' is generated.
+16:36:49 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:36:49 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AE9FA" && level==0} -index 0' command is executed.
+16:36:50 INFO  : FPGA configured successfully with bitstream "/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/sampler_application/mcs_top_sampler/hw/download.bit"
+16:37:19 INFO  : Bit file '/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/sampler_application/mcs_top_sampler/hw/download.bit' is generated.
+16:37:19 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:37:19 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AE9FA" && level==0} -index 0' command is executed.
+16:37:20 INFO  : FPGA configured successfully with bitstream "/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/sampler_application/mcs_top_sampler/hw/download.bit"
+16:39:01 INFO  : Checking for BSP changes to sync application flags for project 'sampler_app'...
+16:39:35 INFO  : Checking for BSP changes to sync application flags for project 'sampler_app'...
+16:39:54 INFO  : Bit file '/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/sampler_application/mcs_top_sampler/hw/download.bit' is generated.
+16:39:54 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:39:54 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AE9FA" && level==0} -index 0' command is executed.
+16:39:55 INFO  : FPGA configured successfully with bitstream "/home/connor/Documents/Programs/Vivado/4300/SHA-256-SoC/sampler_application/mcs_top_sampler/hw/download.bit"

@@ -1,0 +1,11 @@
+#include "sha256.h"
+
+int main()
+{
+	while(1)
+		//volatile auto hash = SHA256("abc", 3);
+		volatile auto hash = SHA256("0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZzyxwvutsrqponmlkjihgfedcba9876543210", 3);
+		//volatile auto hash = SHA256("abcx2ac436sv4b7d68fn796gm80hh87fb864scv6bngiygmboijhoufi65s75r74e6r576t87h9j0ko57edyktcdiy57ei5kdbc7rikrdx254ac3s56v47d65bn7g98m7,9j0kmnytbyvrtdxwcasvtedybrfuntygsetduryctvuybiu;ouydrytfygu;hhigutrstdytfuylgiu;higux54c635v47d65fb867g9n87h0m98jx22cav56b7dr6fntmybouin6aw4sverb7d6fn8mgyihoijvsefrn6b78myho,uij75rn6bdf8mgyihuo,ij7bdfrn6tgmyihuo,jvb45efn67mgyhiu", 150);
+
+
+}

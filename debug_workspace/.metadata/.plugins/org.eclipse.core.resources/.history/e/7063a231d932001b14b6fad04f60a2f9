@@ -1,0 +1,9 @@
+#include "sha256.h"
+
+int main()
+{
+	while(1)
+		volatile auto hash = SHA256("abcx2ac436sv4b7d68fn796gm80hh87fb864scv6bngiygmboijhoufi65s75r74e6r576t87h9j0ko57edyktcdiy57ei5kdbc7rikrd", 104);
+
+
+}

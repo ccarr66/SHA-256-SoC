@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item value="false" key="isRegEx"/>
+		<item value="std::copy" key="selection"/>
+		<item value="false" key="casesensitive"/>
+		<item value="false" key="incremental"/>
+		<item value="true" key="wrap"/>
+		<item value="false" key="wholeword"/>
+		<list key="findhistory">
+			<item value="std::copy"/>
+			<item value="__copy_move_a2"/>
+			<item value="__copy_move"/>
+			<item value="memmove"/>
+			<item value="memset"/>
+			<item value="memcopy"/>
+			<item value="memcpy"/>
+			<item value="3e8"/>
+			<item value="mess"/>
+			<item value="sched"/>
+			<item value="prepare"/>
+			<item value="performHash"/>
+			<item value="BSIG1:"/>
+			<item value="BSIG0:"/>
+			<item value="rotR:"/>
+		</list>
+		<list key="replacehistory">
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item value="339" key="DIALOG_WIDTH"/>
+		<item value="1|Ubuntu|11.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
+		<item value="416" key="DIALOG_HEIGHT"/>
+		<item value="901" key="DIALOG_X_ORIGIN"/>
+		<item value="154" key="DIALOG_Y_ORIGIN"/>
+	</section>
+</section>
